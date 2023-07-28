@@ -1,0 +1,29 @@
+{
+    "Patent Identifier": "US 20230001023A1",
+    "Content": [
+        {
+            "Measurement Context": "bolus of a renal injury inducer",
+            "Measured Value": "dosage sufficiently high",
+            "Unit": "Unknown",
+            "Refers To": "dosage"
+        },
+        {
+            "Measurement Context": "albumin creatinine ratio (ACR)",
+            "Measured Value": "Unknown",
+            "Unit": "Unknown",
+            "Refers To": "measurement of renal injury"
+        },
+        {
+            "Measurement Context": "transcutaneous fluorescence",
+            "Measured Value": "Unknown",
+            "Unit": "Unknown",
+            "Refers To": "measurement of renal injury"
+        },
+        {
+            "Measurement Context": "degree of renal injury and/or alteration of GFR",
+            "Measured Value": "Unknown",
+            "Unit": "Unknown",
+            "Refers To": "measurement of renal injury"
+        }
+    ]
+}

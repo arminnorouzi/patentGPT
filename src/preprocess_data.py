@@ -1,6 +1,7 @@
 import os
 import requests
 import zipfile
+import xml.etree.ElementTree as ET
 
 
 def download_weekly_patents(year, month, day):
@@ -142,3 +143,155 @@ def extract_patents(year, month, day):
     print(f"Main XML file {file_path} deleted after extraction.")
 
     return True
+
+
+def get_full_text(element):
+    """
+    Recursively parse XML elements and retrieve the full text from the XML tree.
+
+    Parameters:
+        element (xml.etree.ElementTree.Element): The root XML element to start parsing.
+
+    Returns:
+        list: A list of strings containing the full text from the XML element and its children.
+    """
+
+    text = []
+    if element.text is not None and element.text.strip():
+        text.append(element.text.strip())
+    for child in element:
+        text.extend(get_full_text(child))
+        if child.tail is not None and child.tail.strip():
+            text.append(child.tail.strip())
+    return text
+
+
+def compare_txt_vs_xml_files(year, month, day):
+    """
+    Compare the number of TXT files vs XML files in the specified directory for a given date.
+
+    Parameters:
+        year (int): The year of the patents to compare.
+        month (int): The month of the patents to compare.
+        day (int): The day of the patents to compare.
+
+    Returns:
+        None
+
+    This function calculates the number of XML and TXT files in the specified directory
+    corresponding to the given date. It then computes the percentage of success by
+    comparing the difference between the number of TXT files and XML files against the total
+    number of files. The result is printed to the console.
+    """
+
+    data_directory = os.path.join(
+        os.getcwd(), "data", "ipa" + str(year)[2:] + f"{month:02d}" + f"{day:02d}"
+    )
+    xml_files = [file for file in os.listdir(data_directory) if file.endswith(".xml")]
+    txt_files = [file for file in os.listdir(data_directory) if file.endswith(".txt")]
+
+    num_xml_files = len(xml_files)
+    num_txt_files = len(txt_files)
+
+    percentage_success = (
+        (num_txt_files - num_xml_files) / (num_txt_files + num_xml_files)
+    ) * 100
+
+    print(f"Number of XML files: {num_xml_files}")
+    print(f"Number of TXT files: {num_txt_files}")
+    print(f"Percentage of success: {percentage_success:.2f}%")
+
+
+def parse_and_save_patents(year, month, day):
+    """
+    Download weekly patent files from the USPTO website for a specific date, extract individual
+    patents from the downloaded file, parse each patent's content, and save the information
+    as separate text files.
+
+    Parameters:
+        year (int): The year of the weekly patents to download and process.
+        month (int): The month of the weekly patents to download and process.
+        day (int): The day of the weekly patents to download and process.
+
+    Returns:
+        list: A list of strings containing the names of saved patent text files.
+
+    This function first downloads the weekly patent file, then extracts the individual patents,
+    and finally parses each patent's content to retrieve patent_id, file_id, and full text.
+    It saves the extracted information for each patent as separate text files in a directory
+    named 'data', with the name of each file being the corresponding 'file_id'.
+    The function returns a list of strings containing the names of all the saved patent text files.
+    """
+
+    # First, download the weekly patents for the specified date
+    print("### Downloading weekly patent files...")
+    download_success = download_weekly_patents(year, month, day)
+    if not download_success:
+        print("Failed to download the weekly patents.")
+        return
+
+    # Next, extract the individual patents
+    print("### Extracting individual patents...")
+    extraction_success = extract_patents(year, month, day)
+    if not extraction_success:
+        print("Failed to extract the individual patents.")
+        return
+
+    # Get a list of all XML files in the 'data' directory
+    data_directory = os.path.join(
+        os.getcwd(), "data", "ipa" + str(year)[2:] + f"{month:02d}" + f"{day:02d}"
+    )
+    xml_files = [file for file in os.listdir(data_directory) if file.endswith(".xml")]
+
+    # List to store the names of saved patent text files
+    saved_patent_names = []
+
+    # Loop through each XML file and parse its contents
+    for xml_file in xml_files:
+        file_path = os.path.join(data_directory, xml_file)
+
+        try:
+            # Load and parse the XML file
+            tree = ET.parse(file_path)
+            root = tree.getroot()
+
+            # Get the patent_id and file_id
+            patent_id = root.find(
+                ".//publication-reference/document-id/doc-number"
+            ).text
+            file_id = root.attrib["file"]
+
+            # Extract description element
+            description_element = root.find(".//description")
+
+            # Get full text from description
+            description_text = get_full_text(description_element)
+
+            # Concatenate all text to a single string
+            description_string = " ".join(description_text)
+
+            # Create the text file with the 'file_id' as the name and save extracted information
+            output_file_path = os.path.join(data_directory, f"{file_id}.txt")
+            with open(output_file_path, "w") as f:
+                f.write(
+                    f"-patent_id: {patent_id} -file_id: {file_id} -full text: {description_string}"
+                )
+
+            print(
+                f"Information extracted from {xml_file} and saved in {output_file_path}"
+            )
+            saved_patent_names.append(f"{file_id}.txt")
+
+            os.remove(file_path)
+            print(f"XML file {file_path} removed after saving the text file.")
+
+        except ET.ParseError as e:
+            # Handle the exception when XML parsing fails
+            print(f"Error while parsing XML file: {file_path}. Skipping this file.")
+            print(f"Error message: {e}")
+
+    print("Patent parsing and saving complete.")
+
+    compare_txt_vs_xml_files(year, month, day)
+
+    return saved_patent_names
