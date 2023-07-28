@@ -16,14 +16,22 @@ def download_weekly_patents(year, month, day):
     bool: True if the download is successful, False otherwise.
     """
 
-    file_path_check = os.path.join(
-        os.getcwd(),
-        "data",
-        "ipa" + str(year)[2:] + f"{month:02d}" + f"{day:02d}" + ".xml",
+    # file_path_check = os.path.join(
+    #     os.getcwd(),
+    #     "data",
+    #     "ipa" + str(year)[2:] + f"{month:02d}" + f"{day:02d}" + ".xml",
+    # )
+
+    # if os.path.exists(file_path_check):
+    #     print(f"File {file_path_check} already exists. Skipping download.")
+    #     return True
+
+    directory = os.path.join(
+        os.getcwd(), "data", "ipa" + str(year)[2:] + f"{month:02d}" + f"{day:02d}"
     )
 
-    if os.path.exists(file_path_check):
-        print(f"File {file_path_check} already exists. Skipping download.")
+    if os.path.exists(directory):
+        print(f"File {directory} already exists. Skipping download.")
         return True
 
     print("Building the URL...")
@@ -132,3 +140,5 @@ def extract_patents(year, month, day):
     # Deleting the main XML file after extraction
     os.remove(file_path)
     print(f"Main XML file {file_path} deleted after extraction.")
+
+    return True
