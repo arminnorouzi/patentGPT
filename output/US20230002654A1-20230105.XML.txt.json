@@ -1,0 +1,29 @@
+{
+    "Patent Identifier": "US20230002559A1",
+    "Content": [
+        {
+            "Measurement Context": "1 H-NMR",
+            "Measured Value": "500",
+            "Unit": "MHz",
+            "Refers To": "NMR System AVANCE III HD 500"
+        },
+        {
+            "Measurement Context": "Column temperature",
+            "Measured Value": "40",
+            "Unit": "\u00b0C",
+            "Refers To": "GPC Column"
+        },
+        {
+            "Measurement Context": "Detector",
+            "Measured Value": "271",
+            "Unit": "nm",
+            "Refers To": "UV"
+        },
+        {
+            "Measurement Context": "Exposure dose",
+            "Measured Value": "200",
+            "Unit": "mJ/cm 2",
+            "Refers To": "UV irradiation"
+        }
+    ]
+}

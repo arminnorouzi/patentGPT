@@ -1,0 +1,35 @@
+{
+    "Patent Identifier": "US20230001042A1",
+    "Content": [
+        {
+            "Measurement Context": "medical suture thread",
+            "Measured Value": "equal to or greater than 0.05% and less than 0.3%",
+            "Unit": "weight",
+            "Refers To": "cover layer"
+        },
+        {
+            "Measurement Context": "filament 111a",
+            "Measured Value": "substantially uniform",
+            "Unit": "Unknown",
+            "Refers To": "formation density"
+        },
+        {
+            "Measurement Context": "filament 111a",
+            "Measured Value": "equal to or greater than 0.05% and less than 0.3%",
+            "Unit": "weight",
+            "Refers To": "inner-filament cover layer"
+        },
+        {
+            "Measurement Context": "filament 111a",
+            "Measured Value": "equal to or greater than 0.05% and less than 0.3%",
+            "Unit": "weight",
+            "Refers To": "inner-filament cover layer"
+        },
+        {
+            "Measurement Context": "filament 121a",
+            "Measured Value": "equal to or greater than 0.05% and less than 0.3%",
+            "Unit": "weight",
+            "Refers To": "outer-filament cover layer"
+        }
+    ]
+}

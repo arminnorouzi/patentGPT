@@ -27,6 +27,12 @@ def download_weekly_patents(year, month, day):
     #     print(f"File {file_path_check} already exists. Skipping download.")
     #     return True
 
+    # Check if the "data" folder exists and create one if it doesn't
+    data_folder = os.path.join(os.getcwd(), "data")
+    if not os.path.exists(data_folder):
+        print("Data folder not found. Creating a new 'data' folder.")
+        os.makedirs(data_folder)
+
     directory = os.path.join(
         os.getcwd(), "data", "ipa" + str(year)[2:] + f"{month:02d}" + f"{day:02d}"
     )
@@ -193,9 +199,7 @@ def compare_txt_vs_xml_files(year, month, day):
     num_xml_files = len(xml_files)
     num_txt_files = len(txt_files)
 
-    percentage_success = (
-        (num_txt_files - num_xml_files) / (num_txt_files + num_xml_files)
-    ) * 100
+    percentage_success = ((num_txt_files) / (num_txt_files + num_xml_files)) * 100
 
     print(f"Number of XML files: {num_xml_files}")
     print(f"Number of TXT files: {num_txt_files}")
@@ -223,70 +227,63 @@ def parse_and_save_patents(year, month, day):
     The function returns a list of strings containing the names of all the saved patent text files.
     """
 
-    # First, download the weekly patents for the specified date
     print("### Downloading weekly patent files...")
     download_success = download_weekly_patents(year, month, day)
     if not download_success:
         print("Failed to download the weekly patents.")
         return
 
-    # Next, extract the individual patents
     print("### Extracting individual patents...")
     extraction_success = extract_patents(year, month, day)
     if not extraction_success:
         print("Failed to extract the individual patents.")
         return
 
-    # Get a list of all XML files in the 'data' directory
     data_directory = os.path.join(
         os.getcwd(), "data", "ipa" + str(year)[2:] + f"{month:02d}" + f"{day:02d}"
     )
     xml_files = [file for file in os.listdir(data_directory) if file.endswith(".xml")]
 
-    # List to store the names of saved patent text files
     saved_patent_names = []
 
-    # Loop through each XML file and parse its contents
     for xml_file in xml_files:
         file_path = os.path.join(data_directory, xml_file)
 
         try:
-            # Load and parse the XML file
             tree = ET.parse(file_path)
             root = tree.getroot()
 
-            # Get the patent_id and file_id
             patent_id = root.find(
                 ".//publication-reference/document-id/doc-number"
             ).text
             file_id = root.attrib["file"]
 
-            # Extract description element
-            description_element = root.find(".//description")
+            ipcr_classifications = root.findall(".//classification-ipcr")
 
-            # Get full text from description
-            description_text = get_full_text(description_element)
+            if any(ipcr.find("./section").text == "C" for ipcr in ipcr_classifications):
+                description_element = root.find(".//description")
+                description_text = get_full_text(description_element)
+                description_string = " ".join(description_text)
 
-            # Concatenate all text to a single string
-            description_string = " ".join(description_text)
+                output_file_path = os.path.join(data_directory, f"{file_id}.txt")
+                with open(output_file_path, "w") as f:
+                    f.write(
+                        f"-patent_id: {patent_id} -file_id: {file_id} -full text: {description_string}"
+                    )
 
-            # Create the text file with the 'file_id' as the name and save extracted information
-            output_file_path = os.path.join(data_directory, f"{file_id}.txt")
-            with open(output_file_path, "w") as f:
-                f.write(
-                    f"-patent_id: {patent_id} -file_id: {file_id} -full text: {description_string}"
+                print(
+                    f"Information extracted from {xml_file} and saved in {output_file_path}"
+                )
+                saved_patent_names.append(f"{file_id}.txt")
+
+            else:
+                print(
+                    f"XML file {file_path} does not belong to section 'C'. Removing this file."
                 )
 
-            print(
-                f"Information extracted from {xml_file} and saved in {output_file_path}"
-            )
-            saved_patent_names.append(f"{file_id}.txt")
-
             os.remove(file_path)
-            print(f"XML file {file_path} removed after saving the text file.")
 
         except ET.ParseError as e:
-            # Handle the exception when XML parsing fails
             print(f"Error while parsing XML file: {file_path}. Skipping this file.")
             print(f"Error message: {e}")
 

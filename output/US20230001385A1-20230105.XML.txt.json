@@ -1,0 +1,53 @@
+{
+    "Patent Identifier": "US20230001385A1",
+    "Content": [
+        {
+            "Measurement Context": "HAADF-STEM imaging",
+            "Measured Value": "convergence semiangle of 22",
+            "Unit": "mrad",
+            "Refers To": "imaging technique parameter"
+        },
+        {
+            "Measurement Context": "HAADF-STEM imaging",
+            "Measured Value": "inner-collection angle of 83",
+            "Unit": "mrad",
+            "Refers To": "imaging technique parameter"
+        },
+        {
+            "Measurement Context": "HAADF-STEM imaging",
+            "Measured Value": "outer-collection angle of 165",
+            "Unit": "mrad",
+            "Refers To": "imaging technique parameter"
+        },
+        {
+            "Measurement Context": "HAADF-STEM imaging",
+            "Measured Value": "beam current of 11",
+            "Unit": "pA",
+            "Refers To": "imaging technique parameter"
+        },
+        {
+            "Measurement Context": "HAADF-STEM imaging",
+            "Measured Value": "pixel time of 4",
+            "Unit": "\u03bcs",
+            "Refers To": "imaging technique parameter"
+        },
+        {
+            "Measurement Context": "XAS",
+            "Measured Value": "Re L3 edge",
+            "Unit": "Unknown",
+            "Refers To": "X-ray absorption spectroscopy"
+        },
+        {
+            "Measurement Context": "XPS measurements",
+            "Measured Value": "pressure below 1\u00d710^(-9)",
+            "Unit": "Torr",
+            "Refers To": "pressure in XPS chamber"
+        },
+        {
+            "Measurement Context": "FTIR",
+            "Measured Value": "pretreatment at 350",
+            "Unit": "\u00b0",
+            "Refers To": "pretreatment temperature"
+        }
+    ]
+}
