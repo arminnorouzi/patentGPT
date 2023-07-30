@@ -33,7 +33,9 @@ def split_docs(documents, chunk_size=1000, chunk_overlap=20):
     return text_splitter.split_documents(documents)
 
 
-def call_QA_to_json(prompt, year, month, day, saved_patent_names, count=8):
+def call_QA_to_json(
+    prompt, year, month, day, saved_patent_names, count=8, logging=True
+):
     """
     Generate embeddings from txt documents, retrieve data based on the provided prompt, and return the result as a JSON object.
 
@@ -44,6 +46,7 @@ def call_QA_to_json(prompt, year, month, day, saved_patent_names, count=8):
         day (int): The day part of the data folder name.
         saved_patent_names (list): A list of strings containing the names of saved patent text files.
         count (int): The index of the saved patent text file to process. Default is 8.
+        logging (bool): The boolean to print logs
 
     Returns:
         tuple: A tuple containing two elements:
@@ -62,7 +65,8 @@ def call_QA_to_json(prompt, year, month, day, saved_patent_names, count=8):
         saved_patent_names[count],
     )
 
-    print(f"Loading documents from: {file_path}")
+    if logging:
+        print(f"Loading documents from: {file_path}")
     loader = TextLoader(file_path)
     documents_raw = loader.load()
 
@@ -70,7 +74,9 @@ def call_QA_to_json(prompt, year, month, day, saved_patent_names, count=8):
 
     persist_directory = "chroma_db"
 
-    print("Generating embeddings and persisting...")
+    if logging:
+        print("Generating embeddings and persisting...")
+
     vectordb = Chroma.from_documents(
         documents=documents, embedding=embeddings, persist_directory=persist_directory
     )
@@ -81,18 +87,22 @@ def call_QA_to_json(prompt, year, month, day, saved_patent_names, count=8):
         llm, chain_type="stuff", retriever=vectordb.as_retriever()
     )
 
-    print("Running retrieval chain...")
+    if logging:
+        print("Running retrieval chain...")
     output = retrieval_chain.run(prompt)
 
     # Check if the directory 'output' exists, if not create it
     if not os.path.exists("output"):
         os.makedirs("output")
 
-    print("Writing the output to a file...")
+    if logging:
+        print("Writing the output to a file...")
     # Write the output to a file in the 'output' directory
     with open(f"output/{saved_patent_names[count]}.json", "w") as json_file:
         # We need to convert the string to a Python dictionary using json.loads
         json.dump(json.loads(output), json_file, indent=4)
 
-    print("Call to 'call_QA_to_json' completed.")
+    if logging:
+        print("Call to 'call_QA_to_json' completed.")
+
     return documents_raw, output
