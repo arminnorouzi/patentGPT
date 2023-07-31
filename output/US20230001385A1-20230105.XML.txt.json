@@ -1,52 +1,46 @@
 {
     "Content": [
         {
-            "Measurement Context": "HAADF-STEM imaging was performed on a JEOL Grand ARM300CF microscope with double aberration correctors at",
-            "Measured Value": "300",
-            "Unit": "kV",
-            "Refers To": "Voltage of the microscope used in HAADF-STEM imaging"
+            "Measurement Context": "threshold value for unreacted alcohols and/or carbon monoxide concentration in the released gas stream",
+            "Measured Value": "up to 20%, up to 15%, up to 10%, up to 5%, up to 2%, or up to 1%",
+            "Unit": "Percentage (%) of the alcohol and/or carbon monoxide concentration in a fresh reactant mixture",
+            "Refers To": "The concentration of unreacted alcohols and/or carbon monoxide"
         },
         {
-            "Measurement Context": "Images were collected after ex-situ calcination of samples at",
-            "Measured Value": "450",
-            "Unit": "\u00b0C",
-            "Refers To": "Temperature for ex-situ calcination of samples"
+            "Measurement Context": "Weight percentage of the catalyst",
+            "Measured Value": "Various ranges, for example, up to 14 wt %, between 0.1 wt % and 15 wt %, between 0.05 wt % and 5 wt %, between 0.1 wt % and 12 wt %, between 1 wt % and 10.5 wt % of the catalyst",
+            "Unit": "Weight Percentage (wt %)",
+            "Refers To": "The amount of catalyst used"
         },
         {
-            "Measurement Context": "A beam current of",
-            "Measured Value": "11",
-            "Unit": "pA",
-            "Refers To": "Current of the electron beam used in imaging"
+            "Measurement Context": "EXAFS fitting was carried out over the R range",
+            "Measured Value": "1-2.2",
+            "Unit": "\u212b (Angstroms)",
+            "Refers To": "The R range for EXAFS fitting"
         },
         {
-            "Measurement Context": "XAS at the Re L3 edge was executed on beamlines",
-            "Measured Value": "10535",
-            "Unit": "eV",
-            "Refers To": "Energy at the Re L3 edge for XAS"
-        },
-        {
-            "Measurement Context": "In a typical experiment, of catalyst was crushed, sieved, and loaded into a 1 cm catalyst bed in a",
-            "Measured Value": "30",
-            "Unit": "mg",
-            "Refers To": "Weight of the catalyst used in the experiment"
-        },
-        {
-            "Measurement Context": "Samples were diluted with mesoporous silica (MCM-41) to have an absorption length of",
-            "Measured Value": "2.0",
+            "Measurement Context": "S o 2 was determined",
+            "Measured Value": "0.73\u00b10.04",
             "Unit": "Unknown",
-            "Refers To": "Absorption length of the samples"
+            "Refers To": "The S o 2 value"
         },
         {
-            "Measurement Context": "EXAFS measurements, consisting of scans, were collected at following exposure to oxidizing",
-            "Measured Value": "50",
-            "Unit": "\u00b0C",
-            "Refers To": "Temperature for collecting EXAFS measurements"
+            "Measurement Context": "Average diameter of the support",
+            "Measured Value": "up to 500 \u03bcm, up to 400 \u03bcm, up to 300 \u03bcm, up to 200 \u03bcm, up to 150 \u03bcm, up to 100 \u03bcm, up to 10 \u03bcm, or up to 5 \u03bcm",
+            "Unit": "\u03bcm (Micrometers)",
+            "Refers To": "The size of the support used"
         },
         {
-            "Measurement Context": "EXAFS were extracted in k-space and Fourier transformed using the k 2 -weighted EXAFS function (k=3.9-14) to amplify oscillations at high k-values.",
-            "Measured Value": "3.9-14",
-            "Unit": "Unknown",
-            "Refers To": "Range of k-values used in the EXAFS function"
+            "Measurement Context": "Average diameter of nanoparticles when the support is in nanoparticle form",
+            "Measured Value": "up to 1 \u03bcm, up to 500 nm, up to 200 nm, up to 100 nm, up to 50 nm, up to 20 nm, up to 10 nm, or up to 5 nm",
+            "Unit": "nm (Nanometers)",
+            "Refers To": "The size of the nanoparticles used as support"
+        },
+        {
+            "Measurement Context": "Dimension of a graphene sheet when the support is in the form of a carbon sheet",
+            "Measured Value": "900 \u03bcm, 800 \u03bcm, 700 \u03bcm, 600 \u03bcm, 500 \u03bcm, 400 \u03bcm, 300 \u03bcm, 200 \u03bcm, or 100 \u03bcm",
+            "Unit": "\u03bcm (Micrometers)",
+            "Refers To": "Size of the graphene sheet used as support"
         }
     ],
     "Patent Identifier": "US20230001385A1"

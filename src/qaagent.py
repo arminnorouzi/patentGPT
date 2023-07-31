@@ -142,3 +142,89 @@ def call_QA_to_json(
         print("Call to 'call_QA_to_json' completed.")
 
     return documents_raw, output
+
+
+from langchain.chains import AnalyzeDocumentChain
+from langchain.chains.question_answering import load_qa_chain
+
+def call_TA_to_json(
+    prompt, year, month, day, saved_patent_names, count=8, logging=True
+):
+    """
+    Generate embeddings from txt documents, retrieve data based on the provided prompt, and return the result as a JSON object.
+
+    Parameters:
+        prompt (str): The input prompt for the retrieval process.
+        year (int): The year part of the data folder name.
+        month (int): The month part of the data folder name.
+        day (int): The day part of the data folder name.
+        saved_patent_names (list): A list of strings containing the names of saved patent text files.
+        count (int): The index of the saved patent text file to process. Default is 8.
+        logging (bool): The boolean to print logs
+
+    Returns:
+        tuple: A tuple containing two elements:
+            - A list of strings representing the raw documents loaded from the specified XML file.
+            - A JSON string representing the output from the retrieval chain.
+
+    This function loads the specified txt file, generates embeddings from its content,
+    and uses a retrieval chain to retrieve data based on the provided prompt.
+    The retrieved data is returned as a JSON object, and the raw documents are returned as a list of strings.
+    The output is also written to a file in the 'output' directory with the name '{count}.json'.
+    """
+    file_path = os.path.join(
+        os.getcwd(),
+        "data",
+        "ipa" + str(year)[2:] + f"{month:02d}" + f"{day:02d}",
+        saved_patent_names[count],
+    )
+
+    if logging:
+        print(f"Loading documents from: {file_path}")
+
+    with open(file_path, 'r') as f:
+        documents_raw = f.read()
+
+
+    PROMPT_FORMAT = """
+    Task: Use the following pieces of context to answer the question at the end.
+    Question: 
+    """
+
+    prompt = PROMPT_FORMAT + prompt
+
+    qa_chain = load_qa_chain(llm, chain_type="map_reduce")
+
+    qa_document_chain = AnalyzeDocumentChain(combine_docs_chain=qa_chain)
+
+
+    if logging:
+        print("Running Analyze Document chain...")
+
+    output = qa_document_chain.run(input_document=documents_raw, question=prompt)
+
+    print(output)
+
+
+    # Convert output to dictionary
+    output_dict = json.loads(output)
+
+    # Manually assign the Patent Identifier
+    output_dict["Patent Identifier"] = saved_patent_names[count].split("-")[0]
+
+
+    # Check if the directory 'output' exists, if not create it
+    if not os.path.exists("output"):
+        os.makedirs("output")
+
+    if logging:
+        print("Writing the output to a file...")
+
+    # Write the output to a file in the 'output' directory
+    with open(f"output/{saved_patent_names[count]}.json", "w") as json_file:
+        json.dump(output_dict, json_file, indent=4)
+
+    if logging:
+        print("Call to 'call_QA_to_json' completed.")
+
+    return documents_raw, output

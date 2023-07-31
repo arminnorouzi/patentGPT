@@ -1,52 +1,40 @@
 {
     "Content": [
         {
-            "Measurement Context": "HAADF-STEM imaging was performed on a JEOL Grand ARM300CF microscope with double aberration correctors at 300 kV",
-            "Measured Value": "300",
-            "Unit": "kV",
-            "Refers To": "Aberration correctors voltage"
+            "Measurement Context": "outlet measures the concentration of unreacted alcohols and/or carbon monoxide in the gas stream released from the gas outlet",
+            "Measured Value": "up to 20%, up to 15%, up to 10%, up to 5%, up to 2%, or up to 1%",
+            "Unit": "%",
+            "Refers To": "Concentration of unreacted alcohols and/or carbon monoxide"
         },
         {
-            "Measurement Context": "Images were collected after ex-situ calcination of samples at 450\u00b0 C.",
-            "Measured Value": "450",
-            "Unit": "\u00b0C",
-            "Refers To": "Temperature for ex-situ calcination of samples"
+            "Measurement Context": "S o 2 was determined by fitting the Re metal standard",
+            "Measured Value": "0.73\u00b10.04",
+            "Unit": "Unknown",
+            "Refers To": "S o 2"
         },
         {
-            "Measurement Context": "A beam current of 11 pA was used with pixel time of 4 \u03bcs.",
-            "Measured Value": "11",
-            "Unit": "pA",
-            "Refers To": "Beam current"
+            "Measurement Context": "catalyst contains MOx",
+            "Measured Value": "up to 14 wt %, up to 13 wt %, up to 12 wt %, up to 11 wt %, up to 10.5 wt %, up to 10.2 wt %",
+            "Unit": "wt %",
+            "Refers To": "Catalyst"
         },
         {
-            "Measurement Context": "A beam current of 11 pA was used with pixel time of 4 \u03bcs.",
-            "Measured Value": "4",
-            "Unit": "\u03bcs",
-            "Refers To": "Pixel time"
+            "Measurement Context": "support can be silicon dioxide nanoparticles",
+            "Measured Value": "up to 500 \u03bcm, up to 400 \u03bcm, up to 300 \u03bcm, up to 200 \u03bcm, up to 150 \u03bcm, up to 100 \u03bcm, up to 10 \u03bcm, or up to 5 \u03bcm",
+            "Unit": "\u03bcm",
+            "Refers To": "Diameter of the support"
         },
         {
-            "Measurement Context": "XAS at the Re L3 edge (10535 eV) was executed on beamlines 4-1 and 9-3 at the Stanford Synchrotron Radiation Lightsource at the SLAC National Laboratory",
-            "Measured Value": "10535",
-            "Unit": "eV",
-            "Refers To": "Energy of the Re L3 edge in XAS"
+            "Measurement Context": "when the support is in the form of nanoparticles",
+            "Measured Value": "up to 1 \u03bcm, up to 500 nm, up to 200 nm, up to 100 nm, up to 50 nm, up to 20 nm, up to 10 nm, or up to 5 nm",
+            "Unit": "nm",
+            "Refers To": "Diameter of the nanoparticles"
         },
         {
-            "Measurement Context": "In a typical experiment, 30 mg of catalyst was crushed, sieved (80-120 mesh), and loaded into a 1 cm catalyst bed in a",
-            "Measured Value": "30",
-            "Unit": "mg",
-            "Refers To": "Weight of the catalyst used"
-        },
-        {
-            "Measurement Context": "In a typical experiment, 30 mg of catalyst was crushed, sieved (80-120 mesh), and loaded into a 1 cm catalyst bed in a",
-            "Measured Value": "1",
-            "Unit": "cm",
-            "Refers To": "Size of the catalyst bed"
-        },
-        {
-            "Measurement Context": "EXAFS measurements, consisting of 9-16 scans, were collected at 50\u00b0 C.",
-            "Measured Value": "50",
-            "Unit": "\u00b0C",
-            "Refers To": "Temperature at which EXAFS measurements were collected"
+            "Measurement Context": "when the support is in the form of a carbon sheet",
+            "Measured Value": "900 \u03bcm, 800 \u03bcm, 700 \u03bcm, 600 \u03bcm, 500 \u03bcm, 400 \u03bcm, 300 \u03bcm, 200 \u03bcm, or 100 \u03bcm",
+            "Unit": "\u03bcm",
+            "Refers To": "Dimension of the carbon sheet"
         }
     ],
     "Patent Identifier": "US20230002279A1"

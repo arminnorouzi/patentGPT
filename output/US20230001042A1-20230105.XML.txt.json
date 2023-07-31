@@ -1,58 +1,22 @@
 {
     "Content": [
         {
-            "Measurement Context": "HAADF-STEM imaging was performed on a JEOL Grand ARM300CF microscope with double aberration correctors at 300 kV.",
-            "Measured Value": "300",
-            "Unit": "kV",
-            "Refers To": "voltage of the microscope"
+            "Measurement Context": "The inner-filament cover layer 112 is formed on the outer surface of the filament 111 a within a weight range",
+            "Measured Value": "Equal to or greater than 0.05% and less than 0.3%",
+            "Unit": "Percentage of the total weight of the filament 111 a",
+            "Refers To": "The weight of the inner-filament cover layer 112 on the filament 111 a"
         },
         {
-            "Measurement Context": "Images were collected after ex-situ calcination of samples at 450\u00b0 C.",
-            "Measured Value": "450",
-            "Unit": "\u00b0C",
-            "Refers To": "temperature for calcination of samples"
+            "Measurement Context": "The core thread 110 is, in the present embodiment, formed to have a thickness",
+            "Measured Value": "about 0.27",
+            "Unit": "mm",
+            "Refers To": "The thickness of the core thread 110"
         },
         {
-            "Measurement Context": "A beam current of 11 pA was used with pixel time of 4 \u03bcs.",
-            "Measured Value": "11",
-            "Unit": "pA",
-            "Refers To": "beam current"
-        },
-        {
-            "Measurement Context": "A beam current of 11 pA was used with pixel time of 4 \u03bcs.",
-            "Measured Value": "4",
-            "Unit": "\u03bcs",
-            "Refers To": "pixel time"
-        },
-        {
-            "Measurement Context": "XAS at the Re L3 edge (10535 eV) was executed on beamlines 4-1 and 9-3 at the Stanford Synchrotron Radiation Lightsource at the SLAC National Laboratory using a Si(220) double crystal monochromator.",
-            "Measured Value": "10535",
-            "Unit": "eV",
-            "Refers To": "energy at the Re L3 edge for XAS"
-        },
-        {
-            "Measurement Context": "In a typical experiment, 30 mg of catalyst was crushed, sieved (80-120 mesh), and loaded into a 1 cm catalyst bed",
-            "Measured Value": "30",
-            "Unit": "mg",
-            "Refers To": "amount of catalyst used in experiment"
-        },
-        {
-            "Measurement Context": "In a typical experiment, 30 mg of catalyst was crushed, sieved (80-120 mesh), and loaded into a 1 cm catalyst bed",
-            "Measured Value": "1",
-            "Unit": "cm",
-            "Refers To": "size of catalyst bed"
-        },
-        {
-            "Measurement Context": "EXAFS measurements, consisting of 9-16 scans, were collected at 50\u00b0 C.",
-            "Measured Value": "50",
-            "Unit": "\u00b0C",
-            "Refers To": "temperature for EXAFS measurements"
-        },
-        {
-            "Measurement Context": "EXAFS measurements, consisting of 9-16 scans, were collected at 50\u00b0 C.",
-            "Measured Value": "9-16",
-            "Unit": "scans",
-            "Refers To": "number of scans in EXAFS measurements"
+            "Measurement Context": "The thickness of the ultrafine thread 111 varies according to the thickness of the medical suture thread 100",
+            "Measured Value": "Unknown",
+            "Unit": "Unknown",
+            "Refers To": "The thickness of the ultrafine thread 111"
         }
     ],
     "Patent Identifier": "US20230001042A1"

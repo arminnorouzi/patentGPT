@@ -1,70 +1,46 @@
 {
     "Content": [
         {
-            "Measurement Context": "Atomic resolution high-angle annular dark field scanning transmission electron microscopy (HAADF-STEM) imaging was performed on a JEOL Grand ARM300CF microscope with double aberration correctors at 300 kV.",
-            "Measured Value": "300",
-            "Unit": "kV",
-            "Refers To": "Voltage of microscope"
+            "Measurement Context": "The measurement apparatuses used in Examples are as follows.",
+            "Measured Value": "500",
+            "Unit": "MHz",
+            "Refers To": "Frequency of Bruker NMR System AVANCE III HD 500"
         },
         {
-            "Measurement Context": "Images were collected after ex-situ calcination of samples at 450\u00b0 C.",
-            "Measured Value": "450",
+            "Measurement Context": "Column temperature in the GPC Apparatus",
+            "Measured Value": "40",
             "Unit": "\u00b0C",
-            "Refers To": "Temperature for calcination of samples"
+            "Refers To": "Temperature of the column in the HLC-8200 GPC apparatus"
         },
         {
-            "Measurement Context": "using a convergence semiangle of 22 mrad, and inner- and outercollection angles of 83 and 165 mrad, respectively.",
-            "Measured Value": "22, 83, 165",
-            "Unit": "mrad",
-            "Refers To": "Convergence semiangle and inner- and outercollection angles in microscopy"
+            "Measurement Context": "UV detector in the GPC Apparatus",
+            "Measured Value": "271",
+            "Unit": "nm",
+            "Refers To": "Wavelength detected by UV detector in the HLC-8200 GPC apparatus"
         },
         {
-            "Measurement Context": "A beam current of 11 pA was used with pixel time of 4 \u03bcs.",
-            "Measured Value": "11, 4",
-            "Unit": "pA, \u03bcs",
-            "Refers To": "Beam current and pixel time in microscopy"
+            "Measurement Context": "Percentage of the catalyst.",
+            "Measured Value": "Ranges from 0.05 wt % to 15 wt %",
+            "Unit": "wt %",
+            "Refers To": "Percentage weight of the catalyst used in the synthesis of the polymer compound"
         },
         {
-            "Measurement Context": "XAS at the Re L3 edge (10535 eV) was executed on beamlines 4-1 and 9-3 at the Stanford Synchrotron Radiation Lightsource",
-            "Measured Value": "10535",
-            "Unit": "eV",
-            "Refers To": "Energy at the Re L3 edge in X-ray Absorption Spectroscopy"
+            "Measurement Context": "EXAFS fitting was carried out over the R range",
+            "Measured Value": "1-2.2",
+            "Unit": "\u212b",
+            "Refers To": "The range of R used in the EXAFS fitting"
         },
         {
-            "Measurement Context": "The substrate was finally dried on a hot plate at 80\u00b0 C. for 10 seconds",
-            "Measured Value": "80, 10",
-            "Unit": "\u00b0C, seconds",
-            "Refers To": "Temperature and time for drying the substrate"
+            "Measurement Context": "S o 2 was determined to be 0.73\u00b10.04 by fitting the Re metal standard",
+            "Measured Value": "0.73\u00b10.04",
+            "Unit": "Unknown",
+            "Refers To": "Value of S o 2 determined by fitting the Re metal standard"
         },
         {
-            "Measurement Context": "Residual film ratio (%)=[(Film thickness after solvent exposure)/(Film thickness before solvent exposure)]\u00d7100",
-            "Measured Value": "Unknown",
-            "Unit": "%",
-            "Refers To": "Residual film ratio"
-        },
-        {
-            "Measurement Context": "Transmittance (%) 91.8",
-            "Measured Value": "91.8",
-            "Unit": "%",
-            "Refers To": "Transmittance of the film"
-        },
-        {
-            "Measurement Context": "The SP-22 solution was spin-coated over a 50 mm\u00d750 mm\u00d70.7 mm thick alkali-free glass substrate",
-            "Measured Value": "50, 50, 0.7",
-            "Unit": "mm",
-            "Refers To": "Dimension of the alkali-free glass substrate"
-        },
-        {
-            "Measurement Context": "pre-dried at 80\u00b0 C. for 3 minute on a hot plate",
-            "Measured Value": "80, 3",
-            "Unit": "\u00b0C, minute",
-            "Refers To": "Temperature and time for pre-drying the solution"
-        },
-        {
-            "Measurement Context": "and then irradiated with light of 365 nm wavelength with use of a UV irradiation apparatus at an exposure dose of 200 mJ/cm 2",
-            "Measured Value": "365, 200",
-            "Unit": "nm, mJ/cm 2",
-            "Refers To": "Wavelength of light and exposure dose in UV irradiation"
+            "Measurement Context": "A multiple data set fit was performed for the 5, 10, and 20 wt % Re loading samples",
+            "Measured Value": "5, 10, and 20",
+            "Unit": "wt %",
+            "Refers To": "Percentage weight of Re in loading samples"
         }
     ],
     "Patent Identifier": "US20230002654A1"
