@@ -1,94 +1,76 @@
 {
     "Content": [
         {
-            "Measurement Context": "Atomic resolution high-angle annular dark field scanning transmission electron microscopy (HAADF-STEM) imaging",
-            "Measured Value": "300 kV",
+            "Measurement Context": "HAADF-STEM imaging was performed on a JEOL Grand ARM300CF microscope with double aberration correctors at 300 kV.",
+            "Measured Value": "300",
             "Unit": "kV",
-            "Refers To": "Voltage of the microscope"
+            "Refers To": "Voltage of the JEOL Grand ARM300CF microscope"
         },
         {
-            "Measurement Context": "Atomic resolution high-angle annular dark field scanning transmission electron microscopy (HAADF-STEM) imaging",
-            "Measured Value": "22 mrad",
-            "Unit": "mrad",
-            "Refers To": "Convergence semiangle"
+            "Measurement Context": "Images were collected after ex-situ calcination of samples at 450\u00b0 C.",
+            "Measured Value": "450",
+            "Unit": "\u00b0C",
+            "Refers To": "Temperature for ex-situ calcination of samples"
         },
         {
-            "Measurement Context": "Atomic resolution high-angle annular dark field scanning transmission electron microscopy (HAADF-STEM) imaging",
-            "Measured Value": "83 mrad",
-            "Unit": "mrad",
-            "Refers To": "Inner-collection angle"
-        },
-        {
-            "Measurement Context": "Atomic resolution high-angle annular dark field scanning transmission electron microscopy (HAADF-STEM) imaging",
-            "Measured Value": "165 mrad",
-            "Unit": "mrad",
-            "Refers To": "Outer-collection angle"
-        },
-        {
-            "Measurement Context": "Atomic resolution high-angle annular dark field scanning transmission electron microscopy (HAADF-STEM) imaging",
-            "Measured Value": "11 pA",
+            "Measurement Context": "A beam current of 11 pA was used with pixel time of 4 \u03bcs.",
+            "Measured Value": "11",
             "Unit": "pA",
             "Refers To": "Beam current"
         },
         {
-            "Measurement Context": "Atomic resolution high-angle annular dark field scanning transmission electron microscopy (HAADF-STEM) imaging",
-            "Measured Value": "4 \u03bcs",
+            "Measurement Context": "A beam current of 11 pA was used with pixel time of 4 \u03bcs.",
+            "Measured Value": "4",
             "Unit": "\u03bcs",
             "Refers To": "Pixel time"
         },
         {
-            "Measurement Context": "X-Ray Absorption Spectroscopy (XAS)",
-            "Measured Value": "10535 eV",
+            "Measurement Context": "XAS at the Re L3 edge (10535 eV) was executed on beamlines 4-1 and 9-3 at the Stanford Synchrotron Radiation Lightsource at the SLAC National Laboratory",
+            "Measured Value": "10535",
             "Unit": "eV",
-            "Refers To": "Energy of the Re L3 edge"
+            "Refers To": "Energy at the Re L3 edge for XAS"
         },
         {
-            "Measurement Context": "In-situ extended X-ray absorption fine structure (EXAFS) measurements",
-            "Measured Value": "9-16 scans",
-            "Unit": "scans",
-            "Refers To": "Number of scans"
+            "Measurement Context": "In a typical experiment, 30 mg of catalyst was crushed, sieved (80-120 mesh), and loaded into a 1 cm catalyst bed in a",
+            "Measured Value": "30",
+            "Unit": "mg",
+            "Refers To": "Weight of the catalyst"
         },
         {
-            "Measurement Context": "In-situ extended X-ray absorption fine structure (EXAFS) measurements",
-            "Measured Value": "50\u00b0 C",
-            "Unit": "\u00b0C",
-            "Refers To": "Temperature"
+            "Measurement Context": "In a typical experiment, 30 mg of catalyst was crushed, sieved (80-120 mesh), and loaded into a 1 cm catalyst bed in a",
+            "Measured Value": "1",
+            "Unit": "cm",
+            "Refers To": "Size of the catalyst bed"
         },
         {
-            "Measurement Context": "In-situ extended X-ray absorption fine structure (EXAFS) measurements",
-            "Measured Value": "20% O 2 /He",
+            "Measurement Context": "Samples were diluted with mesoporous silica (MCM-41) to have an absorption length of 2.0 with a fractional absorbance of Re of about 0.2.",
+            "Measured Value": "2.0",
             "Unit": "Unknown",
-            "Refers To": "Composition of gas mixture"
+            "Refers To": "Absorption length of samples"
         },
         {
-            "Measurement Context": "In-situ extended X-ray absorption fine structure (EXAFS) measurements",
-            "Measured Value": "350\u00b0 C",
+            "Measurement Context": "Samples were diluted with mesoporous silica (MCM-41) to have an absorption length of 2.0 with a fractional absorbance of Re of about 0.2.",
+            "Measured Value": "0.2",
+            "Unit": "Unknown",
+            "Refers To": "Fractional absorbance of Re"
+        },
+        {
+            "Measurement Context": "EXAFS measurements, consisting of 9-16 scans, were collected at 50\u00b0 C.",
+            "Measured Value": "50",
             "Unit": "\u00b0C",
-            "Refers To": "Temperature"
+            "Refers To": "Temperature at which EXAFS measurements were collected"
         },
         {
-            "Measurement Context": "In-situ extended X-ray absorption fine structure (EXAFS) measurements",
-            "Measured Value": "1 h",
-            "Unit": "h",
-            "Refers To": "Time"
+            "Measurement Context": "EXAFS measurements, consisting of 9-16 scans, were collected at 50\u00b0 C.",
+            "Measured Value": "9-16",
+            "Unit": "scans",
+            "Refers To": "Number of EXAFS scans"
         },
         {
-            "Measurement Context": "In-situ extended X-ray absorption fine structure (EXAFS) measurements",
-            "Measured Value": "150 mbar",
-            "Unit": "mbar",
-            "Refers To": "Pressure"
-        },
-        {
-            "Measurement Context": "In-situ extended X-ray absorption fine structure (EXAFS) measurements",
-            "Measured Value": "200 mbar",
-            "Unit": "mbar",
-            "Refers To": "Pressure"
-        },
-        {
-            "Measurement Context": "In-situ extended X-ray absorption fine structure (EXAFS) measurements",
-            "Measured Value": "250\u00b0 C",
-            "Unit": "\u00b0C",
-            "Refers To": "Temperature"
+            "Measurement Context": "Fourier transformed using the k 2 -weighted EXAFS function (k=3.9-14) to amplify oscillations at high k-values.",
+            "Measured Value": "3.9-14",
+            "Unit": "Unknown",
+            "Refers To": "Range of k-values in the EXAFS function"
         }
     ],
     "Patent Identifier": "US20230002549A1"

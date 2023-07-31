@@ -1,64 +1,52 @@
 {
     "Content": [
         {
-            "Measurement Context": "Atomic resolution high-angle annular dark field scanning transmission electron microscopy (HAADF-STEM) imaging",
+            "Measurement Context": "HAADF-STEM imaging was performed on a JEOL Grand ARM300CF microscope with double aberration correctors at",
             "Measured Value": "300",
             "Unit": "kV",
-            "Refers To": "Voltage of the microscope"
+            "Refers To": "Voltage of the microscope used in HAADF-STEM imaging"
         },
         {
-            "Measurement Context": "Ex-situ calcination of samples",
+            "Measurement Context": "Images were collected after ex-situ calcination of samples at",
             "Measured Value": "450",
             "Unit": "\u00b0C",
-            "Refers To": "Temperature"
+            "Refers To": "Temperature for ex-situ calcination of samples"
         },
         {
-            "Measurement Context": "Convergence semiangle",
-            "Measured Value": "22",
-            "Unit": "mrad",
-            "Refers To": "Angle"
-        },
-        {
-            "Measurement Context": "Inner-collection angle",
-            "Measured Value": "83",
-            "Unit": "mrad",
-            "Refers To": "Angle"
-        },
-        {
-            "Measurement Context": "Outer-collection angle",
-            "Measured Value": "165",
-            "Unit": "mrad",
-            "Refers To": "Angle"
-        },
-        {
-            "Measurement Context": "Beam current",
+            "Measurement Context": "A beam current of",
             "Measured Value": "11",
             "Unit": "pA",
-            "Refers To": "Current"
+            "Refers To": "Current of the electron beam used in imaging"
         },
         {
-            "Measurement Context": "Pixel time",
-            "Measured Value": "4",
-            "Unit": "\u03bcs",
-            "Refers To": "Time"
-        },
-        {
-            "Measurement Context": "XAS at the Re L3 edge",
+            "Measurement Context": "XAS at the Re L3 edge was executed on beamlines",
             "Measured Value": "10535",
             "Unit": "eV",
-            "Refers To": "Energy"
+            "Refers To": "Energy at the Re L3 edge for XAS"
         },
         {
-            "Measurement Context": "Solid content of SP-22 solution",
-            "Measured Value": "15",
-            "Unit": "% by mass",
-            "Refers To": "Percentage"
+            "Measurement Context": "In a typical experiment, of catalyst was crushed, sieved, and loaded into a 1 cm catalyst bed in a",
+            "Measured Value": "30",
+            "Unit": "mg",
+            "Refers To": "Weight of the catalyst used in the experiment"
         },
         {
-            "Measurement Context": "Exposure dose",
-            "Measured Value": "200",
-            "Unit": "mJ/cm^2",
-            "Refers To": "Dose"
+            "Measurement Context": "Samples were diluted with mesoporous silica (MCM-41) to have an absorption length of",
+            "Measured Value": "2.0",
+            "Unit": "Unknown",
+            "Refers To": "Absorption length of the samples"
+        },
+        {
+            "Measurement Context": "EXAFS measurements, consisting of scans, were collected at following exposure to oxidizing",
+            "Measured Value": "50",
+            "Unit": "\u00b0C",
+            "Refers To": "Temperature for collecting EXAFS measurements"
+        },
+        {
+            "Measurement Context": "EXAFS were extracted in k-space and Fourier transformed using the k 2 -weighted EXAFS function (k=3.9-14) to amplify oscillations at high k-values.",
+            "Measured Value": "3.9-14",
+            "Unit": "Unknown",
+            "Refers To": "Range of k-values used in the EXAFS function"
         }
     ],
     "Patent Identifier": "US20230001385A1"

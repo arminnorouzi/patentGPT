@@ -1,76 +1,70 @@
 {
     "Content": [
         {
-            "Measurement Context": "Atomic resolution high-angle annular dark field scanning transmission electron microscopy (HAADF-STEM) imaging",
+            "Measurement Context": "HAADF-STEM imaging was performed on a JEOL Grand ARM300CF microscope",
             "Measured Value": "300",
             "Unit": "kV",
             "Refers To": "Voltage of the microscope"
         },
         {
-            "Measurement Context": "Ex-situ calcination of samples",
+            "Measurement Context": "Images were collected after ex-situ calcination of samples",
             "Measured Value": "450",
             "Unit": "\u00b0C",
-            "Refers To": "Temperature at which samples were calcined"
+            "Refers To": "Temperature of calcination"
         },
         {
-            "Measurement Context": "Convergence semiangle",
-            "Measured Value": "22",
-            "Unit": "mrad",
-            "Refers To": "Semiangle used for convergence during imaging"
-        },
-        {
-            "Measurement Context": "Inner-collection angle",
-            "Measured Value": "83",
-            "Unit": "mrad",
-            "Refers To": "Inner-collection angle used during imaging"
-        },
-        {
-            "Measurement Context": "Outer-collection angle",
-            "Measured Value": "165",
-            "Unit": "mrad",
-            "Refers To": "Outer-collection angle used during imaging"
-        },
-        {
-            "Measurement Context": "Beam current",
+            "Measurement Context": "A beam current of 11 pA was used with pixel time",
             "Measured Value": "11",
             "Unit": "pA",
-            "Refers To": "Current of the electron beam"
+            "Refers To": "Beam current"
         },
         {
-            "Measurement Context": "Pixel time",
-            "Measured Value": "4",
-            "Unit": "\u03bcs",
-            "Refers To": "Time taken to capture each pixel of the image"
-        },
-        {
-            "Measurement Context": "XAS at the Re L3 edge",
+            "Measurement Context": "XAS at the Re L3 edge (10535 eV) was executed on beamlines 4-1 and 9-3",
             "Measured Value": "10535",
             "Unit": "eV",
-            "Refers To": "Energy level at which XAS was performed"
+            "Refers To": "Energy of the Re L3 edge"
         },
         {
-            "Measurement Context": "Energy calibration",
-            "Measured Value": "Unknown",
-            "Unit": "Unknown",
-            "Refers To": "Calibration of the energy levels"
+            "Measurement Context": "In a typical experiment, 30 mg of catalyst was crushed",
+            "Measured Value": "30",
+            "Unit": "mg",
+            "Refers To": "Weight of catalyst"
         },
         {
-            "Measurement Context": "EXAFS measurements",
-            "Measured Value": "9-16",
-            "Unit": "scans",
-            "Refers To": "Number of scans performed for EXAFS measurements"
+            "Measurement Context": "The substrate was finally dried on a hot plate at 80\u00b0 C. for 10 seconds",
+            "Measured Value": "80",
+            "Unit": "\u00b0C",
+            "Refers To": "Temperature of the hot plate"
         },
         {
-            "Measurement Context": "Absorption length",
+            "Measurement Context": "Transmittance (%) 91.8",
+            "Measured Value": "91.8",
+            "Unit": "%",
+            "Refers To": "Transmittance of the substrate"
+        },
+        {
+            "Measurement Context": "The SP-22 solution was spin-coated over a 50 mm\u00d750 mm\u00d70.7 mm thick alkali-free glass substrate",
+            "Measured Value": "50 mm\u00d750 mm\u00d70.7 mm",
+            "Unit": "mm",
+            "Refers To": "Dimensions of the glass substrate"
+        },
+        {
+            "Measurement Context": "Samples were diluted with mesoporous silica (MCM-41) to have an absorption length of 2.0",
             "Measured Value": "2.0",
             "Unit": "Unknown",
-            "Refers To": "Length of absorption"
+            "Refers To": "Absorption length of the samples"
         },
         {
-            "Measurement Context": "Fractional absorbance of Re",
-            "Measured Value": "0.2",
-            "Unit": "Unknown",
-            "Refers To": "Absorbance of Re"
+            "Measurement Context": "EXAFS measurements, consisting of 9-16 scans, were collected at 50\u00b0 C.",
+            "Measured Value": "9-16",
+            "Unit": "scans",
+            "Refers To": "Number of EXAFS scans"
+        },
+        {
+            "Measurement Context": "EXAFS measurements were collected at 50\u00b0 C.",
+            "Measured Value": "50",
+            "Unit": "\u00b0C",
+            "Refers To": "Temperature for EXAFS measurements"
         }
     ],
     "Patent Identifier": "US20230002559A1"

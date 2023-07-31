@@ -1,94 +1,58 @@
 {
     "Content": [
         {
-            "Measurement Context": "Atomic resolution high-angle annular dark field scanning transmission electron microscopy (HAADF-STEM) imaging",
+            "Measurement Context": "HAADF-STEM imaging was performed on a JEOL Grand ARM300CF microscope with double aberration correctors at 300 kV.",
             "Measured Value": "300",
             "Unit": "kV",
-            "Refers To": "Voltage of the microscope"
+            "Refers To": "voltage of the microscope"
         },
         {
-            "Measurement Context": "ex-situ calcination of samples",
+            "Measurement Context": "Images were collected after ex-situ calcination of samples at 450\u00b0 C.",
             "Measured Value": "450",
             "Unit": "\u00b0C",
-            "Refers To": "Temperature of the calcination process"
+            "Refers To": "temperature for calcination of samples"
         },
         {
-            "Measurement Context": "convergence semiangle",
-            "Measured Value": "22",
-            "Unit": "mrad",
-            "Refers To": "Angle used in HAADF-STEM imaging"
-        },
-        {
-            "Measurement Context": "inner-collection angle",
-            "Measured Value": "83",
-            "Unit": "mrad",
-            "Refers To": "Angle used in HAADF-STEM imaging"
-        },
-        {
-            "Measurement Context": "outer-collection angle",
-            "Measured Value": "165",
-            "Unit": "mrad",
-            "Refers To": "Angle used in HAADF-STEM imaging"
-        },
-        {
-            "Measurement Context": "beam current",
+            "Measurement Context": "A beam current of 11 pA was used with pixel time of 4 \u03bcs.",
             "Measured Value": "11",
             "Unit": "pA",
-            "Refers To": "Current of the electron beam in HAADF-STEM imaging"
+            "Refers To": "beam current"
         },
         {
-            "Measurement Context": "pixel time",
+            "Measurement Context": "A beam current of 11 pA was used with pixel time of 4 \u03bcs.",
             "Measured Value": "4",
             "Unit": "\u03bcs",
-            "Refers To": "Time per pixel in HAADF-STEM imaging"
+            "Refers To": "pixel time"
         },
         {
-            "Measurement Context": "XAS at the Re L3 edge (10535 eV)",
+            "Measurement Context": "XAS at the Re L3 edge (10535 eV) was executed on beamlines 4-1 and 9-3 at the Stanford Synchrotron Radiation Lightsource at the SLAC National Laboratory using a Si(220) double crystal monochromator.",
             "Measured Value": "10535",
             "Unit": "eV",
-            "Refers To": "Energy level for X-ray Absorption Spectroscopy"
+            "Refers To": "energy at the Re L3 edge for XAS"
         },
         {
-            "Measurement Context": "a spin coater",
-            "Measured Value": "200",
-            "Unit": "rpm",
-            "Refers To": "Rotational speed of the spin coater"
-        },
-        {
-            "Measurement Context": "a spin coater",
-            "Measured Value": "5",
-            "Unit": "seconds",
-            "Refers To": "Duration of spin coating at 200 rpm"
-        },
-        {
-            "Measurement Context": "a spin coater",
-            "Measured Value": "1000",
-            "Unit": "rpm",
-            "Refers To": "Rotational speed of the spin coater"
-        },
-        {
-            "Measurement Context": "a spin coater",
+            "Measurement Context": "In a typical experiment, 30 mg of catalyst was crushed, sieved (80-120 mesh), and loaded into a 1 cm catalyst bed",
             "Measured Value": "30",
-            "Unit": "seconds",
-            "Refers To": "Duration of spin coating at 1000 rpm"
+            "Unit": "mg",
+            "Refers To": "amount of catalyst used in experiment"
         },
         {
-            "Measurement Context": "pre-dried at 80\u00b0 C.",
-            "Measured Value": "80",
+            "Measurement Context": "In a typical experiment, 30 mg of catalyst was crushed, sieved (80-120 mesh), and loaded into a 1 cm catalyst bed",
+            "Measured Value": "1",
+            "Unit": "cm",
+            "Refers To": "size of catalyst bed"
+        },
+        {
+            "Measurement Context": "EXAFS measurements, consisting of 9-16 scans, were collected at 50\u00b0 C.",
+            "Measured Value": "50",
             "Unit": "\u00b0C",
-            "Refers To": "Temperature of pre-drying process"
+            "Refers To": "temperature for EXAFS measurements"
         },
         {
-            "Measurement Context": "irradiated with light of 365 nm wavelength",
-            "Measured Value": "365",
-            "Unit": "nm",
-            "Refers To": "Wavelength of the light used for irradiation"
-        },
-        {
-            "Measurement Context": "an exposure dose of 200 mJ/cm 2",
-            "Measured Value": "200",
-            "Unit": "mJ/cm 2",
-            "Refers To": "Dose of exposure to light"
+            "Measurement Context": "EXAFS measurements, consisting of 9-16 scans, were collected at 50\u00b0 C.",
+            "Measured Value": "9-16",
+            "Unit": "scans",
+            "Refers To": "number of scans in EXAFS measurements"
         }
     ],
     "Patent Identifier": "US20230001042A1"

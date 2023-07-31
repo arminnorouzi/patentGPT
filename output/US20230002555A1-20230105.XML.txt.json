@@ -1,142 +1,94 @@
 {
     "Content": [
         {
-            "Measurement Context": "[ 1 H-NMR] Apparatus: Bruker NMR System AVANCE III HD 500 (500 MHz)",
-            "Measured Value": "500",
-            "Unit": "MHz",
-            "Refers To": "frequency"
-        },
-        {
-            "Measurement Context": "[GPC] Apparatus: HLC-8200 GPC, from Tosoh Corporation",
-            "Measured Value": "40",
-            "Unit": "\u00b0C",
-            "Refers To": "column temperature"
-        },
-        {
-            "Measurement Context": "[Ellipsometer] Apparatus: multi-incident angle spectroscopic ellipsometer VASE, from J.A. Woollam Japan Corporation",
-            "Measured Value": "Unknown",
-            "Unit": "Unknown",
-            "Refers To": "Unknown"
-        },
-        {
-            "Measurement Context": "[Spectrophotometric Colorimeter] Apparatus: CM-3700 A, from Konica Minolta, Inc.",
-            "Measured Value": "Unknown",
-            "Unit": "Unknown",
-            "Refers To": "Unknown"
-        },
-        {
-            "Measurement Context": "[Optical Microscope] Apparatus: OLYMPUS BX 51, from Olympus Corporation",
-            "Measured Value": "Unknown",
-            "Unit": "Unknown",
-            "Refers To": "Unknown"
-        },
-        {
-            "Measurement Context": "[Ultraviolet-Visible-Near Infrared Spectrophotometer] Apparatus: V-670, from JASCO Corporation",
-            "Measured Value": "Unknown",
-            "Unit": "Unknown",
-            "Refers To": "Unknown"
-        },
-        {
-            "Measurement Context": "atomic resolution high-angle annular dark field scanning transmission electron microscopy (HAADF-STEM) imaging",
+            "Measurement Context": "Atomic resolution high-angle annular dark field scanning transmission electron microscopy (HAADF-STEM) imaging was performed on a JEOL Grand ARM300CF microscope with double aberration correctors at 300 kV.",
             "Measured Value": "300",
             "Unit": "kV",
-            "Refers To": "accelerating voltage"
+            "Refers To": "The voltage used in the HAADF-STEM imaging process"
         },
         {
-            "Measurement Context": "convergence semiangle of 22 mrad, and inner- and outercollection angles of 83 and 165 mrad, respectively",
-            "Measured Value": "22",
-            "Unit": "mrad",
-            "Refers To": "convergence semiangle"
+            "Measurement Context": "Images were collected after ex-situ calcination of samples at 450\u00b0 C.",
+            "Measured Value": "450",
+            "Unit": "\u00b0C",
+            "Refers To": "The temperature at which the samples were calcined"
         },
         {
-            "Measurement Context": "beam current of 11 pA",
+            "Measurement Context": "A beam current of 11 pA was used with pixel time of 4 \u03bcs.",
             "Measured Value": "11",
             "Unit": "pA",
-            "Refers To": "beam current"
+            "Refers To": "The beam current used in the imaging process"
         },
         {
-            "Measurement Context": "pixel time of 4 \u03bcs",
+            "Measurement Context": "A beam current of 11 pA was used with pixel time of 4 \u03bcs.",
             "Measured Value": "4",
             "Unit": "\u03bcs",
-            "Refers To": "pixel time"
+            "Refers To": "The pixel time used in the imaging process"
         },
         {
-            "Measurement Context": "XAS at the Re L3 edge (10535 eV)",
-            "Measured Value": "10535",
-            "Unit": "eV",
-            "Refers To": "energy"
-        },
-        {
-            "Measurement Context": "30 mg",
+            "Measurement Context": "In a typical experiment, 30 mg of catalyst was crushed, sieved (80-120 mesh), and loaded into a 1 cm catalyst bed in a",
             "Measured Value": "30",
             "Unit": "mg",
-            "Refers To": "mass"
+            "Refers To": "The amount of catalyst used in the experiment"
         },
         {
-            "Measurement Context": "80-120 mesh",
-            "Measured Value": "Unknown",
-            "Unit": "mesh",
-            "Refers To": "Unknown"
-        },
-        {
-            "Measurement Context": "1 cm",
+            "Measurement Context": "In a typical experiment, 30 mg of catalyst was crushed, sieved (80-120 mesh), and loaded into a 1 cm catalyst bed in a",
             "Measured Value": "1",
             "Unit": "cm",
-            "Refers To": "length"
+            "Refers To": "The size of the catalyst bed used in the experiment"
         },
         {
-            "Measurement Context": "ratio \u2014 100 (%)",
-            "Measured Value": "100",
+            "Measurement Context": "The substrate was finally dried on a hot plate at 80\u00b0 C. for 10 seconds, and subjected to measurement of the refractive index, film thickness, calculation of residual film ratio, and observation of the film surface under an optical microscope.",
+            "Measured Value": "80",
+            "Unit": "\u00b0C",
+            "Refers To": "The temperature at which the substrate was dried"
+        },
+        {
+            "Measurement Context": "The substrate was finally dried on a hot plate at 80\u00b0 C. for 10 seconds, and subjected to measurement of the refractive index, film thickness, calculation of residual film ratio, and observation of the film surface under an optical microscope.",
+            "Measured Value": "10",
+            "Unit": "seconds",
+            "Refers To": "The time duration for which the substrate was dried"
+        },
+        {
+            "Measurement Context": "Residual film ratio (%)=[(Film thickness after solvent exposure)/(Film thickness before solvent exposure)]\u00d7100",
+            "Measured Value": "Unknown",
             "Unit": "%",
-            "Refers To": "ratio"
+            "Refers To": "The ratio of film thickness after solvent exposure to film thickness before solvent exposure"
         },
         {
-            "Measurement Context": "Transmittance (%) 91.8",
+            "Measurement Context": "Also the transmittance was measured before solvent exposure. Measured results of the ratio \u2014 100 (%) Transmittance (%) 91.8",
             "Measured Value": "91.8",
             "Unit": "%",
-            "Refers To": "transmittance"
+            "Refers To": "The transmittance of the film before solvent exposure"
         },
         {
-            "Measurement Context": "Refractive 1.726",
-            "Measured Value": "1.726",
-            "Unit": "Unknown",
-            "Refers To": "refractive index"
+            "Measurement Context": "The SP-22 solution was spin-coated over a 50 mm\u00d750 mm\u00d70.7 mm thick alkali-free glass substrate",
+            "Measured Value": "50 mm\u00d750 mm\u00d70.7 mm",
+            "Unit": "mm",
+            "Refers To": "The dimensions of the alkali-free glass substrate"
         },
         {
-            "Measurement Context": "@ 550",
-            "Measured Value": "Unknown",
-            "Unit": "Unknown",
-            "Refers To": "Unknown"
-        },
-        {
-            "Measurement Context": "907",
-            "Measured Value": "907",
+            "Measurement Context": "and then irradiated with light of 365 nm wavelength with use of a UV irradiation apparatus at an exposure dose of 200 mJ/cm 2",
+            "Measured Value": "365",
             "Unit": "nm",
-            "Refers To": "film thickness"
+            "Refers To": "The wavelength of the light used for irradiation"
         },
         {
-            "Measurement Context": "99",
-            "Measured Value": "99",
-            "Unit": "%",
-            "Refers To": "residual film ratio"
+            "Measurement Context": "and then irradiated with light of 365 nm wavelength with use of a UV irradiation apparatus at an exposure dose of 200 mJ/cm 2",
+            "Measured Value": "200",
+            "Unit": "mJ/cm 2",
+            "Refers To": "The exposure dose of the light used for irradiation"
         },
         {
-            "Measurement Context": "91.3",
-            "Measured Value": "91.3",
-            "Unit": "%",
-            "Refers To": "transmittance"
+            "Measurement Context": "In-situ extended X-ray absorption fine structure (EXAFS) measurements, consisting of 9-16 scans, were collected at 50\u00b0 C.",
+            "Measured Value": "50",
+            "Unit": "\u00b0C",
+            "Refers To": "The temperature at which the EXAFS measurements were collected"
         },
         {
-            "Measurement Context": "90.4",
-            "Measured Value": "90.4",
-            "Unit": "%",
-            "Refers To": "transmittance"
-        },
-        {
-            "Measurement Context": "89.3",
-            "Measured Value": "89.3",
-            "Unit": "%",
-            "Refers To": "transmittance"
+            "Measurement Context": "In-situ extended X-ray absorption fine structure (EXAFS) measurements, consisting of 9-16 scans, were collected at 50\u00b0 C.",
+            "Measured Value": "9-16",
+            "Unit": "scans",
+            "Refers To": "The number of scans in the EXAFS measurements"
         }
     ],
     "Patent Identifier": "US20230002555A1"

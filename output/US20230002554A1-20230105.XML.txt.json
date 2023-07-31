@@ -1,82 +1,58 @@
 {
     "Content": [
         {
-            "Measurement Context": "Atomic resolution high-angle annular dark field scanning transmission electron microscopy (HAADF-STEM) imaging",
-            "Measured Value": "300 kV",
+            "Measurement Context": "Atomic resolution high-angle annular dark field scanning transmission electron microscopy (HAADF-STEM) imaging was performed on a JEOL Grand ARM300CF microscope with double aberration correctors at 300 kV.",
+            "Measured Value": "300",
             "Unit": "kV",
-            "Refers To": "Voltage"
+            "Refers To": "The voltage used in the Atomic resolution high-angle annular dark field scanning transmission electron microscopy imaging."
         },
         {
-            "Measurement Context": "Ex-situ calcination of samples",
-            "Measured Value": "450\u00b0 C.",
+            "Measurement Context": "Images were collected after ex-situ calcination of samples at 450\u00b0 C.",
+            "Measured Value": "450",
             "Unit": "\u00b0C",
-            "Refers To": "Temperature"
+            "Refers To": "The temperature at which the samples were calcinated."
         },
         {
-            "Measurement Context": "Convergence semiangle",
-            "Measured Value": "22 mrad",
+            "Measurement Context": "Using a convergence semiangle of 22 mrad, and inner- and outercollection angles of 83 and 165 mrad, respectively.",
+            "Measured Value": "22, 83, 165",
             "Unit": "mrad",
-            "Refers To": "Angle"
+            "Refers To": "The angles used in the imaging process."
         },
         {
-            "Measurement Context": "Inner-collection angle",
-            "Measured Value": "83 mrad",
-            "Unit": "mrad",
-            "Refers To": "Angle"
+            "Measurement Context": "A beam current of 11 pA was used with pixel time of 4 \u03bcs.",
+            "Measured Value": "11, 4",
+            "Unit": "pA, \u03bcs",
+            "Refers To": "The beam current used and the pixel time."
         },
         {
-            "Measurement Context": "Outer-collection angle",
-            "Measured Value": "165 mrad",
-            "Unit": "mrad",
-            "Refers To": "Angle"
-        },
-        {
-            "Measurement Context": "Beam current",
-            "Measured Value": "11 pA",
-            "Unit": "pA",
-            "Refers To": "Current"
-        },
-        {
-            "Measurement Context": "Pixel time",
-            "Measured Value": "4 \u03bcs",
-            "Unit": "\u03bcs",
-            "Refers To": "Time"
-        },
-        {
-            "Measurement Context": "XAS at the Re L3 edge",
-            "Measured Value": "10535 eV",
+            "Measurement Context": "XAS at the Re L3 edge (10535 eV) was executed on beamlines 4-1 and 9-3 at the Stanford Synchrotron Radiation Lightsource at the SLAC National Laboratory using a Si(220) double crystal monochromator.",
+            "Measured Value": "10535",
             "Unit": "eV",
-            "Refers To": "Energy"
+            "Refers To": "The energy of the XAS at the Re L3 edge."
         },
         {
-            "Measurement Context": "Absorption length",
-            "Measured Value": "2.0",
+            "Measurement Context": "In a typical experiment, 30 mg of catalyst was crushed, sieved (80-120 mesh), and loaded into a 1 cm catalyst bed in a",
+            "Measured Value": "30, 1",
+            "Unit": "mg, cm",
+            "Refers To": "The amount of catalyst used and the size of the catalyst bed in the experiment."
+        },
+        {
+            "Measurement Context": "The elastic modulus of the hydrogel is 6.6 kPa, lower than that of the hydrogel prepared in Example 13 (10.6 kPa).",
+            "Measured Value": "6.6, 10.6",
+            "Unit": "kPa",
+            "Refers To": "The elastic modulus of the hydrogel in different examples."
+        },
+        {
+            "Measurement Context": "Samples were diluted with mesoporous silica (MCM-41) to have an absorption length of 2.0 with a fractional absorbance of Re of about 0.2.",
+            "Measured Value": "2.0, 0.2",
             "Unit": "Unknown",
-            "Refers To": "Length"
+            "Refers To": "The absorption length and fractional absorbance of the samples."
         },
         {
-            "Measurement Context": "Fractional absorbance of Re",
-            "Measured Value": "0.2",
-            "Unit": "Unknown",
-            "Refers To": "Absorbance"
-        },
-        {
-            "Measurement Context": "In-situ extended X-ray absorption fine structure (EXAFS) measurements",
-            "Measured Value": "9-16 scans",
-            "Unit": "scans",
-            "Refers To": "Number of Scans"
-        },
-        {
-            "Measurement Context": "Energy calibration",
-            "Measured Value": "Unknown",
-            "Unit": "Unknown",
-            "Refers To": "Unknown"
-        },
-        {
-            "Measurement Context": "k-space",
-            "Measured Value": "3.9-14",
-            "Unit": "Unknown",
-            "Refers To": "Unknown"
+            "Measurement Context": "In-situ extended X-ray absorption fine structure (EXAFS) measurements, consisting of 9-16 scans, were collected at 50\u00b0 C.",
+            "Measured Value": "9-16, 50",
+            "Unit": "Scans, \u00b0C",
+            "Refers To": "The number of scans in the EXAFS measurements and the temperature at which they were collected."
         }
     ],
     "Patent Identifier": "US20230002554A1"

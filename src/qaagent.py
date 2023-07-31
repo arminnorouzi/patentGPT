@@ -24,7 +24,8 @@ if openai.api_key is None:
 
 embeddings = OpenAIEmbeddings()
 
-model_name = "gpt-3.5-turbo"
+# model_name = "gpt-3.5-turbo"
+model_name = "gpt-4"
 llm = ChatOpenAI(model_name=model_name)
 
 

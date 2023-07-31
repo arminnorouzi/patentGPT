@@ -1,88 +1,52 @@
 {
     "Content": [
         {
-            "Measurement Context": "Atomic resolution high-angle annular dark field scanning transmission electron microscopy (HAADF-STEM) imaging",
+            "Measurement Context": "HAADF-STEM imaging was performed on a JEOL Grand ARM300CF microscope with double aberration correctors at 300 kV",
             "Measured Value": "300",
             "Unit": "kV",
-            "Refers To": "Microscope voltage"
+            "Refers To": "Aberration correctors voltage"
         },
         {
-            "Measurement Context": "Ex-situ calcination of samples",
+            "Measurement Context": "Images were collected after ex-situ calcination of samples at 450\u00b0 C.",
             "Measured Value": "450",
-            "Unit": "\u00b0 C",
-            "Refers To": "Temperature"
+            "Unit": "\u00b0C",
+            "Refers To": "Temperature for ex-situ calcination of samples"
         },
         {
-            "Measurement Context": "Convergence semiangle",
-            "Measured Value": "22",
-            "Unit": "mrad",
-            "Refers To": "Angle"
-        },
-        {
-            "Measurement Context": "Inner-collection angle",
-            "Measured Value": "83",
-            "Unit": "mrad",
-            "Refers To": "Angle"
-        },
-        {
-            "Measurement Context": "Outer-collection angle",
-            "Measured Value": "165",
-            "Unit": "mrad",
-            "Refers To": "Angle"
-        },
-        {
-            "Measurement Context": "Beam current",
+            "Measurement Context": "A beam current of 11 pA was used with pixel time of 4 \u03bcs.",
             "Measured Value": "11",
             "Unit": "pA",
-            "Refers To": "Current"
+            "Refers To": "Beam current"
         },
         {
-            "Measurement Context": "Pixel time",
+            "Measurement Context": "A beam current of 11 pA was used with pixel time of 4 \u03bcs.",
             "Measured Value": "4",
             "Unit": "\u03bcs",
-            "Refers To": "Time"
+            "Refers To": "Pixel time"
         },
         {
-            "Measurement Context": "XAS at the Re L3 edge",
+            "Measurement Context": "XAS at the Re L3 edge (10535 eV) was executed on beamlines 4-1 and 9-3 at the Stanford Synchrotron Radiation Lightsource at the SLAC National Laboratory",
             "Measured Value": "10535",
             "Unit": "eV",
-            "Refers To": "Energy"
+            "Refers To": "Energy of the Re L3 edge in XAS"
         },
         {
-            "Measurement Context": "Elastic modulus of the hydrogel",
-            "Measured Value": "6.6",
-            "Unit": "kPa",
-            "Refers To": "Modulus"
+            "Measurement Context": "In a typical experiment, 30 mg of catalyst was crushed, sieved (80-120 mesh), and loaded into a 1 cm catalyst bed in a",
+            "Measured Value": "30",
+            "Unit": "mg",
+            "Refers To": "Weight of the catalyst used"
         },
         {
-            "Measurement Context": "Solid content of the SP-22 solution",
-            "Measured Value": "15",
-            "Unit": "% by mass",
-            "Refers To": "Content"
+            "Measurement Context": "In a typical experiment, 30 mg of catalyst was crushed, sieved (80-120 mesh), and loaded into a 1 cm catalyst bed in a",
+            "Measured Value": "1",
+            "Unit": "cm",
+            "Refers To": "Size of the catalyst bed"
         },
         {
-            "Measurement Context": "Spin coating speed",
-            "Measured Value": "200",
-            "Unit": "rpm",
-            "Refers To": "Speed"
-        },
-        {
-            "Measurement Context": "Spin coating time",
-            "Measured Value": "5",
-            "Unit": "seconds",
-            "Refers To": "Time"
-        },
-        {
-            "Measurement Context": "Pre-drying temperature",
-            "Measured Value": "80",
-            "Unit": "\u00b0 C",
-            "Refers To": "Temperature"
-        },
-        {
-            "Measurement Context": "Exposure dose",
-            "Measured Value": "200",
-            "Unit": "mJ/cm^2",
-            "Refers To": "Dose"
+            "Measurement Context": "EXAFS measurements, consisting of 9-16 scans, were collected at 50\u00b0 C.",
+            "Measured Value": "50",
+            "Unit": "\u00b0C",
+            "Refers To": "Temperature at which EXAFS measurements were collected"
         }
     ],
     "Patent Identifier": "US20230002279A1"
