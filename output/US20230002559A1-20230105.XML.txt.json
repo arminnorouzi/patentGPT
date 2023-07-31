@@ -1,82 +1,76 @@
 {
     "Content": [
         {
-            "Measurement Context": "Example 1",
-            "Measured Value": "130",
-            "Unit": "mL",
-            "Refers To": "volume of aqueous sodium carbonate solution"
+            "Measurement Context": "Atomic resolution high-angle annular dark field scanning transmission electron microscopy (HAADF-STEM) imaging",
+            "Measured Value": "300",
+            "Unit": "kV",
+            "Refers To": "Voltage of the microscope"
         },
         {
-            "Measurement Context": "Example 1",
-            "Measured Value": "10",
-            "Unit": "%",
-            "Refers To": "mass-volume concentration"
-        },
-        {
-            "Measurement Context": "Example 1",
-            "Measured Value": "70",
+            "Measurement Context": "Ex-situ calcination of samples",
+            "Measured Value": "450",
             "Unit": "\u00b0C",
-            "Refers To": "temperature"
+            "Refers To": "Temperature at which samples were calcined"
         },
         {
-            "Measurement Context": "Example 1",
+            "Measurement Context": "Convergence semiangle",
+            "Measured Value": "22",
+            "Unit": "mrad",
+            "Refers To": "Semiangle used for convergence during imaging"
+        },
+        {
+            "Measurement Context": "Inner-collection angle",
+            "Measured Value": "83",
+            "Unit": "mrad",
+            "Refers To": "Inner-collection angle used during imaging"
+        },
+        {
+            "Measurement Context": "Outer-collection angle",
+            "Measured Value": "165",
+            "Unit": "mrad",
+            "Refers To": "Outer-collection angle used during imaging"
+        },
+        {
+            "Measurement Context": "Beam current",
+            "Measured Value": "11",
+            "Unit": "pA",
+            "Refers To": "Current of the electron beam"
+        },
+        {
+            "Measurement Context": "Pixel time",
             "Measured Value": "4",
-            "Unit": "h",
-            "Refers To": "reaction time"
+            "Unit": "\u03bcs",
+            "Refers To": "Time taken to capture each pixel of the image"
         },
         {
-            "Measurement Context": "Example 1",
-            "Measured Value": "2.8",
-            "Unit": "g",
-            "Refers To": "mass of 3,4-diformylbenzoic acid obtained"
+            "Measurement Context": "XAS at the Re L3 edge",
+            "Measured Value": "10535",
+            "Unit": "eV",
+            "Refers To": "Energy level at which XAS was performed"
         },
         {
-            "Measurement Context": "Example 1",
-            "Measured Value": "56",
-            "Unit": "%",
-            "Refers To": "yield of 3,4-diformylbenzoic acid"
+            "Measurement Context": "Energy calibration",
+            "Measured Value": "Unknown",
+            "Unit": "Unknown",
+            "Refers To": "Calibration of the energy levels"
         },
         {
-            "Measurement Context": "Example 3",
-            "Measured Value": "2.8",
-            "Unit": "g",
-            "Refers To": "mass of 3,4-bis(dibromomethyl)benzoic acid"
+            "Measurement Context": "EXAFS measurements",
+            "Measured Value": "9-16",
+            "Unit": "scans",
+            "Refers To": "Number of scans performed for EXAFS measurements"
         },
         {
-            "Measurement Context": "Example 3",
-            "Measured Value": "60",
-            "Unit": "mL",
-            "Refers To": "volume of anhydrous methanol"
+            "Measurement Context": "Absorption length",
+            "Measured Value": "2.0",
+            "Unit": "Unknown",
+            "Refers To": "Length of absorption"
         },
         {
-            "Measurement Context": "Example 3",
-            "Measured Value": "420",
-            "Unit": "mg",
-            "Refers To": "mass of catalyst scandium trifluoromethanesulfonate"
-        },
-        {
-            "Measurement Context": "Example 3",
-            "Measured Value": "12",
-            "Unit": "h",
-            "Refers To": "reaction time"
-        },
-        {
-            "Measurement Context": "Example 3",
-            "Measured Value": "3.5",
-            "Unit": "g",
-            "Refers To": "mass of 1,3-dimethoxy-1,3-dihydroisobenzofuran-5-carboxylic acid obtained"
-        },
-        {
-            "Measurement Context": "Example 4",
-            "Measured Value": "3.6",
-            "Unit": "g",
-            "Refers To": "mass of N-hydroxysuccinimide"
-        },
-        {
-            "Measurement Context": "Example 4",
-            "Measured Value": "80",
-            "Unit": "mL",
-            "Refers To": "volume of anhydrous acetonitrile"
+            "Measurement Context": "Fractional absorbance of Re",
+            "Measured Value": "0.2",
+            "Unit": "Unknown",
+            "Refers To": "Absorbance of Re"
         }
     ],
     "Patent Identifier": "US20230002559A1"

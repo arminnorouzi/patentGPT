@@ -1,58 +1,142 @@
 {
     "Content": [
         {
-            "Measurement Context": "[ 1 H-NMR] Apparatus",
+            "Measurement Context": "[ 1 H-NMR] Apparatus: Bruker NMR System AVANCE III HD 500 (500 MHz)",
             "Measured Value": "500",
             "Unit": "MHz",
-            "Refers To": "Nuclear Magnetic Resonance (NMR) frequency"
+            "Refers To": "frequency"
         },
         {
-            "Measurement Context": "[GPC] Apparatus",
+            "Measurement Context": "[GPC] Apparatus: HLC-8200 GPC, from Tosoh Corporation",
             "Measured Value": "40",
             "Unit": "\u00b0C",
-            "Refers To": "Column temperature"
+            "Refers To": "column temperature"
         },
         {
-            "Measurement Context": "[GPC] Apparatus",
-            "Measured Value": "271",
-            "Unit": "nm",
-            "Refers To": "Detector wavelength"
-        },
-        {
-            "Measurement Context": "[Optical Microscope] Apparatus",
+            "Measurement Context": "[Ellipsometer] Apparatus: multi-incident angle spectroscopic ellipsometer VASE, from J.A. Woollam Japan Corporation",
             "Measured Value": "Unknown",
             "Unit": "Unknown",
             "Refers To": "Unknown"
         },
         {
-            "Measurement Context": "[Ultraviolet-Visible-Near Infrared Spectrophotometer] Apparatus",
+            "Measurement Context": "[Spectrophotometric Colorimeter] Apparatus: CM-3700 A, from Konica Minolta, Inc.",
             "Measured Value": "Unknown",
             "Unit": "Unknown",
             "Refers To": "Unknown"
         },
         {
-            "Measurement Context": "Residual film ratio",
+            "Measurement Context": "[Optical Microscope] Apparatus: OLYMPUS BX 51, from Olympus Corporation",
             "Measured Value": "Unknown",
+            "Unit": "Unknown",
+            "Refers To": "Unknown"
+        },
+        {
+            "Measurement Context": "[Ultraviolet-Visible-Near Infrared Spectrophotometer] Apparatus: V-670, from JASCO Corporation",
+            "Measured Value": "Unknown",
+            "Unit": "Unknown",
+            "Refers To": "Unknown"
+        },
+        {
+            "Measurement Context": "atomic resolution high-angle annular dark field scanning transmission electron microscopy (HAADF-STEM) imaging",
+            "Measured Value": "300",
+            "Unit": "kV",
+            "Refers To": "accelerating voltage"
+        },
+        {
+            "Measurement Context": "convergence semiangle of 22 mrad, and inner- and outercollection angles of 83 and 165 mrad, respectively",
+            "Measured Value": "22",
+            "Unit": "mrad",
+            "Refers To": "convergence semiangle"
+        },
+        {
+            "Measurement Context": "beam current of 11 pA",
+            "Measured Value": "11",
+            "Unit": "pA",
+            "Refers To": "beam current"
+        },
+        {
+            "Measurement Context": "pixel time of 4 \u03bcs",
+            "Measured Value": "4",
+            "Unit": "\u03bcs",
+            "Refers To": "pixel time"
+        },
+        {
+            "Measurement Context": "XAS at the Re L3 edge (10535 eV)",
+            "Measured Value": "10535",
+            "Unit": "eV",
+            "Refers To": "energy"
+        },
+        {
+            "Measurement Context": "30 mg",
+            "Measured Value": "30",
+            "Unit": "mg",
+            "Refers To": "mass"
+        },
+        {
+            "Measurement Context": "80-120 mesh",
+            "Measured Value": "Unknown",
+            "Unit": "mesh",
+            "Refers To": "Unknown"
+        },
+        {
+            "Measurement Context": "1 cm",
+            "Measured Value": "1",
+            "Unit": "cm",
+            "Refers To": "length"
+        },
+        {
+            "Measurement Context": "ratio \u2014 100 (%)",
+            "Measured Value": "100",
             "Unit": "%",
-            "Refers To": "Ratio of film thickness after solvent exposure to film thickness before solvent exposure"
+            "Refers To": "ratio"
         },
         {
-            "Measurement Context": "Transmittance",
+            "Measurement Context": "Transmittance (%) 91.8",
             "Measured Value": "91.8",
             "Unit": "%",
-            "Refers To": "Percentage of light transmitted through a material"
+            "Refers To": "transmittance"
         },
         {
-            "Measurement Context": "Weight average molecular weight Mw",
-            "Measured Value": "23,350",
+            "Measurement Context": "Refractive 1.726",
+            "Measured Value": "1.726",
             "Unit": "Unknown",
-            "Refers To": "Molecular weight of a compound measured by GPC"
+            "Refers To": "refractive index"
         },
         {
-            "Measurement Context": "Polydispersity Mw/Mn",
-            "Measured Value": "6.5",
+            "Measurement Context": "@ 550",
+            "Measured Value": "Unknown",
             "Unit": "Unknown",
-            "Refers To": "Polydispersity index of a compound measured by GPC"
+            "Refers To": "Unknown"
+        },
+        {
+            "Measurement Context": "907",
+            "Measured Value": "907",
+            "Unit": "nm",
+            "Refers To": "film thickness"
+        },
+        {
+            "Measurement Context": "99",
+            "Measured Value": "99",
+            "Unit": "%",
+            "Refers To": "residual film ratio"
+        },
+        {
+            "Measurement Context": "91.3",
+            "Measured Value": "91.3",
+            "Unit": "%",
+            "Refers To": "transmittance"
+        },
+        {
+            "Measurement Context": "90.4",
+            "Measured Value": "90.4",
+            "Unit": "%",
+            "Refers To": "transmittance"
+        },
+        {
+            "Measurement Context": "89.3",
+            "Measured Value": "89.3",
+            "Unit": "%",
+            "Refers To": "transmittance"
         }
     ],
     "Patent Identifier": "US20230002555A1"

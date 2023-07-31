@@ -101,7 +101,9 @@ def call_QA_to_json(
 
 
     retrieval_chain = RetrievalQA.from_chain_type(
-        llm, chain_type="stuff", retriever=vectordb.as_retriever(), chain_type_kwargs=chain_type_kwargs, 
+        llm, chain_type="stuff", 
+        retriever=vectordb.as_retriever(search_type="mmr"), 
+        chain_type_kwargs=chain_type_kwargs, 
         # return_source_documents=True
 
     )

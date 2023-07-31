@@ -1,40 +1,88 @@
 {
     "Content": [
         {
-            "Measurement Context": "High-resolution XPS measurements",
-            "Measured Value": "below 1\u00d710^-9",
-            "Unit": "Torr",
-            "Refers To": "pressure in the XPS chamber"
+            "Measurement Context": "Atomic resolution high-angle annular dark field scanning transmission electron microscopy (HAADF-STEM) imaging",
+            "Measured Value": "300",
+            "Unit": "kV",
+            "Refers To": "Microscope voltage"
         },
         {
-            "Measurement Context": "pretreated via in situ oxidation",
-            "Measured Value": "350\u00b0",
-            "Unit": "Unknown",
-            "Refers To": "temperature of oxidation"
+            "Measurement Context": "Ex-situ calcination of samples",
+            "Measured Value": "450",
+            "Unit": "\u00b0 C",
+            "Refers To": "Temperature"
         },
         {
-            "Measurement Context": "EXAFS spectra",
-            "Measured Value": "1.77\u00b10.04",
-            "Unit": "\u212b",
-            "Refers To": "Re\u2014O bond length"
+            "Measurement Context": "Convergence semiangle",
+            "Measured Value": "22",
+            "Unit": "mrad",
+            "Refers To": "Angle"
         },
         {
-            "Measurement Context": "EXAFS spectra",
-            "Measured Value": "1.69\u00b10.01",
-            "Unit": "\u212b",
-            "Refers To": "Re\u2014O double bond length"
+            "Measurement Context": "Inner-collection angle",
+            "Measured Value": "83",
+            "Unit": "mrad",
+            "Refers To": "Angle"
         },
         {
-            "Measurement Context": "aqueous sodium carbonate solution",
-            "Measured Value": "10%",
-            "Unit": "mass-volume concentration",
-            "Refers To": "concentration of the solution"
+            "Measurement Context": "Outer-collection angle",
+            "Measured Value": "165",
+            "Unit": "mrad",
+            "Refers To": "Angle"
         },
         {
-            "Measurement Context": "reaction at 70\u00b0 C",
-            "Measured Value": "70\u00b0",
-            "Unit": "C",
-            "Refers To": "temperature of the reaction"
+            "Measurement Context": "Beam current",
+            "Measured Value": "11",
+            "Unit": "pA",
+            "Refers To": "Current"
+        },
+        {
+            "Measurement Context": "Pixel time",
+            "Measured Value": "4",
+            "Unit": "\u03bcs",
+            "Refers To": "Time"
+        },
+        {
+            "Measurement Context": "XAS at the Re L3 edge",
+            "Measured Value": "10535",
+            "Unit": "eV",
+            "Refers To": "Energy"
+        },
+        {
+            "Measurement Context": "Elastic modulus of the hydrogel",
+            "Measured Value": "6.6",
+            "Unit": "kPa",
+            "Refers To": "Modulus"
+        },
+        {
+            "Measurement Context": "Solid content of the SP-22 solution",
+            "Measured Value": "15",
+            "Unit": "% by mass",
+            "Refers To": "Content"
+        },
+        {
+            "Measurement Context": "Spin coating speed",
+            "Measured Value": "200",
+            "Unit": "rpm",
+            "Refers To": "Speed"
+        },
+        {
+            "Measurement Context": "Spin coating time",
+            "Measured Value": "5",
+            "Unit": "seconds",
+            "Refers To": "Time"
+        },
+        {
+            "Measurement Context": "Pre-drying temperature",
+            "Measured Value": "80",
+            "Unit": "\u00b0 C",
+            "Refers To": "Temperature"
+        },
+        {
+            "Measurement Context": "Exposure dose",
+            "Measured Value": "200",
+            "Unit": "mJ/cm^2",
+            "Refers To": "Dose"
         }
     ],
     "Patent Identifier": "US20230002279A1"

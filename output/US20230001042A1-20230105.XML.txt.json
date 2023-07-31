@@ -1,52 +1,94 @@
 {
     "Content": [
         {
-            "Measurement Context": "Example 1",
-            "Measured Value": "130",
-            "Unit": "mL",
-            "Refers To": "Volume of aqueous sodium carbonate solution"
+            "Measurement Context": "Atomic resolution high-angle annular dark field scanning transmission electron microscopy (HAADF-STEM) imaging",
+            "Measured Value": "300",
+            "Unit": "kV",
+            "Refers To": "Voltage of the microscope"
         },
         {
-            "Measurement Context": "Example 1",
-            "Measured Value": "10",
-            "Unit": "%",
-            "Refers To": "Mass-volume concentration of the aqueous sodium carbonate solution"
-        },
-        {
-            "Measurement Context": "Example 1",
-            "Measured Value": "70",
+            "Measurement Context": "ex-situ calcination of samples",
+            "Measured Value": "450",
             "Unit": "\u00b0C",
-            "Refers To": "Reaction temperature"
+            "Refers To": "Temperature of the calcination process"
         },
         {
-            "Measurement Context": "Example 1",
+            "Measurement Context": "convergence semiangle",
+            "Measured Value": "22",
+            "Unit": "mrad",
+            "Refers To": "Angle used in HAADF-STEM imaging"
+        },
+        {
+            "Measurement Context": "inner-collection angle",
+            "Measured Value": "83",
+            "Unit": "mrad",
+            "Refers To": "Angle used in HAADF-STEM imaging"
+        },
+        {
+            "Measurement Context": "outer-collection angle",
+            "Measured Value": "165",
+            "Unit": "mrad",
+            "Refers To": "Angle used in HAADF-STEM imaging"
+        },
+        {
+            "Measurement Context": "beam current",
+            "Measured Value": "11",
+            "Unit": "pA",
+            "Refers To": "Current of the electron beam in HAADF-STEM imaging"
+        },
+        {
+            "Measurement Context": "pixel time",
             "Measured Value": "4",
-            "Unit": "h",
-            "Refers To": "Reaction time"
+            "Unit": "\u03bcs",
+            "Refers To": "Time per pixel in HAADF-STEM imaging"
         },
         {
-            "Measurement Context": "Example 3",
-            "Measured Value": "60",
-            "Unit": "mL",
-            "Refers To": "Volume of anhydrous methanol"
+            "Measurement Context": "XAS at the Re L3 edge (10535 eV)",
+            "Measured Value": "10535",
+            "Unit": "eV",
+            "Refers To": "Energy level for X-ray Absorption Spectroscopy"
         },
         {
-            "Measurement Context": "Example 3",
-            "Measured Value": "420",
-            "Unit": "mg",
-            "Refers To": "Amount of catalyst scandium trifluoromethanesulfonate"
+            "Measurement Context": "a spin coater",
+            "Measured Value": "200",
+            "Unit": "rpm",
+            "Refers To": "Rotational speed of the spin coater"
         },
         {
-            "Measurement Context": "Example 3",
-            "Measured Value": "12",
-            "Unit": "h",
-            "Refers To": "Reaction time"
+            "Measurement Context": "a spin coater",
+            "Measured Value": "5",
+            "Unit": "seconds",
+            "Refers To": "Duration of spin coating at 200 rpm"
         },
         {
-            "Measurement Context": "Example 4",
+            "Measurement Context": "a spin coater",
+            "Measured Value": "1000",
+            "Unit": "rpm",
+            "Refers To": "Rotational speed of the spin coater"
+        },
+        {
+            "Measurement Context": "a spin coater",
+            "Measured Value": "30",
+            "Unit": "seconds",
+            "Refers To": "Duration of spin coating at 1000 rpm"
+        },
+        {
+            "Measurement Context": "pre-dried at 80\u00b0 C.",
             "Measured Value": "80",
-            "Unit": "mL",
-            "Refers To": "Volume of anhydrous acetonitrile"
+            "Unit": "\u00b0C",
+            "Refers To": "Temperature of pre-drying process"
+        },
+        {
+            "Measurement Context": "irradiated with light of 365 nm wavelength",
+            "Measured Value": "365",
+            "Unit": "nm",
+            "Refers To": "Wavelength of the light used for irradiation"
+        },
+        {
+            "Measurement Context": "an exposure dose of 200 mJ/cm 2",
+            "Measured Value": "200",
+            "Unit": "mJ/cm 2",
+            "Refers To": "Dose of exposure to light"
         }
     ],
     "Patent Identifier": "US20230001042A1"

@@ -1,76 +1,94 @@
 {
     "Content": [
         {
-            "Measurement Context": "Example 1",
-            "Measured Value": "130",
-            "Unit": "mL",
-            "Refers To": "Volume of aqueous sodium carbonate solution"
+            "Measurement Context": "Atomic resolution high-angle annular dark field scanning transmission electron microscopy (HAADF-STEM) imaging",
+            "Measured Value": "300 kV",
+            "Unit": "kV",
+            "Refers To": "Voltage of the microscope"
         },
         {
-            "Measurement Context": "Example 1",
-            "Measured Value": "10",
-            "Unit": "%",
-            "Refers To": "Mass-volume concentration of sodium carbonate solution"
+            "Measurement Context": "Atomic resolution high-angle annular dark field scanning transmission electron microscopy (HAADF-STEM) imaging",
+            "Measured Value": "22 mrad",
+            "Unit": "mrad",
+            "Refers To": "Convergence semiangle"
         },
         {
-            "Measurement Context": "Example 1",
-            "Measured Value": "70",
+            "Measurement Context": "Atomic resolution high-angle annular dark field scanning transmission electron microscopy (HAADF-STEM) imaging",
+            "Measured Value": "83 mrad",
+            "Unit": "mrad",
+            "Refers To": "Inner-collection angle"
+        },
+        {
+            "Measurement Context": "Atomic resolution high-angle annular dark field scanning transmission electron microscopy (HAADF-STEM) imaging",
+            "Measured Value": "165 mrad",
+            "Unit": "mrad",
+            "Refers To": "Outer-collection angle"
+        },
+        {
+            "Measurement Context": "Atomic resolution high-angle annular dark field scanning transmission electron microscopy (HAADF-STEM) imaging",
+            "Measured Value": "11 pA",
+            "Unit": "pA",
+            "Refers To": "Beam current"
+        },
+        {
+            "Measurement Context": "Atomic resolution high-angle annular dark field scanning transmission electron microscopy (HAADF-STEM) imaging",
+            "Measured Value": "4 \u03bcs",
+            "Unit": "\u03bcs",
+            "Refers To": "Pixel time"
+        },
+        {
+            "Measurement Context": "X-Ray Absorption Spectroscopy (XAS)",
+            "Measured Value": "10535 eV",
+            "Unit": "eV",
+            "Refers To": "Energy of the Re L3 edge"
+        },
+        {
+            "Measurement Context": "In-situ extended X-ray absorption fine structure (EXAFS) measurements",
+            "Measured Value": "9-16 scans",
+            "Unit": "scans",
+            "Refers To": "Number of scans"
+        },
+        {
+            "Measurement Context": "In-situ extended X-ray absorption fine structure (EXAFS) measurements",
+            "Measured Value": "50\u00b0 C",
             "Unit": "\u00b0C",
-            "Refers To": "Temperature of reaction"
+            "Refers To": "Temperature"
         },
         {
-            "Measurement Context": "Example 1",
-            "Measured Value": "4",
+            "Measurement Context": "In-situ extended X-ray absorption fine structure (EXAFS) measurements",
+            "Measured Value": "20% O 2 /He",
+            "Unit": "Unknown",
+            "Refers To": "Composition of gas mixture"
+        },
+        {
+            "Measurement Context": "In-situ extended X-ray absorption fine structure (EXAFS) measurements",
+            "Measured Value": "350\u00b0 C",
+            "Unit": "\u00b0C",
+            "Refers To": "Temperature"
+        },
+        {
+            "Measurement Context": "In-situ extended X-ray absorption fine structure (EXAFS) measurements",
+            "Measured Value": "1 h",
             "Unit": "h",
-            "Refers To": "Duration of reaction"
+            "Refers To": "Time"
         },
         {
-            "Measurement Context": "Example 2",
-            "Measured Value": "2.8",
-            "Unit": "g",
-            "Refers To": "Mass of 3,4-diformylbenzoic acid obtained"
+            "Measurement Context": "In-situ extended X-ray absorption fine structure (EXAFS) measurements",
+            "Measured Value": "150 mbar",
+            "Unit": "mbar",
+            "Refers To": "Pressure"
         },
         {
-            "Measurement Context": "Example 2",
-            "Measured Value": "56",
-            "Unit": "%",
-            "Refers To": "Yield of 3,4-diformylbenzoic acid"
+            "Measurement Context": "In-situ extended X-ray absorption fine structure (EXAFS) measurements",
+            "Measured Value": "200 mbar",
+            "Unit": "mbar",
+            "Refers To": "Pressure"
         },
         {
-            "Measurement Context": "Example 3",
-            "Measured Value": "2.8",
-            "Unit": "g",
-            "Refers To": "Mass of 3,4-bis(dibromomethyl)benzoic acid"
-        },
-        {
-            "Measurement Context": "Example 3",
-            "Measured Value": "60",
-            "Unit": "mL",
-            "Refers To": "Volume of anhydrous methanol"
-        },
-        {
-            "Measurement Context": "Example 3",
-            "Measured Value": "420",
-            "Unit": "mg",
-            "Refers To": "Mass of scandium trifluoromethanesulfonate catalyst"
-        },
-        {
-            "Measurement Context": "Example 3",
-            "Measured Value": "12",
-            "Unit": "h",
-            "Refers To": "Duration of reaction"
-        },
-        {
-            "Measurement Context": "Example 4",
-            "Measured Value": "3.6",
-            "Unit": "g",
-            "Refers To": "Mass of N-hydroxysuccinimide"
-        },
-        {
-            "Measurement Context": "Example 4",
-            "Measured Value": "80",
-            "Unit": "mL",
-            "Refers To": "Volume of anhydrous acetonitrile"
+            "Measurement Context": "In-situ extended X-ray absorption fine structure (EXAFS) measurements",
+            "Measured Value": "250\u00b0 C",
+            "Unit": "\u00b0C",
+            "Refers To": "Temperature"
         }
     ],
     "Patent Identifier": "US20230002549A1"

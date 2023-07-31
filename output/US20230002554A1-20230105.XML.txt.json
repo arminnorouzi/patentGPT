@@ -1,16 +1,82 @@
 {
     "Content": [
         {
-            "Measurement Context": "Elastic modulus of the hydrogel prepared in Example 13",
-            "Measured Value": "10.6",
-            "Unit": "kPa",
-            "Refers To": "Elastic modulus of the hydrogel"
+            "Measurement Context": "Atomic resolution high-angle annular dark field scanning transmission electron microscopy (HAADF-STEM) imaging",
+            "Measured Value": "300 kV",
+            "Unit": "kV",
+            "Refers To": "Voltage"
         },
         {
-            "Measurement Context": "Elastic modulus of the hydrogel in the mixed solution",
-            "Measured Value": "6.6",
-            "Unit": "kPa",
-            "Refers To": "Elastic modulus of the hydrogel"
+            "Measurement Context": "Ex-situ calcination of samples",
+            "Measured Value": "450\u00b0 C.",
+            "Unit": "\u00b0C",
+            "Refers To": "Temperature"
+        },
+        {
+            "Measurement Context": "Convergence semiangle",
+            "Measured Value": "22 mrad",
+            "Unit": "mrad",
+            "Refers To": "Angle"
+        },
+        {
+            "Measurement Context": "Inner-collection angle",
+            "Measured Value": "83 mrad",
+            "Unit": "mrad",
+            "Refers To": "Angle"
+        },
+        {
+            "Measurement Context": "Outer-collection angle",
+            "Measured Value": "165 mrad",
+            "Unit": "mrad",
+            "Refers To": "Angle"
+        },
+        {
+            "Measurement Context": "Beam current",
+            "Measured Value": "11 pA",
+            "Unit": "pA",
+            "Refers To": "Current"
+        },
+        {
+            "Measurement Context": "Pixel time",
+            "Measured Value": "4 \u03bcs",
+            "Unit": "\u03bcs",
+            "Refers To": "Time"
+        },
+        {
+            "Measurement Context": "XAS at the Re L3 edge",
+            "Measured Value": "10535 eV",
+            "Unit": "eV",
+            "Refers To": "Energy"
+        },
+        {
+            "Measurement Context": "Absorption length",
+            "Measured Value": "2.0",
+            "Unit": "Unknown",
+            "Refers To": "Length"
+        },
+        {
+            "Measurement Context": "Fractional absorbance of Re",
+            "Measured Value": "0.2",
+            "Unit": "Unknown",
+            "Refers To": "Absorbance"
+        },
+        {
+            "Measurement Context": "In-situ extended X-ray absorption fine structure (EXAFS) measurements",
+            "Measured Value": "9-16 scans",
+            "Unit": "scans",
+            "Refers To": "Number of Scans"
+        },
+        {
+            "Measurement Context": "Energy calibration",
+            "Measured Value": "Unknown",
+            "Unit": "Unknown",
+            "Refers To": "Unknown"
+        },
+        {
+            "Measurement Context": "k-space",
+            "Measured Value": "3.9-14",
+            "Unit": "Unknown",
+            "Refers To": "Unknown"
         }
     ],
     "Patent Identifier": "US20230002554A1"
