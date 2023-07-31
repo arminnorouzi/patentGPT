@@ -1,29 +1,101 @@
 {
-    "Patent Identifier": "US20230002559A1",
     "Content": [
         {
-            "Measurement Context": "1 H-NMR",
-            "Measured Value": "500",
-            "Unit": "MHz",
-            "Refers To": "NMR System AVANCE III HD 500"
+            "Measurement Context": "aqueous sodium carbonate solution",
+            "Measured Value": "130",
+            "Unit": "mL",
+            "Refers To": "volume"
         },
         {
-            "Measurement Context": "Column temperature",
-            "Measured Value": "40",
+            "Measurement Context": "mass-volume concentration",
+            "Measured Value": "10",
+            "Unit": "%",
+            "Refers To": "concentration"
+        },
+        {
+            "Measurement Context": "reaction temperature",
+            "Measured Value": "70",
             "Unit": "\u00b0C",
-            "Refers To": "GPC Column"
+            "Refers To": "temperature"
         },
         {
-            "Measurement Context": "Detector",
-            "Measured Value": "271",
-            "Unit": "nm",
-            "Refers To": "UV"
+            "Measurement Context": "reaction time",
+            "Measured Value": "4",
+            "Unit": "h",
+            "Refers To": "time"
         },
         {
-            "Measurement Context": "Exposure dose",
-            "Measured Value": "200",
-            "Unit": "mJ/cm 2",
-            "Refers To": "UV irradiation"
+            "Measurement Context": "pH of the reaction solution",
+            "Measured Value": "1",
+            "Unit": "Unknown",
+            "Refers To": "pH"
+        },
+        {
+            "Measurement Context": "ethyl acetate extraction",
+            "Measured Value": "4",
+            "Unit": "Unknown",
+            "Refers To": "number of extraction steps"
+        },
+        {
+            "Measurement Context": "ethyl acetate volume",
+            "Measured Value": "60",
+            "Unit": "mL",
+            "Refers To": "volume"
+        },
+        {
+            "Measurement Context": "mass of 3,4-diformylbenzoic acid",
+            "Measured Value": "2.8",
+            "Unit": "g",
+            "Refers To": "mass"
+        },
+        {
+            "Measurement Context": "yield of 3,4-diformylbenzoic acid",
+            "Measured Value": "56",
+            "Unit": "%",
+            "Refers To": "yield"
+        },
+        {
+            "Measurement Context": "mass of 3,4-bis(dibromomethyl)benzoic acid",
+            "Measured Value": "2.8",
+            "Unit": "g",
+            "Refers To": "mass"
+        },
+        {
+            "Measurement Context": "volume of anhydrous methanol",
+            "Measured Value": "60",
+            "Unit": "mL",
+            "Refers To": "volume"
+        },
+        {
+            "Measurement Context": "mass of catalyst scandium trifluoromethanesulfonate",
+            "Measured Value": "420",
+            "Unit": "mg",
+            "Refers To": "mass"
+        },
+        {
+            "Measurement Context": "reaction time",
+            "Measured Value": "12",
+            "Unit": "h",
+            "Refers To": "time"
+        },
+        {
+            "Measurement Context": "mass of 1,3-dimethoxy-1,3-dihydroisobenzofuran-5-carboxylic acid",
+            "Measured Value": "3.5",
+            "Unit": "g",
+            "Refers To": "mass"
+        },
+        {
+            "Measurement Context": "mass of N-hydroxysuccinimide",
+            "Measured Value": "3.6",
+            "Unit": "g",
+            "Refers To": "mass"
+        },
+        {
+            "Measurement Context": "volume of anhydrous acetonitrile",
+            "Measured Value": "80",
+            "Unit": "mL",
+            "Refers To": "volume"
         }
-    ]
+    ],
+    "Patent Identifier": "US20230002654A1"
 }

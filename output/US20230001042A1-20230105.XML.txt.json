@@ -1,35 +1,53 @@
 {
-    "Patent Identifier": "US20230001042A1",
     "Content": [
         {
-            "Measurement Context": "medical suture thread",
-            "Measured Value": "equal to or greater than 0.05% and less than 0.3%",
-            "Unit": "weight",
-            "Refers To": "cover layer"
+            "Measurement Context": "Example 1",
+            "Measured Value": "130",
+            "Unit": "mL",
+            "Refers To": "Volume of aqueous sodium carbonate solution"
         },
         {
-            "Measurement Context": "filament 111a",
-            "Measured Value": "substantially uniform",
-            "Unit": "Unknown",
-            "Refers To": "formation density"
+            "Measurement Context": "Example 1",
+            "Measured Value": "10",
+            "Unit": "%",
+            "Refers To": "Mass-volume concentration of the aqueous sodium carbonate solution"
         },
         {
-            "Measurement Context": "filament 111a",
-            "Measured Value": "equal to or greater than 0.05% and less than 0.3%",
-            "Unit": "weight",
-            "Refers To": "inner-filament cover layer"
+            "Measurement Context": "Example 1",
+            "Measured Value": "70",
+            "Unit": "\u00b0C",
+            "Refers To": "Reaction temperature"
         },
         {
-            "Measurement Context": "filament 111a",
-            "Measured Value": "equal to or greater than 0.05% and less than 0.3%",
-            "Unit": "weight",
-            "Refers To": "inner-filament cover layer"
+            "Measurement Context": "Example 1",
+            "Measured Value": "4",
+            "Unit": "h",
+            "Refers To": "Reaction time"
         },
         {
-            "Measurement Context": "filament 121a",
-            "Measured Value": "equal to or greater than 0.05% and less than 0.3%",
-            "Unit": "weight",
-            "Refers To": "outer-filament cover layer"
+            "Measurement Context": "Example 3",
+            "Measured Value": "60",
+            "Unit": "mL",
+            "Refers To": "Volume of anhydrous methanol"
+        },
+        {
+            "Measurement Context": "Example 3",
+            "Measured Value": "420",
+            "Unit": "mg",
+            "Refers To": "Amount of catalyst scandium trifluoromethanesulfonate"
+        },
+        {
+            "Measurement Context": "Example 3",
+            "Measured Value": "12",
+            "Unit": "h",
+            "Refers To": "Reaction time"
+        },
+        {
+            "Measurement Context": "Example 4",
+            "Measured Value": "80",
+            "Unit": "mL",
+            "Refers To": "Volume of anhydrous acetonitrile"
         }
-    ]
+    ],
+    "Patent Identifier": "US20230001042A1"
 }

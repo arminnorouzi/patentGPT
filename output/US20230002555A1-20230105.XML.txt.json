@@ -1,11 +1,10 @@
 {
-    "Patent Identifier": "Unknown",
     "Content": [
         {
             "Measurement Context": "[ 1 H-NMR] Apparatus",
             "Measured Value": "500",
             "Unit": "MHz",
-            "Refers To": "NMR System AVANCE III HD"
+            "Refers To": "Nuclear Magnetic Resonance (NMR) frequency"
         },
         {
             "Measurement Context": "[GPC] Apparatus",
@@ -17,7 +16,13 @@
             "Measurement Context": "[GPC] Apparatus",
             "Measured Value": "271",
             "Unit": "nm",
-            "Refers To": "Detector: UV"
+            "Refers To": "Detector wavelength"
+        },
+        {
+            "Measurement Context": "[Optical Microscope] Apparatus",
+            "Measured Value": "Unknown",
+            "Unit": "Unknown",
+            "Refers To": "Unknown"
         },
         {
             "Measurement Context": "[Ultraviolet-Visible-Near Infrared Spectrophotometer] Apparatus",
@@ -26,28 +31,29 @@
             "Refers To": "Unknown"
         },
         {
-            "Measurement Context": "weight average molecular weight Mw",
+            "Measurement Context": "Residual film ratio",
+            "Measured Value": "Unknown",
+            "Unit": "%",
+            "Refers To": "Ratio of film thickness after solvent exposure to film thickness before solvent exposure"
+        },
+        {
+            "Measurement Context": "Transmittance",
+            "Measured Value": "91.8",
+            "Unit": "%",
+            "Refers To": "Percentage of light transmitted through a material"
+        },
+        {
+            "Measurement Context": "Weight average molecular weight Mw",
             "Measured Value": "23,350",
             "Unit": "Unknown",
-            "Refers To": "compound P-6"
+            "Refers To": "Molecular weight of a compound measured by GPC"
         },
         {
-            "Measurement Context": "polydispersity Mw/Mn",
+            "Measurement Context": "Polydispersity Mw/Mn",
             "Measured Value": "6.5",
             "Unit": "Unknown",
-            "Refers To": "compound P-6"
-        },
-        {
-            "Measurement Context": "exposure dose",
-            "Measured Value": "200",
-            "Unit": "mJ/cm 2",
-            "Refers To": "light"
-        },
-        {
-            "Measurement Context": "cured film",
-            "Measured Value": "Unknown",
-            "Unit": "Unknown",
-            "Refers To": "Unknown"
+            "Refers To": "Polydispersity index of a compound measured by GPC"
         }
-    ]
+    ],
+    "Patent Identifier": "US20230002555A1"
 }

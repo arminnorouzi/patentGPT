@@ -9,9 +9,11 @@ from langchain.vectorstores import Chroma
 from langchain.chat_models import ChatOpenAI
 from langchain.chains import RetrievalQA
 from langchain.document_loaders import TextLoader
+from langchain.prompts import PromptTemplate
+
 
 # Move variables and functions that don't need to be in the main function outside
-nltk.download("punkt")
+nltk.download("punkt", quiet=True)
 
 from nltk import word_tokenize, sent_tokenize
 
@@ -82,14 +84,45 @@ def call_QA_to_json(
     )
 
     # vectordb.persist()
+    PROMPT_FORMAT = """
+    Task: Use the following pieces of context to answer the question at the end.
+
+    {context}
+
+    Question: {question}
+    """
+
+    PROMPT = PromptTemplate(
+        template=PROMPT_FORMAT, input_variables=["context", "question"]
+    )
+
+    chain_type_kwargs = {"prompt": PROMPT}
+
+
 
     retrieval_chain = RetrievalQA.from_chain_type(
-        llm, chain_type="stuff", retriever=vectordb.as_retriever()
+        llm, chain_type="stuff", retriever=vectordb.as_retriever(), chain_type_kwargs=chain_type_kwargs, 
+        # return_source_documents=True
+
     )
 
     if logging:
         print("Running retrieval chain...")
     output = retrieval_chain.run(prompt)
+
+    # Convert output to dictionary
+    output_dict = json.loads(output)
+
+    # result  = retrieval_chain({"query": prompt})
+    # print(result["result"])
+    # print(result["source_documents"])
+
+    # Convert output to dictionary
+    output_dict = json.loads(output)
+
+    # Manually assign the Patent Identifier
+    output_dict["Patent Identifier"] = saved_patent_names[count].split("-")[0]
+
 
     # Check if the directory 'output' exists, if not create it
     if not os.path.exists("output"):
@@ -97,10 +130,10 @@ def call_QA_to_json(
 
     if logging:
         print("Writing the output to a file...")
+
     # Write the output to a file in the 'output' directory
     with open(f"output/{saved_patent_names[count]}.json", "w") as json_file:
-        # We need to convert the string to a Python dictionary using json.loads
-        json.dump(json.loads(output), json_file, indent=4)
+        json.dump(output_dict, json_file, indent=4)
 
     if logging:
         print("Call to 'call_QA_to_json' completed.")

@@ -1,53 +1,41 @@
 {
-    "Patent Identifier": "US20230001385A1",
     "Content": [
         {
-            "Measurement Context": "HAADF-STEM imaging",
-            "Measured Value": "convergence semiangle of 22",
-            "Unit": "mrad",
-            "Refers To": "imaging technique parameter"
-        },
-        {
-            "Measurement Context": "HAADF-STEM imaging",
-            "Measured Value": "inner-collection angle of 83",
-            "Unit": "mrad",
-            "Refers To": "imaging technique parameter"
-        },
-        {
-            "Measurement Context": "HAADF-STEM imaging",
-            "Measured Value": "outer-collection angle of 165",
-            "Unit": "mrad",
-            "Refers To": "imaging technique parameter"
-        },
-        {
-            "Measurement Context": "HAADF-STEM imaging",
-            "Measured Value": "beam current of 11",
-            "Unit": "pA",
-            "Refers To": "imaging technique parameter"
-        },
-        {
-            "Measurement Context": "HAADF-STEM imaging",
-            "Measured Value": "pixel time of 4",
-            "Unit": "\u03bcs",
-            "Refers To": "imaging technique parameter"
-        },
-        {
-            "Measurement Context": "XAS",
-            "Measured Value": "Re L3 edge",
-            "Unit": "Unknown",
-            "Refers To": "X-ray absorption spectroscopy"
-        },
-        {
-            "Measurement Context": "XPS measurements",
-            "Measured Value": "pressure below 1\u00d710^(-9)",
+            "Measurement Context": "High-resolution XPS measurements",
+            "Measured Value": "below 1\u00d710 \u22129",
             "Unit": "Torr",
-            "Refers To": "pressure in XPS chamber"
+            "Refers To": "pressure in the XPS chamber"
         },
         {
-            "Measurement Context": "FTIR",
-            "Measured Value": "pretreatment at 350",
-            "Unit": "\u00b0",
-            "Refers To": "pretreatment temperature"
+            "Measurement Context": "pretreated via in situ oxidation",
+            "Measured Value": "350\u00b0",
+            "Unit": "Unknown",
+            "Refers To": "temperature"
+        },
+        {
+            "Measurement Context": "EXAFS spectra",
+            "Measured Value": "1.77\u00b10.04",
+            "Unit": "\u212b",
+            "Refers To": "Re\u2014O bond length"
+        },
+        {
+            "Measurement Context": "EXAFS spectra",
+            "Measured Value": "1.69\u00b10.01",
+            "Unit": "\u212b",
+            "Refers To": "Re\u2550O double bond length"
+        },
+        {
+            "Measurement Context": "mass-volume concentration",
+            "Measured Value": "10%",
+            "Unit": "Unknown",
+            "Refers To": "concentration of aqueous sodium carbonate solution"
+        },
+        {
+            "Measurement Context": "reaction conducted for 12 h",
+            "Measured Value": "12",
+            "Unit": "h",
+            "Refers To": "duration of the reaction"
         }
-    ]
+    ],
+    "Patent Identifier": "US20230001385A1"
 }

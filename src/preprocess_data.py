@@ -178,7 +178,7 @@ def extract_patents(year, month, day, logging):
                     f.write(
                         f"-patent_id: {patent_id} -file_id: {file_id} -full text: {description_string}"
                     )
-                saved_patent_names.append(output_file_path)
+                saved_patent_names.append(f"{file_id}.txt")
 
             elif logging:
                 print(

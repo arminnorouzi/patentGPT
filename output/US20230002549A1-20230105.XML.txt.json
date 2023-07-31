@@ -1,47 +1,77 @@
 {
-    "Patent Identifier": "US20230002279A1",
     "Content": [
         {
-            "Measurement Context": "ex-situ calcination",
-            "Measured Value": "450",
+            "Measurement Context": "Example 1",
+            "Measured Value": "130",
+            "Unit": "mL",
+            "Refers To": "Volume of aqueous sodium carbonate solution"
+        },
+        {
+            "Measurement Context": "Example 1",
+            "Measured Value": "10",
+            "Unit": "%",
+            "Refers To": "Mass-volume concentration of sodium carbonate solution"
+        },
+        {
+            "Measurement Context": "Example 1",
+            "Measured Value": "70",
             "Unit": "\u00b0C",
-            "Refers To": "temperature"
+            "Refers To": "Temperature of reaction"
         },
         {
-            "Measurement Context": "convergence semiangle",
-            "Measured Value": "22",
-            "Unit": "mrad",
-            "Refers To": "angle"
-        },
-        {
-            "Measurement Context": "inner-collection angle",
-            "Measured Value": "83",
-            "Unit": "mrad",
-            "Refers To": "angle"
-        },
-        {
-            "Measurement Context": "outer-collection angle",
-            "Measured Value": "165",
-            "Unit": "mrad",
-            "Refers To": "angle"
-        },
-        {
-            "Measurement Context": "beam current",
-            "Measured Value": "11",
-            "Unit": "pA",
-            "Refers To": "current"
-        },
-        {
-            "Measurement Context": "pixel time",
+            "Measurement Context": "Example 1",
             "Measured Value": "4",
-            "Unit": "\u03bcs",
-            "Refers To": "time"
+            "Unit": "h",
+            "Refers To": "Duration of reaction"
         },
         {
-            "Measurement Context": "Re L3 edge",
-            "Measured Value": "10535",
-            "Unit": "eV",
-            "Refers To": "energy"
+            "Measurement Context": "Example 2",
+            "Measured Value": "2.8",
+            "Unit": "g",
+            "Refers To": "Mass of 3,4-diformylbenzoic acid obtained"
+        },
+        {
+            "Measurement Context": "Example 2",
+            "Measured Value": "56",
+            "Unit": "%",
+            "Refers To": "Yield of 3,4-diformylbenzoic acid"
+        },
+        {
+            "Measurement Context": "Example 3",
+            "Measured Value": "2.8",
+            "Unit": "g",
+            "Refers To": "Mass of 3,4-bis(dibromomethyl)benzoic acid"
+        },
+        {
+            "Measurement Context": "Example 3",
+            "Measured Value": "60",
+            "Unit": "mL",
+            "Refers To": "Volume of anhydrous methanol"
+        },
+        {
+            "Measurement Context": "Example 3",
+            "Measured Value": "420",
+            "Unit": "mg",
+            "Refers To": "Mass of scandium trifluoromethanesulfonate catalyst"
+        },
+        {
+            "Measurement Context": "Example 3",
+            "Measured Value": "12",
+            "Unit": "h",
+            "Refers To": "Duration of reaction"
+        },
+        {
+            "Measurement Context": "Example 4",
+            "Measured Value": "3.6",
+            "Unit": "g",
+            "Refers To": "Mass of N-hydroxysuccinimide"
+        },
+        {
+            "Measurement Context": "Example 4",
+            "Measured Value": "80",
+            "Unit": "mL",
+            "Refers To": "Volume of anhydrous acetonitrile"
         }
-    ]
+    ],
+    "Patent Identifier": "US20230002549A1"
 }
