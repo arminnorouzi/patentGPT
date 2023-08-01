@@ -1,63 +1,129 @@
 {
     "Content": [
         {
-            "Measurement_substance": "Tg",
-            "Measured_value": "ca. -60",
-            "Measured_unit": "\u00b0C",
-            "measurement_type": "glass transition temperature"
+            "Measurement_substance": "triblock polymer",
+            "Measured_value": "ca. \u221260\u00b0 C.",
+            "Measured_unit": "\u00b0 C.",
+            "measurement_type": "Tg (glass transition temperature)"
         },
         {
-            "Measurement_substance": "Tm",
-            "Measured_value": "20-35",
-            "Measured_unit": "\u00b0C",
-            "measurement_type": "melt point"
+            "Measurement_substance": "triblock polymer",
+            "Measured_value": "20-35\u00b0 C.",
+            "Measured_unit": "\u00b0 C.",
+            "measurement_type": "Tm (melt point)"
         },
         {
-            "Measurement_substance": "\u03b2-Lactone/\u03b5-Caprolactone Block",
-            "Measured_value": "not expected to be detected",
-            "Measured_unit": "N/A",
-            "measurement_type": "signals in DSC"
+            "Measurement_substance": "adhesive formulations",
+            "Measured_value": "20, 40, 60, and 80%",
+            "Measured_unit": "%",
+            "measurement_type": "VII:Rosin Ester ratios"
         },
         {
-            "Measurement_substance": "adhesive materials",
-            "Measured_value": "2-10",
-            "Measured_unit": "Ncm^-1",
+            "Measurement_substance": "samples",
+            "Measured_value": "1 mil films",
+            "Measured_unit": "mil",
+            "measurement_type": "film thickness"
+        },
+        {
+            "Measurement_substance": "samples",
+            "Measured_value": "2 Ncm \u22121 and 10 Ncm \u22121",
+            "Measured_unit": "Ncm \u22121",
             "measurement_type": "peel forces"
         },
         {
-            "Measurement_substance": "G\u2032",
-            "Measured_value": "<10^6",
+            "Measurement_substance": "polymer",
+            "Measured_value": "up to 60% by weight",
+            "Measured_unit": "% by weight",
+            "measurement_type": "amount"
+        },
+        {
+            "Measurement_substance": "polymer",
+            "Measured_value": "1 and 50% by weight",
+            "Measured_unit": "% by weight",
+            "measurement_type": "preferred amount"
+        },
+        {
+            "Measurement_substance": "monomer",
+            "Measured_value": "four-membered ring",
+            "Measured_unit": "N/A",
+            "measurement_type": "monomer type"
+        },
+        {
+            "Measurement_substance": "monomer",
+            "Measured_value": "seven-membered ring or higher",
+            "Measured_unit": "N/A",
+            "measurement_type": "monomer type"
+        },
+        {
+            "Measurement_substance": "hot melt adhesive",
+            "Measured_value": "G\u2032<10 6 Pa at 20\u00b0 C.",
             "Measured_unit": "Pa",
             "measurement_type": "storage modulus"
         },
         {
-            "Measurement_substance": "elongation at break",
-            "Measured_value": "100-3,000",
+            "Measurement_substance": "hot melt adhesive",
+            "Measured_value": "between 100-3,000%",
             "Measured_unit": "%",
-            "measurement_type": "values"
+            "measurement_type": "elongation at break values"
         },
         {
-            "Measurement_substance": "Tm",
-            "Measured_value": "<60",
-            "Measured_unit": "\u00b0C",
+            "Measurement_substance": "hot melt adhesive",
+            "Measured_value": "Tm<60\u00b0 C.",
+            "Measured_unit": "\u00b0 C.",
             "measurement_type": "melting point"
         },
         {
-            "Measurement_substance": "Tg",
-            "Measured_value": "-100 to 60",
-            "Measured_unit": "\u00b0C",
-            "measurement_type": "glass transition temperature"
+            "Measurement_substance": "hot melt adhesive",
+            "Measured_value": "No or low crystallinity",
+            "Measured_unit": "N/A",
+            "measurement_type": "crystallinity"
         },
         {
-            "Measurement_substance": "VII:Rosin Ester ratios",
-            "Measured_value": "20, 40, 60, and 80",
-            "Measured_unit": "% tackifier loading",
-            "measurement_type": "ratios"
+            "Measurement_substance": "hot melt adhesive",
+            "Measured_value": "between about \u2212100 to 60\u00b0 C.",
+            "Measured_unit": "\u00b0 C.",
+            "measurement_type": "Tg (glass transition temperature)"
+        },
+        {
+            "Measurement_substance": "rheometer",
+            "Measured_value": "10 radians per second",
+            "Measured_unit": "radians per second",
+            "measurement_type": "frequency"
+        },
+        {
+            "Measurement_substance": "rheometer",
+            "Measured_value": "170\u00b0 C.",
+            "Measured_unit": "\u00b0 C.",
+            "measurement_type": "temperature"
+        },
+        {
+            "Measurement_substance": "rheometer",
+            "Measured_value": "\u221240\u00b0 C.",
+            "Measured_unit": "\u00b0 C.",
+            "measurement_type": "temperature"
+        },
+        {
+            "Measurement_substance": "rheometer",
+            "Measured_value": "25 mm",
+            "Measured_unit": "mm",
+            "measurement_type": "diameter"
+        },
+        {
+            "Measurement_substance": "rheometer",
+            "Measured_value": "1.6 millimeter",
+            "Measured_unit": "millimeter",
+            "measurement_type": "gap"
         },
         {
             "Measurement_substance": "poly(\u03b2-lactone-co-\u03b5-caprolactone)",
-            "Measured_value": "ca. 80-90",
-            "Measured_unit": "% yield",
+            "Measured_value": "ca. 80-90%",
+            "Measured_unit": "%",
+            "measurement_type": "yield"
+        },
+        {
+            "Measurement_substance": "poly(\u03b2-lactone-co-\u03b5-caprolactone)",
+            "Measured_value": "ca. 80-90%",
+            "Measured_unit": "%",
             "measurement_type": "yield"
         }
     ],

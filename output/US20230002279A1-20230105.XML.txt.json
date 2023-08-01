@@ -4,79 +4,91 @@
             "Measurement_substance": "play sand",
             "Measured_value": "91.5",
             "Measured_unit": "%",
-            "measurement_type": "percentage"
+            "measurement_type": "proportion"
         },
         {
             "Measurement_substance": "photoluminescent pigment",
             "Measured_value": "5",
             "Measured_unit": "%",
-            "measurement_type": "percentage"
+            "measurement_type": "proportion"
         },
         {
             "Measurement_substance": "powdered binder",
             "Measured_value": "3",
             "Measured_unit": "%",
-            "measurement_type": "percentage"
+            "measurement_type": "proportion"
         },
         {
             "Measurement_substance": "curing agent",
             "Measured_value": "0.5",
             "Measured_unit": "%",
-            "measurement_type": "percentage"
+            "measurement_type": "proportion"
         },
         {
             "Measurement_substance": "play sand",
             "Measured_value": "89",
             "Measured_unit": "%",
-            "measurement_type": "percentage"
+            "measurement_type": "proportion"
         },
         {
             "Measurement_substance": "photoluminescent pigment",
             "Measured_value": "5",
             "Measured_unit": "%",
-            "measurement_type": "percentage"
+            "measurement_type": "proportion"
         },
         {
             "Measurement_substance": "powdered binder",
             "Measured_value": "5",
             "Measured_unit": "%",
-            "measurement_type": "percentage"
+            "measurement_type": "proportion"
         },
         {
             "Measurement_substance": "curing agent",
             "Measured_value": "1",
             "Measured_unit": "%",
-            "measurement_type": "percentage"
+            "measurement_type": "proportion"
         },
         {
             "Measurement_substance": "play sand",
-            "Measured_value": "five minutes",
+            "Measured_value": "5",
             "Measured_unit": "minutes",
             "measurement_type": "mixing time"
         },
         {
             "Measurement_substance": "photoluminescent pigment",
-            "Measured_value": "five minutes",
+            "Measured_value": "5",
             "Measured_unit": "minutes",
             "measurement_type": "mixing time"
         },
         {
             "Measurement_substance": "photo sand mix",
-            "Measured_value": "fifteen minutes",
+            "Measured_value": "15",
             "Measured_unit": "minutes",
             "measurement_type": "mixing time"
         },
         {
-            "Measurement_substance": "formula I",
+            "Measurement_substance": "Formula I",
             "Measured_value": "7",
             "Measured_unit": "days",
             "measurement_type": "curing time"
         },
         {
-            "Measurement_substance": "formula II",
+            "Measurement_substance": "Formula II",
             "Measured_value": "3",
             "Measured_unit": "days",
             "measurement_type": "curing time"
+        },
+        {
+            "Measurement_substance": "patent application Ser. No. 16/811,776",
+            "Measured_value": "",
+            "Measured_unit": "",
+            "measurement_type": "patent application number"
+        },
+        {
+            "Measurement_substance": "patent application Ser. No. 16/782,112",
+            "Measured_value": "",
+            "Measured_unit": "",
+            "measurement_type": "patent application number"
         }
     ],
     "Patent Identifier": "US20230002279A1"

@@ -241,6 +241,8 @@ def call_TA_to_json(
 
     return documents_raw, output
 
+import gc
+
 
 def call_QA_faiss_to_json(
     prompt, year, month, day, saved_patent_names, count=8, logging=True, model_name="gpt-3.5-turbo"
@@ -296,7 +298,7 @@ def call_QA_faiss_to_json(
 
 
     if logging:
-        print("Running retrieval chain...")
+        print("Running chain...")
 
     with get_openai_callback() as cb:
         output = chain.run(input_documents=docs, question=prompt)
@@ -334,5 +336,6 @@ def call_QA_faiss_to_json(
 
     if logging:
         print("Call to 'call_QA_to_json' completed.")
+
 
     return documents_raw, output

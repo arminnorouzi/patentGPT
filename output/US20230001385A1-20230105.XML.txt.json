@@ -1,142 +1,136 @@
 {
     "Content": [
         {
-            "Measurement_substance": "reaction conditions",
-            "Measured_value": "150 mbar",
+            "Measurement_substance": "methanol",
+            "Measured_value": "150",
             "Measured_unit": "mbar",
-            "measurement_type": "methanol"
+            "measurement_type": "partial pressure"
         },
         {
-            "Measurement_substance": "reaction conditions",
-            "Measured_value": "200 mbar",
+            "Measurement_substance": "CO",
+            "Measured_value": "200",
             "Measured_unit": "mbar",
-            "measurement_type": "CO"
+            "measurement_type": "partial pressure"
         },
         {
-            "Measurement_substance": "reaction conditions",
-            "Measured_value": "250\u00b0 C.",
-            "Measured_unit": "\u00b0 C.",
-            "measurement_type": "temperature"
+            "Measurement_substance": "He",
+            "Measured_value": "",
+            "Measured_unit": "",
+            "measurement_type": "carrier gas"
         },
         {
-            "Measurement_substance": "reaction conditions",
-            "Measured_value": "1 h",
+            "Measurement_substance": "temperature",
+            "Measured_value": "250",
+            "Measured_unit": "\u00b0C",
+            "measurement_type": "reaction condition"
+        },
+        {
+            "Measurement_substance": "time",
+            "Measured_value": "1",
             "Measured_unit": "h",
-            "measurement_type": "time"
+            "measurement_type": "reaction condition"
         },
         {
-            "Measurement_substance": "EXAFS function",
+            "Measurement_substance": "k",
             "Measured_value": "3.9-14",
-            "Measured_unit": "k",
-            "measurement_type": "k-values"
+            "Measured_unit": "",
+            "measurement_type": "EXAFS function range"
         },
         {
-            "Measurement_substance": "R range",
-            "Measured_value": "1-2.2 \u212b",
+            "Measurement_substance": "R",
+            "Measured_value": "1-2.2",
             "Measured_unit": "\u212b",
-            "measurement_type": "R range"
+            "measurement_type": "EXAFS fitting range"
         },
         {
-            "Measurement_substance": "S o 2",
+            "Measurement_substance": "S",
             "Measured_value": "0.73\u00b10.04",
             "Measured_unit": "",
-            "measurement_type": "S o 2"
+            "measurement_type": "determined value"
+        },
+        {
+            "Measurement_substance": "Re",
+            "Measured_value": "",
+            "Measured_unit": "",
+            "measurement_type": "metal standard"
+        },
+        {
+            "Measurement_substance": "Re",
+            "Measured_value": "5, 10, and 20",
+            "Measured_unit": "wt %",
+            "measurement_type": "loading samples"
         },
         {
             "Measurement_substance": "Re\u2014O scattering paths",
-            "Measured_value": "two",
+            "Measured_value": "",
             "Measured_unit": "",
-            "measurement_type": "scattering paths"
+            "measurement_type": "fitting paths"
         },
         {
-            "Measurement_substance": "O 2 flow",
-            "Measured_value": "1 h",
-            "Measured_unit": "h",
-            "measurement_type": "time"
-        },
-        {
-            "Measurement_substance": "CO partial pressure",
-            "Measured_value": "30 mbar",
-            "Measured_unit": "mbar",
-            "measurement_type": "pressure"
-        },
-        {
-            "Measurement_substance": "methanol partial pressures",
-            "Measured_value": "42, 105, and 150 mbar",
-            "Measured_unit": "mbar",
-            "measurement_type": "pressure"
-        },
-        {
-            "Measurement_substance": "spectra",
-            "Measured_value": "32",
+            "Measurement_substance": "NH3",
+            "Measured_value": "",
             "Measured_unit": "",
-            "measurement_type": "scans"
+            "measurement_type": "reactant"
         },
         {
-            "Measurement_substance": "resolution",
-            "Measured_value": "4 cm \u22121",
-            "Measured_unit": "cm \u22121",
-            "measurement_type": "resolution"
-        },
-        {
-            "Measurement_substance": "TPD measurements",
-            "Measured_value": "100-350\u00b0 C.",
-            "Measured_unit": "\u00b0 C.",
-            "measurement_type": "temperature range"
+            "Measurement_substance": "temperature",
+            "Measured_value": "100-350",
+            "Measured_unit": "\u00b0C",
+            "measurement_type": "TPD measurement range"
         },
         {
             "Measurement_substance": "heating rate",
-            "Measured_value": "10\u00b0 C./min",
-            "Measured_unit": "\u00b0 C./min",
-            "measurement_type": "heating rate"
+            "Measured_value": "10",
+            "Measured_unit": "\u00b0C/min",
+            "measurement_type": "TPD measurement"
         },
         {
-            "Measurement_substance": "NH3 concentration",
-            "Measured_value": "gold-plated filament thermal conductivity detector",
+            "Measurement_substance": "NH3",
+            "Measured_value": "",
             "Measured_unit": "",
-            "measurement_type": "NH3 concentration"
+            "measurement_type": "desorbed substance"
         },
         {
-            "Measurement_substance": "desorbed NH3",
-            "Measured_value": "calibrated area under the desorption curve",
+            "Measurement_substance": "Al",
+            "Measured_value": "",
             "Measured_unit": "",
-            "measurement_type": "amount"
+            "measurement_type": "X-ray source"
         },
         {
-            "Measurement_substance": "XPS chamber pressure",
-            "Measured_value": "below 1\u00d710 \u22129 Torr",
+            "Measurement_substance": "pressure",
+            "Measured_value": "1\u00d710^-9",
             "Measured_unit": "Torr",
-            "measurement_type": "pressure"
+            "measurement_type": "XPS chamber pressure"
         },
         {
-            "Measurement_substance": "XPS measurements",
-            "Measured_value": "monochromatic Al anode Xray source",
-            "Measured_unit": "",
-            "measurement_type": "XPS measurements"
+            "Measurement_substance": "surface area",
+            "Measured_value": "at least 50",
+            "Measured_unit": "m^2/g",
+            "measurement_type": "support surface area"
         },
         {
-            "Measurement_substance": "FTIR spectra",
-            "Measured_value": "32 sequentially collected scans",
-            "Measured_unit": "",
-            "measurement_type": "scans"
+            "Measurement_substance": "surface area",
+            "Measured_value": "up to 1000",
+            "Measured_unit": "m^2/g",
+            "measurement_type": "support surface area"
         },
         {
-            "Measurement_substance": "FTIR resolution",
-            "Measured_value": "4 cm \u22121",
-            "Measured_unit": "cm \u22121",
-            "measurement_type": "resolution"
+            "Measurement_substance": "surface area",
+            "Measured_value": "between 100 and 1000",
+            "Measured_unit": "m^2/g",
+            "measurement_type": "support surface area"
         },
         {
-            "Measurement_substance": "support dimension",
-            "Measured_value": "900 \u03bcm, 800 \u03bcm, 700 \u03bcm, 600 \u03bcm, 500 \u03bcm, 400 \u03bcm, 300 \u03bcm, 200 \u03bcm, 100 \u03bcm",
-            "Measured_unit": "\u03bcm",
-            "measurement_type": "dimension"
+            "Measurement_substance": "surface area",
+            "Measured_value": "between 200 and 1000",
+            "Measured_unit": "m^2/g",
+            "measurement_type": "support surface area"
         },
         {
-            "Measurement_substance": "support surface area",
-            "Measured_value": "at least 50 m2/g, at least 100 m2/g, at least 200 m2/g, at least 300 m2/g, at least 400 m2/g, at least 500 m2/g, up to 1000 m2/g, up to 900 m2/g, up to 800 m2/g, between 100 m2/g and 1000 m2/g, between 200 m2/g and 1000 m2/g, between 300 m",
-            "Measured_unit": "m2/g",
-            "measurement_type": "surface area"
+            "Measurement_substance": "surface area",
+            "Measured_value": "between 300 and",
+            "Measured_unit": "m^2/g",
+            "measurement_type": "support surface area"
         }
     ],
     "Patent Identifier": "US20230001385A1"
