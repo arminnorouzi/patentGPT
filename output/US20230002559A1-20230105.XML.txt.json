@@ -1,46 +1,88 @@
 {
     "Content": [
         {
-            "Measurement_substance": "Tetramethylsilane (TMS)",
-            "Measured_value": "\u03b40.0",
-            "Measured_unit": "ppm",
-            "measurement_type": "reference material"
+            "Measurement_substance": "DMF",
+            "Measured_value": "1",
+            "Measured_unit": "mL",
+            "measurement_type": "volume"
         },
         {
-            "Measurement_substance": "Polystyrene",
-            "Measured_value": "6,070",
-            "Measured_unit": "Mw",
-            "measurement_type": "weight"
+            "Measurement_substance": "temperature",
+            "Measured_value": "55",
+            "Measured_unit": "\u00b0C",
+            "measurement_type": "temperature"
         },
         {
-            "Measurement_substance": "Polystyrene",
-            "Measured_value": "2.6",
-            "Measured_unit": "Mw/Mn",
-            "measurement_type": "polydispersity"
+            "Measurement_substance": "time",
+            "Measured_value": "1",
+            "Measured_unit": "h",
+            "measurement_type": "time"
         },
         {
-            "Measurement_substance": "Film thickness",
-            "Measured_value": "after solvent exposure/film thickness before solvent exposure",
+            "Measurement_substance": "chloroform",
+            "Measured_value": "2",
+            "Measured_unit": "mL",
+            "measurement_type": "volume"
+        },
+        {
+            "Measurement_substance": "methanol",
+            "Measured_value": "800",
+            "Measured_unit": "rpm",
+            "measurement_type": "stirring speed"
+        },
+        {
+            "Measurement_substance": "yield",
+            "Measured_value": "90",
             "Measured_unit": "%",
-            "measurement_type": "residual film ratio"
+            "measurement_type": "yield"
         },
         {
-            "Measurement_substance": "Refractive index",
-            "Measured_value": "not specified",
-            "Measured_unit": "not specified",
-            "measurement_type": "not specified"
+            "Measurement_substance": "Mw",
+            "Measured_value": "26,400",
+            "Measured_unit": "",
+            "measurement_type": "molecular weight"
         },
         {
-            "Measurement_substance": "Film thickness",
-            "Measured_value": "not specified",
-            "Measured_unit": "not specified",
-            "measurement_type": "not specified"
+            "Measurement_substance": "molecular weight distribution",
+            "Measured_value": "1.57",
+            "Measured_unit": "",
+            "measurement_type": "molecular weight distribution"
         },
         {
-            "Measurement_substance": "Cured film surface",
-            "Measured_value": "not specified",
-            "Measured_unit": "not specified",
-            "measurement_type": "observation"
+            "Measurement_substance": "Mw",
+            "Measured_value": "24,600",
+            "Measured_unit": "",
+            "measurement_type": "molecular weight"
+        },
+        {
+            "Measurement_substance": "molecular weight distribution",
+            "Measured_value": "1.73",
+            "Measured_unit": "",
+            "measurement_type": "molecular weight distribution"
+        },
+        {
+            "Measurement_substance": "temperature",
+            "Measured_value": "248",
+            "Measured_unit": "\u00b0C",
+            "measurement_type": "temperature"
+        },
+        {
+            "Measurement_substance": "yield",
+            "Measured_value": "91",
+            "Measured_unit": "%",
+            "measurement_type": "yield"
+        },
+        {
+            "Measurement_substance": "Mw",
+            "Measured_value": "27,600",
+            "Measured_unit": "",
+            "measurement_type": "molecular weight"
+        },
+        {
+            "Measurement_substance": "molecular weight distribution",
+            "Measured_value": "1.65",
+            "Measured_unit": "",
+            "measurement_type": "molecular weight distribution"
         }
     ],
     "Patent Identifier": "US20230002559A1"

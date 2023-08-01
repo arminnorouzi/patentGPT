@@ -1,124 +1,82 @@
 {
     "Content": [
         {
-            "Measurement_substance": "samples",
-            "Measured_value": "450\u00b0 C.",
-            "Measured_unit": "\u00b0 C",
-            "measurement_type": "temperature"
+            "Measurement_substance": "play sand",
+            "Measured_value": "91.5",
+            "Measured_unit": "%",
+            "measurement_type": "percentage"
         },
         {
-            "Measurement_substance": "convergence semiangle",
-            "Measured_value": "22",
-            "Measured_unit": "mrad",
-            "measurement_type": "angle"
+            "Measurement_substance": "photoluminescent pigment",
+            "Measured_value": "5",
+            "Measured_unit": "%",
+            "measurement_type": "percentage"
         },
         {
-            "Measurement_substance": "inner-collection angle",
-            "Measured_value": "83",
-            "Measured_unit": "mrad",
-            "measurement_type": "angle"
+            "Measurement_substance": "powdered binder",
+            "Measured_value": "3",
+            "Measured_unit": "%",
+            "measurement_type": "percentage"
         },
         {
-            "Measurement_substance": "outer-collection angle",
-            "Measured_value": "165",
-            "Measured_unit": "mrad",
-            "measurement_type": "angle"
+            "Measurement_substance": "curing agent",
+            "Measured_value": "0.5",
+            "Measured_unit": "%",
+            "measurement_type": "percentage"
         },
         {
-            "Measurement_substance": "beam current",
-            "Measured_value": "11",
-            "Measured_unit": "pA",
-            "measurement_type": "electric current"
+            "Measurement_substance": "play sand",
+            "Measured_value": "89",
+            "Measured_unit": "%",
+            "measurement_type": "percentage"
         },
         {
-            "Measurement_substance": "pixel time",
-            "Measured_value": "4",
-            "Measured_unit": "\u03bcs",
-            "measurement_type": "time"
+            "Measurement_substance": "photoluminescent pigment",
+            "Measured_value": "5",
+            "Measured_unit": "%",
+            "measurement_type": "percentage"
         },
         {
-            "Measurement_substance": "Re L3 edge",
-            "Measured_value": "10535",
-            "Measured_unit": "eV",
-            "measurement_type": "energy"
+            "Measurement_substance": "powdered binder",
+            "Measured_value": "5",
+            "Measured_unit": "%",
+            "measurement_type": "percentage"
         },
         {
-            "Measurement_substance": "pressure",
-            "Measured_value": "1\u00d710 -9",
-            "Measured_unit": "Torr",
-            "measurement_type": "pressure"
+            "Measurement_substance": "curing agent",
+            "Measured_value": "1",
+            "Measured_unit": "%",
+            "measurement_type": "percentage"
         },
         {
-            "Measurement_substance": "CO partial pressure",
-            "Measured_value": "30",
-            "Measured_unit": "mbar",
-            "measurement_type": "pressure"
+            "Measurement_substance": "play sand",
+            "Measured_value": "five minutes",
+            "Measured_unit": "minutes",
+            "measurement_type": "mixing time"
         },
         {
-            "Measurement_substance": "methanol partial pressures",
-            "Measured_value": "42, 105, and 150",
-            "Measured_unit": "mbar",
-            "measurement_type": "pressure"
+            "Measurement_substance": "photoluminescent pigment",
+            "Measured_value": "five minutes",
+            "Measured_unit": "minutes",
+            "measurement_type": "mixing time"
         },
         {
-            "Measurement_substance": "CO",
-            "Measured_value": "32",
-            "Measured_unit": "scans",
-            "measurement_type": "measurement count"
+            "Measurement_substance": "photo sand mix",
+            "Measured_value": "fifteen minutes",
+            "Measured_unit": "minutes",
+            "measurement_type": "mixing time"
         },
         {
-            "Measurement_substance": "resolution",
-            "Measured_value": "4",
-            "Measured_unit": "cm -1",
-            "measurement_type": "measurement resolution"
+            "Measurement_substance": "formula I",
+            "Measured_value": "7",
+            "Measured_unit": "days",
+            "measurement_type": "curing time"
         },
         {
-            "Measurement_substance": "ReOx structure",
-            "Measured_value": "2.0",
-            "Measured_unit": "absorption length",
-            "measurement_type": "measurement"
-        },
-        {
-            "Measurement_substance": "Re",
-            "Measured_value": "0.2",
-            "Measured_unit": "fractional absorbance",
-            "measurement_type": "measurement"
-        },
-        {
-            "Measurement_substance": "EXAFS",
-            "Measured_value": "9-16",
-            "Measured_unit": "scans",
-            "measurement_type": "measurement count"
-        },
-        {
-            "Measurement_substance": "R",
-            "Measured_value": "1-2.2",
-            "Measured_unit": "\u212b",
-            "measurement_type": "range"
-        },
-        {
-            "Measurement_substance": "k",
-            "Measured_value": "3.9-14",
-            "Measured_unit": "k-values",
-            "measurement_type": "range"
-        },
-        {
-            "Measurement_substance": "temperature",
-            "Measured_value": "50\u00b0 C.",
-            "Measured_unit": "\u00b0 C",
-            "measurement_type": "temperature"
-        },
-        {
-            "Measurement_substance": "oxidizing",
-            "Measured_value": "20% O 2 /He, 350\u00b0 C., 1 h",
-            "Measured_unit": "N/A",
-            "measurement_type": "reaction conditions"
-        },
-        {
-            "Measurement_substance": "reaction conditions",
-            "Measured_value": "150 mbar methanol and 200 mbar CO in He, 250\u00b0 C., 1 h",
-            "Measured_unit": "N/A",
-            "measurement_type": "reaction conditions"
+            "Measurement_substance": "formula II",
+            "Measured_value": "3",
+            "Measured_unit": "days",
+            "measurement_type": "curing time"
         }
     ],
     "Patent Identifier": "US20230002279A1"

@@ -1,310 +1,58 @@
 {
     "Content": [
         {
-            "Measurement_substance": "four-arm polyethylene glycol with benzaldehyde as terminal group",
-            "Measured_value": "10000",
-            "Measured_unit": "number-average molecular weight",
-            "measurement_type": "measurement"
+            "Measurement_substance": "hydrogel",
+            "Measured_value": "6.6",
+            "Measured_unit": "kPa",
+            "measurement_type": "elastic modulus"
         },
         {
-            "Measurement_substance": "60 mg",
-            "Measured_value": "60",
-            "Measured_unit": "mg",
-            "measurement_type": "mass/weight"
+            "Measurement_substance": "hydrogel",
+            "Measured_value": "10.6",
+            "Measured_unit": "kPa",
+            "measurement_type": "elastic modulus"
         },
         {
-            "Measurement_substance": "PBS",
-            "Measured_value": "1",
-            "Measured_unit": "mL",
-            "measurement_type": "volume"
+            "Measurement_substance": "hydrogel",
+            "Measured_value": "0.2",
+            "Measured_unit": "Pa",
+            "measurement_type": "elastic modulus"
         },
         {
-            "Measurement_substance": "solution 1",
-            "Measured_value": "100",
-            "Measured_unit": "\u03bcL",
-            "measurement_type": "volume"
+            "Measurement_substance": "hydrogel",
+            "Measured_value": "13.0",
+            "Measured_unit": "kPa",
+            "measurement_type": "elastic modulus"
         },
         {
-            "Measurement_substance": "solution 2",
-            "Measured_value": "100",
-            "Measured_unit": "\u03bcL",
-            "measurement_type": "volume"
-        },
-        {
-            "Measurement_substance": "gel-forming time",
-            "Measured_value": "290",
-            "Measured_unit": "minutes",
-            "measurement_type": "time"
-        },
-        {
-            "Measurement_substance": "solution 1",
-            "Measured_value": "150",
-            "Measured_unit": "\u03bcL",
-            "measurement_type": "volume"
-        },
-        {
-            "Measurement_substance": "solution 2",
-            "Measured_value": "150",
-            "Measured_unit": "\u03bcL",
-            "measurement_type": "volume"
-        },
-        {
-            "Measurement_substance": "elastic modulus of the hydrogel",
+            "Measurement_substance": "hydrogel",
             "Measured_value": "1.3",
             "Measured_unit": "kPa",
-            "measurement_type": "pressure"
+            "measurement_type": "elastic modulus"
         },
         {
-            "Measurement_substance": "dark field scanning transmission electron microscopy (HAADF-STEM) imaging",
-            "Measured_value": "300",
-            "Measured_unit": "kV",
-            "measurement_type": "voltage"
+            "Measurement_substance": "hydrogel",
+            "Measured_value": "11.1",
+            "Measured_unit": "kPa",
+            "measurement_type": "elastic modulus"
         },
         {
-            "Measurement_substance": "calcination temperature",
-            "Measured_value": "450",
-            "Measured_unit": "\u00b0 C",
-            "measurement_type": "temperature"
+            "Measurement_substance": "gel",
+            "Measured_value": "290",
+            "Measured_unit": "minutes",
+            "measurement_type": "gel-forming time"
         },
         {
-            "Measurement_substance": "convergence semiangle",
-            "Measured_value": "22",
-            "Measured_unit": "mrad",
-            "measurement_type": "angle"
+            "Measurement_substance": "gel",
+            "Measured_value": "290",
+            "Measured_unit": "s",
+            "measurement_type": "gel-forming time"
         },
         {
-            "Measurement_substance": "inner-collection angle",
-            "Measured_value": "83",
-            "Measured_unit": "mrad",
-            "measurement_type": "angle"
-        },
-        {
-            "Measurement_substance": "outer-collection angle",
-            "Measured_value": "165",
-            "Measured_unit": "mrad",
-            "measurement_type": "angle"
-        },
-        {
-            "Measurement_substance": "beam current",
-            "Measured_value": "11",
-            "Measured_unit": "pA",
-            "measurement_type": "electric current"
-        },
-        {
-            "Measurement_substance": "pixel time",
-            "Measured_value": "4",
-            "Measured_unit": "\u03bcs",
-            "measurement_type": "time"
-        },
-        {
-            "Measurement_substance": "Re L3 edge",
-            "Measured_value": "10535",
-            "Measured_unit": "eV",
-            "measurement_type": "energy"
-        },
-        {
-            "Measurement_substance": "Si(220) double crystal monochromator",
-            "Measured_value": "",
-            "Measured_unit": "",
-            "measurement_type": "material"
-        },
-        {
-            "Measurement_substance": "30 mg of catalyst",
-            "Measured_value": "30",
-            "Measured_unit": "mg",
-            "measurement_type": "mass/weight"
-        },
-        {
-            "Measurement_substance": "80-120 mesh",
-            "Measured_value": "",
-            "Measured_unit": "",
-            "measurement_type": "size"
-        },
-        {
-            "Measurement_substance": "1 cm catalyst bed",
-            "Measured_value": "1",
-            "Measured_unit": "cm",
-            "measurement_type": "length/distance"
-        },
-        {
-            "Measurement_substance": "3 mm quartz tube flow-through reactor",
-            "Measured_value": "3",
-            "Measured_unit": "mm",
-            "measurement_type": "length/distance"
-        },
-        {
-            "Measurement_substance": "step procedure",
-            "Measured_value": "10",
-            "Measured_unit": "radians per second",
-            "measurement_type": "frequency"
-        },
-        {
-            "Measurement_substance": "25 mm diameter",
-            "Measured_value": "25",
-            "Measured_unit": "mm",
-            "measurement_type": "length/distance"
-        },
-        {
-            "Measurement_substance": "1.6 millimeter gap",
-            "Measured_value": "1.6",
-            "Measured_unit": "mm",
-            "measurement_type": "length/distance"
-        },
-        {
-            "Measurement_substance": "elongation at break values",
-            "Measured_value": "",
-            "Measured_unit": "",
-            "measurement_type": "size"
-        },
-        {
-            "Measurement_substance": "ASTM D638",
-            "Measured_value": "",
-            "Measured_unit": "",
-            "measurement_type": "measurement"
-        },
-        {
-            "Measurement_substance": "melting point",
-            "Measured_value": "",
-            "Measured_unit": "",
-            "measurement_type": "temperature"
-        },
-        {
-            "Measurement_substance": "ASTM D7138",
-            "Measured_value": "",
-            "Measured_unit": "",
-            "measurement_type": "measurement"
-        },
-        {
-            "Measurement_substance": "glass transition temperature",
-            "Measured_value": "",
-            "Measured_unit": "",
-            "measurement_type": "temperature"
-        },
-        {
-            "Measurement_substance": "low modulus PHA polyester-diols or triols",
-            "Measured_value": "",
-            "Measured_unit": "",
-            "measurement_type": "material"
-        },
-        {
-            "Measurement_substance": "macromolecules",
-            "Measured_value": "",
-            "Measured_unit": "",
-            "measurement_type": "material"
-        },
-        {
-            "Measurement_substance": "diols",
-            "Measured_value": "",
-            "Measured_unit": "",
-            "measurement_type": "material"
-        },
-        {
-            "Measurement_substance": "diacids or diesters",
-            "Measured_value": "",
-            "Measured_unit": "",
-            "measurement_type": "material"
-        },
-        {
-            "Measurement_substance": "polyesters",
-            "Measured_value": "",
-            "Measured_unit": "",
-            "measurement_type": "material"
-        },
-        {
-            "Measurement_substance": "diisocyanates",
-            "Measured_value": "",
-            "Measured_unit": "",
-            "measurement_type": "material"
-        },
-        {
-            "Measurement_substance": "acid-terminated",
-            "Measured_value": "",
-            "Measured_unit": "",
-            "measurement_type": "material"
-        },
-        {
-            "Measurement_substance": "XPS microprobe",
-            "Measured_value": "",
-            "Measured_unit": "",
-            "measurement_type": "material"
-        },
-        {
-            "Measurement_substance": "monochromatic Al anode X-ray source",
-            "Measured_value": "",
-            "Measured_unit": "",
-            "measurement_type": "material"
-        },
-        {
-            "Measurement_substance": "XPS chamber",
-            "Measured_value": "",
-            "Measured_unit": "",
-            "measurement_type": "material"
-        },
-        {
-            "Measurement_substance": "1\u00d710 \u22129 Torr",
-            "Measured_value": "",
-            "Measured_unit": "",
-            "measurement_type": "pressure"
-        },
-        {
-            "Measurement_substance": "FTIR",
-            "Measured_value": "",
-            "Measured_unit": "",
-            "measurement_type": "measurement"
-        },
-        {
-            "Measurement_substance": "Harrick Praying Mantis reaction chamber",
-            "Measured_value": "",
-            "Measured_unit": "",
-            "measurement_type": "material"
-        },
-        {
-            "Measurement_substance": "ZnSe windows",
-            "Measured_value": "",
-            "Measured_unit": "",
-            "measurement_type": "material"
-        },
-        {
-            "Measurement_substance": "Thermo Scientific Praying Mantis diffuse reflectance adapter",
-            "Measured_value": "",
-            "Measured_unit": "",
-            "measurement_type": "material"
-        },
-        {
-            "Measurement_substance": "Thermo Scientific Nicolet iS10 Fourier transform infrared spectroscopy (FTIR) spectrometer",
-            "Measured_value": "",
-            "Measured_unit": "",
-            "measurement_type": "material"
-        },
-        {
-            "Measurement_substance": "isopropyl alcohol/liquid nitrogen cold trap",
-            "Measured_value": "",
-            "Measured_unit": "",
-            "measurement_type": "material"
-        },
-        {
-            "Measurement_substance": "glass trap filled with Drierite desiccant",
-            "Measured_value": "",
-            "Measured_unit": "",
-            "measurement_type": "material"
-        },
-        {
-            "Measurement_substance": "350\u00b0 C.",
-            "Measured_value": "350",
-            "Measured_unit": "\u00b0 C",
-            "measurement_type": "temperature"
-        },
-        {
-            "Measurement_substance": "1 h",
-            "Measured_value": "1",
-            "Measured_unit": "h",
-            "measurement_type": "time"
-        },
-        {
-            "Measurement_substance": "CO and",
-            "Measured_value": "",
-            "Measured_unit": "",
-            "measurement_type": "measurement"
+            "Measurement_substance": "gel",
+            "Measured_value": "80",
+            "Measured_unit": "minutes",
+            "measurement_type": "gel-forming time"
         }
     ],
     "Patent Identifier": "US20230002554A1"

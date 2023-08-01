@@ -1,106 +1,64 @@
 {
     "Content": [
         {
-            "Measurement_substance": "samples",
-            "Measured_value": "450",
+            "Measurement_substance": "Tg",
+            "Measured_value": "ca. -60",
             "Measured_unit": "\u00b0C",
-            "measurement_type": "calcination temperature"
+            "measurement_type": "glass transition temperature"
         },
         {
-            "Measurement_substance": "convergence semiangle",
-            "Measured_value": "22",
-            "Measured_unit": "mrad",
-            "measurement_type": "semiangle"
+            "Measurement_substance": "Tm",
+            "Measured_value": "20-35",
+            "Measured_unit": "\u00b0C",
+            "measurement_type": "melt point"
         },
         {
-            "Measurement_substance": "inner-collection angle",
-            "Measured_value": "83",
-            "Measured_unit": "mrad",
-            "measurement_type": "angle"
+            "Measurement_substance": "\u03b2-Lactone/\u03b5-Caprolactone Block",
+            "Measured_value": "not expected to be detected",
+            "Measured_unit": "N/A",
+            "measurement_type": "signals in DSC"
         },
         {
-            "Measurement_substance": "outer-collection angle",
-            "Measured_value": "165",
-            "Measured_unit": "mrad",
-            "measurement_type": "angle"
+            "Measurement_substance": "adhesive materials",
+            "Measured_value": "2-10",
+            "Measured_unit": "Ncm^-1",
+            "measurement_type": "peel forces"
         },
         {
-            "Measurement_substance": "beam current",
-            "Measured_value": "11",
-            "Measured_unit": "pA",
-            "measurement_type": "current"
+            "Measurement_substance": "G\u2032",
+            "Measured_value": "<10^6",
+            "Measured_unit": "Pa",
+            "measurement_type": "storage modulus"
         },
         {
-            "Measurement_substance": "pixel time",
-            "Measured_value": "4",
-            "Measured_unit": "\u03bcs",
-            "measurement_type": "time"
+            "Measurement_substance": "elongation at break",
+            "Measured_value": "100-3,000",
+            "Measured_unit": "%",
+            "measurement_type": "values"
         },
         {
-            "Measurement_substance": "temperature",
-            "Measured_value": "170",
+            "Measurement_substance": "Tm",
+            "Measured_value": "<60",
             "Measured_unit": "\u00b0C",
             "measurement_type": "melting point"
         },
         {
-            "Measurement_substance": "temperature",
-            "Measured_value": "-40",
+            "Measurement_substance": "Tg",
+            "Measured_value": "-100 to 60",
             "Measured_unit": "\u00b0C",
-            "measurement_type": "temperature"
+            "measurement_type": "glass transition temperature"
         },
         {
-            "Measurement_substance": "diameter",
-            "Measured_value": "25",
-            "Measured_unit": "mm",
-            "measurement_type": "diameter"
+            "Measurement_substance": "VII:Rosin Ester ratios",
+            "Measured_value": "20, 40, 60, and 80",
+            "Measured_unit": "% tackifier loading",
+            "measurement_type": "ratios"
         },
         {
-            "Measurement_substance": "gap",
-            "Measured_value": "1.6",
-            "Measured_unit": "millimeter",
-            "measurement_type": "gap"
-        },
-        {
-            "Measurement_substance": "pressure",
-            "Measured_value": "1\u00d710^-9",
-            "Measured_unit": "Torr",
-            "measurement_type": "pressure"
-        },
-        {
-            "Measurement_substance": "frequency",
-            "Measured_value": "10",
-            "Measured_unit": "radians per second",
-            "measurement_type": "frequency"
-        },
-        {
-            "Measurement_substance": "partial pressure",
-            "Measured_value": "30",
-            "Measured_unit": "mbar",
-            "measurement_type": "pressure"
-        },
-        {
-            "Measurement_substance": "partial pressures",
-            "Measured_value": "42, 105, and 150",
-            "Measured_unit": "mbar",
-            "measurement_type": "pressure"
-        },
-        {
-            "Measurement_substance": "resolution",
-            "Measured_value": "4",
-            "Measured_unit": "cm^-1",
-            "measurement_type": "resolution"
-        },
-        {
-            "Measurement_substance": "edge energy",
-            "Measured_value": "LMCT",
-            "Measured_unit": "electronic transition",
-            "measurement_type": "energy"
-        },
-        {
-            "Measurement_substance": "domain size",
-            "Measured_value": "ReOx",
-            "Measured_unit": "species",
-            "measurement_type": "size"
+            "Measurement_substance": "poly(\u03b2-lactone-co-\u03b5-caprolactone)",
+            "Measured_value": "ca. 80-90",
+            "Measured_unit": "% yield",
+            "measurement_type": "yield"
         }
     ],
     "Patent Identifier": "US20230002549A1"

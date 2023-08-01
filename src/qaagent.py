@@ -13,6 +13,9 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import AnalyzeDocumentChain
 from langchain.chains.question_answering import load_qa_chain
 from langchain.callbacks import get_openai_callback
+from langchain.llms import OpenAI
+from langchain.vectorstores import FAISS
+from langchain.text_splitter import CharacterTextSplitter
 
 # Move variables and functions that don't need to be in the main function outside
 nltk.download("punkt", quiet=True)
@@ -29,7 +32,7 @@ embeddings = OpenAIEmbeddings()
 
 
 
-def split_docs(documents, chunk_size=1000, chunk_overlap=20):
+def split_docs(documents, chunk_size=1000, chunk_overlap=0):
     text_splitter = RecursiveCharacterTextSplitter(
         chunk_size=chunk_size, chunk_overlap=chunk_overlap
     )
@@ -239,3 +242,97 @@ def call_TA_to_json(
     return documents_raw, output
 
 
+def call_QA_faiss_to_json(
+    prompt, year, month, day, saved_patent_names, count=8, logging=True, model_name="gpt-3.5-turbo"
+):
+    """
+    Generate embeddings from txt documents, retrieve data based on the provided prompt, and return the result as a JSON object.
+
+    Parameters:
+        prompt (str): The input prompt for the retrieval process.
+        year (int): The year part of the data folder name.
+        month (int): The month part of the data folder name.
+        day (int): The day part of the data folder name.
+        saved_patent_names (list): A list of strings containing the names of saved patent text files.
+        count (int): The index of the saved patent text file to process. Default is 8.
+        logging (bool): The boolean to print logs
+
+    Returns:
+        tuple: A tuple containing two elements:
+            - A list of strings representing the raw documents loaded from the specified XML file.
+            - A JSON string representing the output from the retrieval chain.
+
+    This function loads the specified txt file, generates embeddings from its content,
+    and uses a retrieval chain to retrieve data based on the provided prompt.
+    The retrieved data is returned as a JSON object, and the raw documents are returned as a list of strings.
+    The output is also written to a file in the 'output' directory with the name '{count}.json'.
+    """
+
+    llm = ChatOpenAI(model_name=model_name)
+    chain = load_qa_chain(llm, chain_type="stuff")
+
+    file_path = os.path.join(
+        os.getcwd(),
+        "data",
+        "ipa" + str(year)[2:] + f"{month:02d}" + f"{day:02d}",
+        saved_patent_names[count],
+    )
+
+    if logging:
+        print(f"Loading documents from: {file_path}")
+    loader = TextLoader(file_path)
+    documents_raw = loader.load()
+
+    text_splitter = CharacterTextSplitter(chunk_size=500, chunk_overlap=0)
+
+    documents = text_splitter.split_documents(documents_raw)
+
+
+
+    docsearch = FAISS.from_documents(documents, embeddings)
+
+
+    docs = docsearch.similarity_search(prompt)
+
+
+    if logging:
+        print("Running retrieval chain...")
+
+    with get_openai_callback() as cb:
+        output = chain.run(input_documents=docs, question=prompt)
+        print(f"Total Tokens: {cb.total_tokens}")
+        print(f"Prompt Tokens: {cb.prompt_tokens}")
+        print(f"Completion Tokens: {cb.completion_tokens}")
+        print(f"Successful Requests: {cb.successful_requests}")
+        print(f"Total Cost (USD): ${cb.total_cost}")       
+    
+
+    # Convert output to dictionary
+    output_dict = json.loads(output)
+
+    # result  = retrieval_chain({"query": prompt})
+    # print(result["result"])
+    # print(result["source_documents"])
+
+    # Convert output to dictionary
+    output_dict = json.loads(output)
+
+    # Manually assign the Patent Identifier
+    output_dict["Patent Identifier"] = saved_patent_names[count].split("-")[0]
+
+
+    # Check if the directory 'output' exists, if not create it
+    if not os.path.exists("output"):
+        os.makedirs("output")
+
+    if logging:
+        print("Writing the output to a file...")
+
+    # Write the output to a file in the 'output' directory
+    with open(f"output/{saved_patent_names[count]}.json", "w") as json_file:
+        json.dump(output_dict, json_file, indent=4)
+
+    if logging:
+        print("Call to 'call_QA_to_json' completed.")
+
+    return documents_raw, output

@@ -1,28 +1,100 @@
 {
     "Content": [
         {
-            "Measurement_substance": "filament 111a",
-            "Measured_value": "0.05% and less than 0.3%",
+            "Measurement_substance": "medical suture thread",
+            "Measured_value": "equal to or greater than 0.05% and less than 0.3%",
             "Measured_unit": "weight",
-            "measurement_type": "inner-filament cover layer thickness"
+            "measurement_type": "cover layer weight"
         },
         {
-            "Measurement_substance": "filament 111a",
-            "Measured_value": "0.05% and less than 0.3%",
+            "Measurement_substance": "medical suture thread",
+            "Measured_value": "equal to or greater than 0.1% and less than 0.3%",
             "Measured_unit": "weight",
-            "measurement_type": "outer-filament cover layer thickness"
+            "measurement_type": "cover layer weight"
         },
         {
-            "Measurement_substance": "filament 111a",
-            "Measured_value": "0.1% and less than 0.3%",
+            "Measurement_substance": "medical suture thread",
+            "Measured_value": "equal to or greater than 0.1% and less than 0.3%",
             "Measured_unit": "weight",
-            "measurement_type": "inner-filament cover layer thickness"
+            "measurement_type": "cover layer weight"
         },
         {
-            "Measurement_substance": "filament 111a",
-            "Measured_value": "0.1% and less than 0.3%",
+            "Measurement_substance": "medical suture thread",
+            "Measured_value": "50% or more",
+            "Measured_unit": "surface area",
+            "measurement_type": "cover layer coverage"
+        },
+        {
+            "Measurement_substance": "medical suture thread",
+            "Measured_value": "50% or more",
+            "Measured_unit": "surface area",
+            "measurement_type": "cover layer coverage"
+        },
+        {
+            "Measurement_substance": "medical suture thread",
+            "Measured_value": "50% or more",
+            "Measured_unit": "surface area",
+            "measurement_type": "cover layer coverage"
+        },
+        {
+            "Measurement_substance": "medical suture thread",
+            "Measured_value": "50% or more",
+            "Measured_unit": "surface area",
+            "measurement_type": "cover layer coverage"
+        },
+        {
+            "Measurement_substance": "medical suture thread",
+            "Measured_value": "0.6 mm",
+            "Measured_unit": "thickness",
+            "measurement_type": "medical suture thread thickness"
+        },
+        {
+            "Measurement_substance": "medical suture thread",
+            "Measured_value": "0.27 mm",
+            "Measured_unit": "thickness",
+            "measurement_type": "core thread thickness"
+        },
+        {
+            "Measurement_substance": "medical suture thread",
+            "Measured_value": "0.6 mm",
+            "Measured_unit": "thickness",
+            "measurement_type": "medical suture thread thickness"
+        },
+        {
+            "Measurement_substance": "medical suture thread",
+            "Measured_value": "0.6 mm",
+            "Measured_unit": "thickness",
+            "measurement_type": "medical suture thread thickness"
+        },
+        {
+            "Measurement_substance": "medical suture thread",
+            "Measured_value": "0.6 mm",
+            "Measured_unit": "outer diameter",
+            "measurement_type": "medical suture thread outer diameter"
+        },
+        {
+            "Measurement_substance": "medical suture thread",
+            "Measured_value": "0.1%",
             "Measured_unit": "weight",
-            "measurement_type": "outer-filament cover layer thickness"
+            "measurement_type": "cover layer weight"
+        },
+        {
+            "Measurement_substance": "medical suture thread",
+            "Measured_value": "0.1%",
+            "Measured_unit": "weight",
+            "measurement_type": "cover layer weight"
+        },
+        {
+            "Measurement_substance": "medical suture thread",
+            "Measured_value": "0.1%",
+            "Measured_unit": "weight",
+            "measurement_type": "cover layer weight"
+        },
+        {
+            "Measurement_substance": "medical suture thread",
+            "Measured_value": "0.1%",
+            "Measured_unit": "weight",
+            "measurement_type": "cover layer weight"
         }
     ],
     "Patent Identifier": "US20230001042A1"
