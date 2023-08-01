@@ -2,30 +2,19 @@ import os
 import json
 import nltk
 import openai
-
 from typing import List, Optional
-
 from langchain.callbacks import get_openai_callback
 from langchain.chat_models import ChatOpenAI
-
 from kor.extraction import create_extraction_chain
 from kor.nodes import Object, Text, Number
-
 import pandas as pd
 from pydantic import BaseModel, Field, validator
 from kor import extract_from_documents, from_pydantic, create_extraction_chain
-
 from langchain.schema import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.document_loaders import TextLoader
-
-
 from langchain.callbacks import get_openai_callback
-
-
-
-
 
 def split_docs(documents, chunk_size=1000, chunk_overlap=20):
     text_splitter = RecursiveCharacterTextSplitter(
@@ -33,8 +22,7 @@ def split_docs(documents, chunk_size=1000, chunk_overlap=20):
     )
     return text_splitter.split_documents(documents)
 
-
-async def call_extraction_to_json(schema, year, month, day, saved_patent_names, count=8, logging=True, model_name = 'gpt-3.5-turbo'):
+async def call_extraction_to_json(schema, year, month, day, saved_patent_names, index=8, logging=True, model_name = 'gpt-3.5-turbo'):
     """
     Load a specified patent file, perform a document extraction based on the provided schema, and save the results in a JSON format.
 
@@ -48,7 +36,7 @@ async def call_extraction_to_json(schema, year, month, day, saved_patent_names, 
         month (int): The month part of the data folder name.
         day (int): The day part of the data folder name.
         saved_patent_names (list): A list of strings containing the names of saved patent text files.
-        count (int, optional): The index of the saved patent text file to process. Default is 8.
+        index (int, optional): The index of the saved patent text file to process. Default is 8.
         logging (bool, optional): If True, print logs to the console. Default is True.
 
     Returns:
@@ -60,17 +48,7 @@ async def call_extraction_to_json(schema, year, month, day, saved_patent_names, 
         The output is also written to a file in the 'output' directory with the same name as the input file and a '.json' extension.
     """
 
-    llm = ChatOpenAI(
-        model_name=model_name,
-        # temperature=0,
-        # max_tokens=2000,
-        # model_kwargs={
-        #     "frequency_penalty": 0,
-        #     "presence_penalty": 0,
-        #     "top_p": 1.0
-        # }
-    )
-
+    llm = ChatOpenAI(model_name=model_name)
 
     if logging:
         print("Starting the extraction process...")
@@ -81,7 +59,7 @@ async def call_extraction_to_json(schema, year, month, day, saved_patent_names, 
         os.getcwd(),
         "data",
         "ipa" + str(year)[2:] + f"{month:02d}" + f"{day:02d}",
-        saved_patent_names[count],
+        saved_patent_names[index],
     )
 
     if logging:
@@ -109,7 +87,7 @@ async def call_extraction_to_json(schema, year, month, day, saved_patent_names, 
     output_dict = output[0]
 
     # Manually assign the Patent Identifier
-    output_dict["Patent Identifier"] = saved_patent_names[count].split("-")[0]
+    output_dict["Patent Identifier"] = saved_patent_names[index].split("-")[0]
 
     # Check if the directory 'output' exists, if not create it
     if not os.path.exists("output"):
@@ -119,7 +97,7 @@ async def call_extraction_to_json(schema, year, month, day, saved_patent_names, 
         print("Writing the output to a file...")
 
     # Write the output to a file in the 'output' directory
-    with open(f"output/{saved_patent_names[count]}.json", "w") as json_file:
+    with open(f"output/{saved_patent_names[index]}.json", "w") as json_file:
         json.dump(output_dict, json_file, indent=4)
 
     if logging:

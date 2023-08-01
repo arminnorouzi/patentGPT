@@ -110,6 +110,8 @@ def extract_patents(year, month, day, logging):
     if os.path.exists(directory):
         print(f"File {directory} already exists. Skipping extract.")
         return True
+    else:
+        os.mkdir(directory)
 
     if logging:
         print("Locating the patent file...")
@@ -146,16 +148,8 @@ def extract_patents(year, month, day, logging):
 
     if logging:
         print(f"Total patents found: {len(patents)}")
-        print("Creating directory to store individual patents...")
-
-    directory = os.path.join(
-        os.getcwd(), "data", "ipa" + str(year)[2:] + f"{month:02d}" + f"{day:02d}"
-    )
-    if not os.path.exists(directory):
-        os.mkdir(directory)
-
-    if logging:
         print("Writing individual patents to separate txt files...")
+    
     saved_patent_names = []
     for patent in patents:
         try:

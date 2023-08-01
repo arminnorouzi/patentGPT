@@ -41,7 +41,7 @@ def split_docs(documents, chunk_size=1000, chunk_overlap=0):
 
 
 def call_QA_to_json(
-    prompt, year, month, day, saved_patent_names, count=8, logging=True, model_name="gpt-3.5-turbo"
+    prompt, year, month, day, saved_patent_names, index=0, logging=True, model_name="gpt-3.5-turbo"
 ):
     """
     Generate embeddings from txt documents, retrieve data based on the provided prompt, and return the result as a JSON object.
@@ -52,7 +52,7 @@ def call_QA_to_json(
         month (int): The month part of the data folder name.
         day (int): The day part of the data folder name.
         saved_patent_names (list): A list of strings containing the names of saved patent text files.
-        count (int): The index of the saved patent text file to process. Default is 8.
+        index (int): The index of the saved patent text file to process. Default is 0.
         logging (bool): The boolean to print logs
 
     Returns:
@@ -63,7 +63,7 @@ def call_QA_to_json(
     This function loads the specified txt file, generates embeddings from its content,
     and uses a retrieval chain to retrieve data based on the provided prompt.
     The retrieved data is returned as a JSON object, and the raw documents are returned as a list of strings.
-    The output is also written to a file in the 'output' directory with the name '{count}.json'.
+    The output is also written to a file in the 'output' directory with the name '{index}.json'.
     """
 
     llm = ChatOpenAI(model_name=model_name, cache=False)
@@ -71,7 +71,7 @@ def call_QA_to_json(
         os.getcwd(),
         "data",
         "ipa" + str(year)[2:] + f"{month:02d}" + f"{day:02d}",
-        saved_patent_names[count],
+        saved_patent_names[index],
     )
 
     if logging:
@@ -132,7 +132,7 @@ def call_QA_to_json(
     output_dict = json.loads(output)
 
     # Manually assign the Patent Identifier
-    output_dict["Patent Identifier"] = saved_patent_names[count].split("-")[0]
+    output_dict["Patent Identifier"] = saved_patent_names[index].split("-")[0]
 
 
     # Check if the directory 'output' exists, if not create it
@@ -143,7 +143,7 @@ def call_QA_to_json(
         print("Writing the output to a file...")
 
     # Write the output to a file in the 'output' directory
-    with open(f"output/{saved_patent_names[count]}_{model_name}.json", "w") as json_file:
+    with open(f"output/{saved_patent_names[index]}_{model_name}.json", "w") as json_file:
         json.dump(output_dict, json_file, indent=4)
 
     if logging:
@@ -154,7 +154,7 @@ def call_QA_to_json(
 
 
 def call_TA_to_json(
-    prompt, year, month, day, saved_patent_names, count=8, logging=True
+    prompt, year, month, day, saved_patent_names, index=0, logging=True
 ):
     """
     Retrieve text analytics (TA) data from a specified patent file and convert the output to JSON format.
@@ -170,7 +170,7 @@ def call_TA_to_json(
         month (int): The month part of the data folder name.
         day (int): The day part of the data folder name.
         saved_patent_names (list): A list of strings containing the names of saved patent text files.
-        count (int, optional): The index of the saved patent text file to process. Default is 8.
+        index (int, optional): The index of the saved patent text file to process. Default is 0.
         logging (bool, optional): If True, print logs to the console. Default is True.
 
     Returns:
@@ -181,11 +181,14 @@ def call_TA_to_json(
     Note:
         The output is also written to a file in the 'output' directory with the same name as the input file and a '.json' extension.
     """
+
+    llm = ChatOpenAI(model_name='gpt-3.5-turbo', cache=False)
+
     file_path = os.path.join(
         os.getcwd(),
         "data",
         "ipa" + str(year)[2:] + f"{month:02d}" + f"{day:02d}",
-        saved_patent_names[count],
+        saved_patent_names[index],
     )
 
     if logging:
@@ -219,7 +222,7 @@ def call_TA_to_json(
     output_dict = json.loads(output)
 
     # Manually assign the Patent Identifier
-    output_dict["Patent Identifier"] = saved_patent_names[count].split("-")[0]
+    output_dict["Patent Identifier"] = saved_patent_names[index].split("-")[0]
 
 
     # Check if the directory 'output' exists, if not create it
@@ -230,7 +233,7 @@ def call_TA_to_json(
         print("Writing the output to a file...")
 
     # Write the output to a file in the 'output' directory
-    with open(f"output/{saved_patent_names[count]}.json", "w") as json_file:
+    with open(f"output/{saved_patent_names[index]}.json", "w") as json_file:
         json.dump(output_dict, json_file, indent=4)
 
     if logging:
@@ -241,7 +244,7 @@ def call_TA_to_json(
 
 
 def call_QA_faiss_to_json(
-    prompt, year, month, day, saved_patent_names, count=8, logging=True, model_name="gpt-3.5-turbo"
+    prompt, year, month, day, saved_patent_names, index=0, logging=True, model_name="gpt-3.5-turbo"
 ):
     """
     Generate embeddings from txt documents, retrieve data based on the provided prompt, and return the result as a JSON object.
@@ -252,7 +255,7 @@ def call_QA_faiss_to_json(
         month (int): The month part of the data folder name.
         day (int): The day part of the data folder name.
         saved_patent_names (list): A list of strings containing the names of saved patent text files.
-        count (int): The index of the saved patent text file to process. Default is 8.
+        index (int): The index of the saved patent text file to process. Default is 0.
         logging (bool): The boolean to print logs
 
     Returns:
@@ -273,7 +276,7 @@ def call_QA_faiss_to_json(
         os.getcwd(),
         "data",
         "ipa" + str(year)[2:] + f"{month:02d}" + f"{day:02d}",
-        saved_patent_names[count],
+        saved_patent_names[index],
     )
 
     if logging:
@@ -316,7 +319,7 @@ def call_QA_faiss_to_json(
     output_dict = json.loads(output)
 
     # Manually assign the Patent Identifier
-    output_dict["Patent Identifier"] = saved_patent_names[count].split("-")[0]
+    output_dict["Patent Identifier"] = saved_patent_names[index].split("-")[0]
 
 
     # Check if the directory 'output' exists, if not create it
@@ -327,7 +330,7 @@ def call_QA_faiss_to_json(
         print("Writing the output to a file...")
 
     # Write the output to a file in the 'output' directory
-    with open(f"output/{saved_patent_names[count]}.json", "w") as json_file:
+    with open(f"output/{saved_patent_names[index]}.json", "w") as json_file:
         json.dump(output_dict, json_file, indent=4)
 
     if logging:
