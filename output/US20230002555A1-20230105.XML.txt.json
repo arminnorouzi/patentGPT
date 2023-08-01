@@ -1,53 +1,22 @@
 {
-    "Content": [
-        {
-            "Measurement Context": "Measurement apparatuses used in Examples",
-            "Measured Value": "500",
-            "Unit": "MHz",
-            "Refers To": "Frequency of Bruker NMR System AVANCE III HD 500"
-        },
-        {
-            "Measurement Context": "GPC measurement setup",
-            "Measured Value": "40",
-            "Unit": "\u00b0C",
-            "Refers To": "Temperature of Tosoh TSKgel \u03b1-3000+Tosoh TSKgel \u03b1-4000 Column"
-        },
-        {
-            "Measurement Context": "Measurement of Solvent Resistance (Crack Resistance) and Transmittance",
-            "Measured Value": "50",
-            "Unit": "rpm",
-            "Refers To": "Rate of substrate rotation during solvent exposure"
-        },
-        {
-            "Measurement Context": "Measurement of Solvent Resistance (Crack Resistance) and Transmittance",
-            "Measured Value": "1000",
-            "Unit": "rpm",
-            "Refers To": "Rate of substrate rotation to spin off the solvent"
-        },
-        {
-            "Measurement Context": "Measurement of Solvent Resistance (Crack Resistance) and Transmittance",
-            "Measured Value": "80",
-            "Unit": "\u00b0C",
-            "Refers To": "Temperature of hot plate for drying the substrate"
-        },
-        {
-            "Measurement Context": "Calculation of residual film ratio",
-            "Measured Value": "Unknown",
-            "Unit": "%",
-            "Refers To": "Ratio of film thickness after solvent exposure to before solvent exposure"
-        },
-        {
-            "Measurement Context": "EXAFS fitting",
-            "Measured Value": "1-2.2",
-            "Unit": "\u212b",
-            "Refers To": "R range taken into account during EXAFS fitting"
-        },
-        {
-            "Measurement Context": "EXAFS fitting",
-            "Measured Value": "0.73\u00b10.04",
-            "Unit": "Unknown",
-            "Refers To": "Determined S o 2 value"
-        }
-    ],
+    "uid": "0",
+    "source_uid": "0",
+    "data": {
+        "physical_measurements": [
+            {
+                "substance": "polymer",
+                "value": "",
+                "unit": ""
+            },
+            {
+                "substance": "film forming composition",
+                "value": "",
+                "unit": ""
+            }
+        ]
+    },
+    "raw": "substance|value|unit\npolymer||\nfilm forming composition||",
+    "validated_data": {},
+    "errors": [],
     "Patent Identifier": "US20230002555A1"
 }

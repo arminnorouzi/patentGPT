@@ -1,47 +1,8 @@
 {
-    "Content": [
-        {
-            "Measurement Context": "The measurement apparatuses used in Examples are as follows.",
-            "Measured Value": "500",
-            "Unit": "MHz",
-            "Refers To": "Frequency of Bruker NMR System AVANCE III HD 500"
-        },
-        {
-            "Measurement Context": "Column temperature in the GPC Apparatus",
-            "Measured Value": "40",
-            "Unit": "\u00b0C",
-            "Refers To": "Temperature of the column in the HLC-8200 GPC apparatus"
-        },
-        {
-            "Measurement Context": "UV detector in the GPC Apparatus",
-            "Measured Value": "271",
-            "Unit": "nm",
-            "Refers To": "Wavelength detected by UV detector in the HLC-8200 GPC apparatus"
-        },
-        {
-            "Measurement Context": "Percentage of the catalyst.",
-            "Measured Value": "Ranges from 0.05 wt % to 15 wt %",
-            "Unit": "wt %",
-            "Refers To": "Percentage weight of the catalyst used in the synthesis of the polymer compound"
-        },
-        {
-            "Measurement Context": "EXAFS fitting was carried out over the R range",
-            "Measured Value": "1-2.2",
-            "Unit": "\u212b",
-            "Refers To": "The range of R used in the EXAFS fitting"
-        },
-        {
-            "Measurement Context": "S o 2 was determined to be 0.73\u00b10.04 by fitting the Re metal standard",
-            "Measured Value": "0.73\u00b10.04",
-            "Unit": "Unknown",
-            "Refers To": "Value of S o 2 determined by fitting the Re metal standard"
-        },
-        {
-            "Measurement Context": "A multiple data set fit was performed for the 5, 10, and 20 wt % Re loading samples",
-            "Measured Value": "5, 10, and 20",
-            "Unit": "wt %",
-            "Refers To": "Percentage weight of Re in loading samples"
-        }
-    ],
-    "Patent Identifier": "US20230002654A1"
-}
+    "uid": "0",
+    "source_uid": "0",
+    "data": {},
+    "raw": "substance|value|unit\nlignin||\ncrosslinker|glycerol diglycidyl ether||\ncrosslinker|polyglycerol diglycidyl ether||\ncrosslinker|polyglycerol polyglycidyl ether||\ncrosslinker|glycerol triglycidyl ether||\ncrosslinker|sorbitol polyglycidyl ether||\ncrosslinker|alkoxylated glycerol polyglycidyl ether||\ncrosslinker|trimethylolpropane triglycidyl ether||\ncrosslinker|trimethylolpropane diglycidyl ether||\ncrosslinker|polyoxypropylene glycol diglycidylether||\ncrosslinker|polyoxypropylene glycol triglycidyl ether||\ncrosslinker|diglycidylether of cyclohexane dimethanol||\ncrosslinker|resorcinol diglycidyl ether||\ncrosslinker|isosorbide diglycidyl ether||\ncrosslinker|pentaerythritol tetraglycidyl ether||\ncrosslinker|ethylene glycol diglycidyl ether||\ncrosslinker|polyethylene glycol diglycidyl ether||\ncrosslinker|propylene glycol diglycidyl ether||\ncrosslinker|diglycidyl-, triglycidyl- or polyglycidyl-ether of a carbohydrate||",
+    "validated_data": {},
+    "errors": [
+        

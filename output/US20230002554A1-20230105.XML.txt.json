@@ -1,47 +1,27 @@
 {
-    "Content": [
-        {
-            "Measurement Context": "outlet measures the concentration of unreacted alcohols and/or carbon monoxide in the gas stream released from the gas outlet",
-            "Measured Value": "up to 20%, up to 15%, up to 10%, up to 5%, up to 2%, or up to 1%",
-            "Unit": "%",
-            "Refers To": "concentration of unreacted alcohols and/or carbon monoxide"
-        },
-        {
-            "Measurement Context": "the elastic modulus of the hydrogel",
-            "Measured Value": "6.6",
-            "Unit": "kPa",
-            "Refers To": "elastic modulus of the hydrogel"
-        },
-        {
-            "Measurement Context": "EXAFS fitting was carried out over the R range",
-            "Measured Value": "1-2.2",
-            "Unit": "\u212b",
-            "Refers To": "R range for EXAFS fitting"
-        },
-        {
-            "Measurement Context": "S o 2 was determined to be",
-            "Measured Value": "0.73\u00b10.04",
-            "Unit": "Unknown",
-            "Refers To": "S o 2"
-        },
-        {
-            "Measurement Context": "the support can be silicon dioxide nanoparticles having an average diameter",
-            "Measured Value": "up to 500 \u03bcm, up to 400 \u03bcm, up to 300 \u03bcm, up to 200 \u03bcm, up to 150 \u03bcm, up to 100 \u03bcm, up to 10 \u03bcm, or up to 5 \u03bcm",
-            "Unit": "\u03bcm",
-            "Refers To": "average diameter of silicon dioxide nanoparticles"
-        },
-        {
-            "Measurement Context": "the nanoparticles can have an average diameter",
-            "Measured Value": "up to 1 \u03bcm, up to 500 nm, up to 200 nm, up to 100 nm, up to 50 nm, up to 20 nm, up to 10 nm, or up to 5 nm",
-            "Unit": "\u03bcm, nm",
-            "Refers To": "average diameter of nanoparticles"
-        },
-        {
-            "Measurement Context": "the sheet can have a dimension",
-            "Measured Value": "900 \u03bcm, 800 \u03bcm, 700 \u03bcm, 600 \u03bcm, 500 \u03bcm, 400 \u03bcm, 300 \u03bcm, 200 \u03bcm, or 100 \u03bcm",
-            "Unit": "\u03bcm",
-            "Refers To": "dimension of a graphene sheet"
-        }
-    ],
+    "uid": "0",
+    "source_uid": "0",
+    "data": {
+        "physical_measurements": [
+            {
+                "substance": "polyethylene glycol derivative",
+                "value": "",
+                "unit": ""
+            },
+            {
+                "substance": "preparation method",
+                "value": "",
+                "unit": ""
+            },
+            {
+                "substance": "polyethylene glycol hydrogel",
+                "value": "",
+                "unit": ""
+            }
+        ]
+    },
+    "raw": "substance|value|unit\r\npolyethylene glycol derivative||\r\npreparation method||\r\npolyethylene glycol hydrogel||",
+    "validated_data": {},
+    "errors": [],
     "Patent Identifier": "US20230002554A1"
 }

@@ -1,53 +1,11 @@
 {
-    "Content": [
-        {
-            "Measurement Context": "The measurement apparatuses used in Examples are as follows. [ 1 H-NMR] Apparatus: Bruker NMR System AVANCE III HD 500 (500 MHz)",
-            "Measured Value": "500",
-            "Unit": "MHz",
-            "Refers To": "Frequency of Bruker NMR System"
-        },
-        {
-            "Measurement Context": "[GPC] Apparatus: HLC-8200 GPC, from Tosoh Corporation Column: Tosoh TSKgel \u03b1-3000+Tosoh TSKgel \u03b1-4000 Column temperature: 40\u00b0 C.",
-            "Measured Value": "40",
-            "Unit": "\u00b0C",
-            "Refers To": "Column temperature in GPC apparatus"
-        },
-        {
-            "Measurement Context": "The substrate was finally dried on a hot plate at 80\u00b0 C. for 10 seconds",
-            "Measured Value": "80",
-            "Unit": "\u00b0C",
-            "Refers To": "Temperature of hot plate"
-        },
-        {
-            "Measurement Context": "The substrate was finally dried on a hot plate at 80\u00b0 C. for 10 seconds",
-            "Measured Value": "10",
-            "Unit": "seconds",
-            "Refers To": "Time for drying substrate on hot plate"
-        },
-        {
-            "Measurement Context": "Residual film ratio (%)=[(Film thickness after solvent exposure)/(Film thickness before solvent exposure)]\u00d7100",
-            "Measured Value": "Unknown",
-            "Unit": "%",
-            "Refers To": "Ratio of residual film after solvent exposure"
-        },
-        {
-            "Measurement Context": "EXAFS fitting was carried out over the R range (1-2.2 \u212b)",
-            "Measured Value": "1-2.2",
-            "Unit": "\u212b",
-            "Refers To": "Range for EXAFS fitting"
-        },
-        {
-            "Measurement Context": "S o 2 was determined to be 0.73\u00b10.04 by fitting the Re metal standard",
-            "Measured Value": "0.73\u00b10.04",
-            "Unit": "Unknown",
-            "Refers To": "Value of S o 2 determined by fitting the Re metal standard"
-        },
-        {
-            "Measurement Context": "A multiple data set fit was performed for the 5, 10, and 20 wt % Re loading samples simultaneously to minimize errors.",
-            "Measured Value": "5, 10, and 20",
-            "Unit": "wt %",
-            "Refers To": "Weight percentage of Re in loading samples"
-        }
-    ],
+    "uid": "0",
+    "source_uid": "0",
+    "data": {
+        "physical_measurements": []
+    },
+    "raw": "No structured information about physical measurements is provided in the user's input.",
+    "validated_data": {},
+    "errors": [],
     "Patent Identifier": "US20230002559A1"
 }

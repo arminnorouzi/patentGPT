@@ -10,6 +10,8 @@ from langchain.chat_models import ChatOpenAI
 from langchain.chains import RetrievalQA
 from langchain.document_loaders import TextLoader
 from langchain.prompts import PromptTemplate
+from langchain.chains import AnalyzeDocumentChain
+from langchain.chains.question_answering import load_qa_chain
 
 
 # Move variables and functions that don't need to be in the main function outside
@@ -24,8 +26,8 @@ if openai.api_key is None:
 
 embeddings = OpenAIEmbeddings()
 
-# model_name = "gpt-3.5-turbo"
-model_name = "gpt-4"
+model_name = "gpt-3.5-turbo"
+# model_name = "gpt-4"
 llm = ChatOpenAI(model_name=model_name)
 
 
@@ -75,13 +77,12 @@ def call_QA_to_json(
 
     documents = split_docs(documents_raw)
 
-    persist_directory = "chroma_db"
 
     if logging:
         print("Generating embeddings and persisting...")
 
     vectordb = Chroma.from_documents(
-        documents=documents, embedding=embeddings, persist_directory=persist_directory
+        documents=documents, embedding=embeddings,
     )
 
     # vectordb.persist()
@@ -103,7 +104,7 @@ def call_QA_to_json(
 
     retrieval_chain = RetrievalQA.from_chain_type(
         llm, chain_type="stuff", 
-        retriever=vectordb.as_retriever(search_type="mmr"), 
+        retriever=vectordb.as_retriever(), 
         chain_type_kwargs=chain_type_kwargs, 
         # return_source_documents=True
 
@@ -144,14 +145,16 @@ def call_QA_to_json(
     return documents_raw, output
 
 
-from langchain.chains import AnalyzeDocumentChain
-from langchain.chains.question_answering import load_qa_chain
-
 def call_TA_to_json(
     prompt, year, month, day, saved_patent_names, count=8, logging=True
 ):
     """
-    Generate embeddings from txt documents, retrieve data based on the provided prompt, and return the result as a JSON object.
+    Retrieve text analytics (TA) data from a specified patent file and convert the output to JSON format.
+
+    This function reads a text document from the patent file specified by the year, month, day, and file name parameters.
+    It then applies a QA retrieval process to the document using the provided prompt.
+    The result of the QA retrieval process is converted to a JSON object, which is then written to a file.
+    Additionally, a patent identifier is manually assigned to the output JSON object.
 
     Parameters:
         prompt (str): The input prompt for the retrieval process.
@@ -159,18 +162,16 @@ def call_TA_to_json(
         month (int): The month part of the data folder name.
         day (int): The day part of the data folder name.
         saved_patent_names (list): A list of strings containing the names of saved patent text files.
-        count (int): The index of the saved patent text file to process. Default is 8.
-        logging (bool): The boolean to print logs
+        count (int, optional): The index of the saved patent text file to process. Default is 8.
+        logging (bool, optional): If True, print logs to the console. Default is True.
 
     Returns:
         tuple: A tuple containing two elements:
-            - A list of strings representing the raw documents loaded from the specified XML file.
-            - A JSON string representing the output from the retrieval chain.
+            - documents_raw (str): The raw document content loaded from the specified patent file.
+            - output (str): A JSON string representing the output from the TA retrieval process.
 
-    This function loads the specified txt file, generates embeddings from its content,
-    and uses a retrieval chain to retrieve data based on the provided prompt.
-    The retrieved data is returned as a JSON object, and the raw documents are returned as a list of strings.
-    The output is also written to a file in the 'output' directory with the name '{count}.json'.
+    Note:
+        The output is also written to a file in the 'output' directory with the same name as the input file and a '.json' extension.
     """
     file_path = os.path.join(
         os.getcwd(),
@@ -228,3 +229,5 @@ def call_TA_to_json(
         print("Call to 'call_QA_to_json' completed.")
 
     return documents_raw, output
+
+

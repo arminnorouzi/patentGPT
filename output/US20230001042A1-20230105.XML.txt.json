@@ -1,23 +1,67 @@
 {
-    "Content": [
-        {
-            "Measurement Context": "The inner-filament cover layer 112 is formed on the outer surface of the filament 111 a within a weight range",
-            "Measured Value": "Equal to or greater than 0.05% and less than 0.3%",
-            "Unit": "Percentage of the total weight of the filament 111 a",
-            "Refers To": "The weight of the inner-filament cover layer 112 on the filament 111 a"
-        },
-        {
-            "Measurement Context": "The core thread 110 is, in the present embodiment, formed to have a thickness",
-            "Measured Value": "about 0.27",
-            "Unit": "mm",
-            "Refers To": "The thickness of the core thread 110"
-        },
-        {
-            "Measurement Context": "The thickness of the ultrafine thread 111 varies according to the thickness of the medical suture thread 100",
-            "Measured Value": "Unknown",
-            "Unit": "Unknown",
-            "Refers To": "The thickness of the ultrafine thread 111"
-        }
-    ],
+    "uid": "0",
+    "source_uid": "0",
+    "data": {
+        "physical_measurements": [
+            {
+                "substance": "medical suture thread",
+                "value": "",
+                "unit": ""
+            },
+            {
+                "substance": "resin materials",
+                "value": "",
+                "unit": ""
+            },
+            {
+                "substance": "operability",
+                "value": "",
+                "unit": ""
+            },
+            {
+                "substance": "suturing",
+                "value": "",
+                "unit": ""
+            },
+            {
+                "substance": "slidability",
+                "value": "",
+                "unit": ""
+            },
+            {
+                "substance": "slide-down performance",
+                "value": "",
+                "unit": ""
+            },
+            {
+                "substance": "sutured portion",
+                "value": "",
+                "unit": ""
+            },
+            {
+                "substance": "2-methacryloyloxyethyl phosphorylcholine",
+                "value": "",
+                "unit": ""
+            },
+            {
+                "substance": "MPC",
+                "value": "",
+                "unit": ""
+            },
+            {
+                "substance": "surgeon",
+                "value": "",
+                "unit": ""
+            },
+            {
+                "substance": "packaging",
+                "value": "",
+                "unit": ""
+            }
+        ]
+    },
+    "raw": "substance|value|unit\r\nmedical suture thread||\r\nresin materials||\r\noperability||\r\nsuturing||\r\nslidability||\r\nslide-down performance||\r\nsutured portion||\r\n2-methacryloyloxyethyl phosphorylcholine||\r\nMPC||\r\nsurgeon||\r\npackaging||",
+    "validated_data": {},
+    "errors": [],
     "Patent Identifier": "US20230001042A1"
 }

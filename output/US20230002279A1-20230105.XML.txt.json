@@ -1,41 +1,11 @@
 {
-    "Content": [
-        {
-            "Measurement Context": "outlet measures the concentration of unreacted alcohols and/or carbon monoxide in the gas stream released from the gas outlet",
-            "Measured Value": "up to 20%, up to 15%, up to 10%, up to 5%, up to 2%, or up to 1%",
-            "Unit": "%",
-            "Refers To": "Concentration of unreacted alcohols and/or carbon monoxide"
-        },
-        {
-            "Measurement Context": "S o 2 was determined by fitting the Re metal standard",
-            "Measured Value": "0.73\u00b10.04",
-            "Unit": "Unknown",
-            "Refers To": "S o 2"
-        },
-        {
-            "Measurement Context": "catalyst contains MOx",
-            "Measured Value": "up to 14 wt %, up to 13 wt %, up to 12 wt %, up to 11 wt %, up to 10.5 wt %, up to 10.2 wt %",
-            "Unit": "wt %",
-            "Refers To": "Catalyst"
-        },
-        {
-            "Measurement Context": "support can be silicon dioxide nanoparticles",
-            "Measured Value": "up to 500 \u03bcm, up to 400 \u03bcm, up to 300 \u03bcm, up to 200 \u03bcm, up to 150 \u03bcm, up to 100 \u03bcm, up to 10 \u03bcm, or up to 5 \u03bcm",
-            "Unit": "\u03bcm",
-            "Refers To": "Diameter of the support"
-        },
-        {
-            "Measurement Context": "when the support is in the form of nanoparticles",
-            "Measured Value": "up to 1 \u03bcm, up to 500 nm, up to 200 nm, up to 100 nm, up to 50 nm, up to 20 nm, up to 10 nm, or up to 5 nm",
-            "Unit": "nm",
-            "Refers To": "Diameter of the nanoparticles"
-        },
-        {
-            "Measurement Context": "when the support is in the form of a carbon sheet",
-            "Measured Value": "900 \u03bcm, 800 \u03bcm, 700 \u03bcm, 600 \u03bcm, 500 \u03bcm, 400 \u03bcm, 300 \u03bcm, 200 \u03bcm, or 100 \u03bcm",
-            "Unit": "\u03bcm",
-            "Refers To": "Dimension of the carbon sheet"
-        }
-    ],
+    "uid": "0",
+    "source_uid": "0",
+    "data": {
+        "physical_measurements": []
+    },
+    "raw": "No structured information extracted.",
+    "validated_data": {},
+    "errors": [],
     "Patent Identifier": "US20230002279A1"
 }

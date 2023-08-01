@@ -1,35 +1,11 @@
 {
-    "Content": [
-        {
-            "Measurement Context": "outlet measures the concentration of unreacted alcohols and/or carbon monoxide in the gas stream released from the gas outlet",
-            "Measured Value": "up to 20%, up to 15%, up to 10%, up to 5%, up to 2%, or up to 1%",
-            "Unit": "Percentage",
-            "Refers To": "The concentration of unreacted alcohols and/or carbon monoxide in the gas stream"
-        },
-        {
-            "Measurement Context": "EXAFS fitting was carried out over the R range",
-            "Measured Value": "1-2.2",
-            "Unit": "\u212b",
-            "Refers To": "R range in EXAFS fitting"
-        },
-        {
-            "Measurement Context": "S o 2 was determined to be 0.73\u00b10.04 by fitting the Re metal standard",
-            "Measured Value": "0.73\u00b10.04",
-            "Unit": "Unknown",
-            "Refers To": "The value of S o 2 in the Re metal standard"
-        },
-        {
-            "Measurement Context": "The support can be silicon dioxide nanoparticles having an average diameter",
-            "Measured Value": "up to 500 \u03bcm, up to 400 \u03bcm, up to 300 \u03bcm, up to 200 \u03bcm, up to 150 \u03bcm, up to 100 \u03bcm, up to 10 \u03bcm, or up to 5 \u03bcm",
-            "Unit": "\u03bcm",
-            "Refers To": "The average diameter of silicon dioxide nanoparticles"
-        },
-        {
-            "Measurement Context": "When the support is in the form of a carbon sheet, such as a graphene sheet, the sheet can have a dimension",
-            "Measured Value": "on the order of 900 \u03bcm, 800 \u03bcm, 700 \u03bcm, 600 \u03bcm, 500 \u03bcm, 400 \u03bcm, 300 \u03bcm, 200 \u03bcm, or 100 \u03bcm",
-            "Unit": "\u03bcm",
-            "Refers To": "The dimension of a carbon sheet support"
-        }
-    ],
+    "uid": "0",
+    "source_uid": "0",
+    "data": {
+        "physical_measurements": []
+    },
+    "raw": "No structured information was provided in the user's input that matches the given schema.",
+    "validated_data": {},
+    "errors": [],
     "Patent Identifier": "US20230002549A1"
 }
