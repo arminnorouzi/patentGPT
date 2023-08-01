@@ -97,8 +97,8 @@ async def call_extraction_to_json(schema, year, month, day, saved_patent_names, 
         print("Writing the output to a file...")
 
     # Write the output to a file in the 'output' directory
-    with open(f"output/{saved_patent_names[index]}.json", "w") as json_file:
-        json.dump(output_dict, json_file, indent=4)
+    with open(f"output/{saved_patent_names[index]}_{model_name}.json", "w", encoding="utf-8") as json_file:
+        json.dump(output_dict, json_file, indent=4, ensure_ascii=False)
 
     if logging:
         print("Call to 'call_extraction_to_json' completed.")

@@ -66,7 +66,7 @@ def call_QA_to_json(
     The output is also written to a file in the 'output' directory with the name '{index}.json'.
     """
 
-    llm = ChatOpenAI(model_name=model_name, cache=False)
+    llm = ChatOpenAI(model_name=model_name, temperature=0, cache=False)
     file_path = os.path.join(
         os.getcwd(),
         "data",
@@ -142,9 +142,12 @@ def call_QA_to_json(
     if logging:
         print("Writing the output to a file...")
 
-    # Write the output to a file in the 'output' directory
-    with open(f"output/{saved_patent_names[index]}_{model_name}.json", "w") as json_file:
-        json.dump(output_dict, json_file, indent=4)
+    with open(f"output/{saved_patent_names[index]}_{model_name}.json", "w", encoding="utf-8") as json_file:
+        json.dump(output_dict, json_file, indent=4, ensure_ascii=False)
+
+    # # Write the output to a file in the 'output' directory
+    # with open(f"output/{saved_patent_names[index]}_{model_name}.json", "w") as json_file:
+    #     json.dump(output_dict, json_file, indent=4)
 
     if logging:
         print("Call to 'call_QA_to_json' completed.")
@@ -233,8 +236,8 @@ def call_TA_to_json(
         print("Writing the output to a file...")
 
     # Write the output to a file in the 'output' directory
-    with open(f"output/{saved_patent_names[index]}.json", "w") as json_file:
-        json.dump(output_dict, json_file, indent=4)
+    with open(f"output/{saved_patent_names[index]}.json", "w", encoding="utf-8") as json_file:
+        json.dump(output_dict, json_file, indent=4, ensure_ascii=False)
 
     if logging:
         print("Call to 'call_QA_to_json' completed.")
@@ -330,8 +333,8 @@ def call_QA_faiss_to_json(
         print("Writing the output to a file...")
 
     # Write the output to a file in the 'output' directory
-    with open(f"output/{saved_patent_names[index]}.json", "w") as json_file:
-        json.dump(output_dict, json_file, indent=4)
+    with open(f"output/{saved_patent_names[index]}_{model_name}.json", "w", encoding="utf-8") as json_file:
+        json.dump(output_dict, json_file, indent=4, ensure_ascii=False)
 
     if logging:
         print("Call to 'call_QA_to_json' completed.")
