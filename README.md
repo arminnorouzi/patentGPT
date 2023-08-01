@@ -5,9 +5,14 @@ This repository hosts a prototype for patent analysis with a particular focus on
 ## Quick Start
 
 1. Clone this repository.
-2. Create a new environment
-3. Install the required Python packages by running `pip install -r requirements.txt` in your terminal.
-4. Run the Jupyter notebook `patent_analysis.ipynb`.
+2. Install the required Python packages by running `!pip install -r requirements.txt`.
+3. Run the Jupyter notebook `quick_start.ipynb`.
+4. Authenticate and add your OpenAI token. Then answer these questions::
+   - Enter a date in the format 'YYYY-MM-DD': exampe is 2023-01-12
+   - Enter the number of patents you want to analyze: example is 5 (this randomly select 5 parsed patents)
+   - Do you want to log the results? (yes/no)
+   - Select a model for analysis: 1. gpt-3.5-turbo 2. gpt-4
+5. JSON results will be saved in the output folder.
 
 ## System Design
 
