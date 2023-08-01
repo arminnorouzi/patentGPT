@@ -4,49 +4,49 @@
             "Measurement_substance": "play sand",
             "Measured_value": "91.5",
             "Measured_unit": "%",
-            "measurement_type": "proportion"
+            "measurement_type": "composition"
         },
         {
             "Measurement_substance": "photoluminescent pigment",
             "Measured_value": "5",
             "Measured_unit": "%",
-            "measurement_type": "proportion"
+            "measurement_type": "composition"
         },
         {
             "Measurement_substance": "powdered binder",
             "Measured_value": "3",
             "Measured_unit": "%",
-            "measurement_type": "proportion"
+            "measurement_type": "composition"
         },
         {
             "Measurement_substance": "curing agent",
             "Measured_value": "0.5",
             "Measured_unit": "%",
-            "measurement_type": "proportion"
+            "measurement_type": "composition"
         },
         {
             "Measurement_substance": "play sand",
             "Measured_value": "89",
             "Measured_unit": "%",
-            "measurement_type": "proportion"
+            "measurement_type": "composition"
         },
         {
             "Measurement_substance": "photoluminescent pigment",
             "Measured_value": "5",
             "Measured_unit": "%",
-            "measurement_type": "proportion"
+            "measurement_type": "composition"
         },
         {
             "Measurement_substance": "powdered binder",
             "Measured_value": "5",
             "Measured_unit": "%",
-            "measurement_type": "proportion"
+            "measurement_type": "composition"
         },
         {
             "Measurement_substance": "curing agent",
             "Measured_value": "1",
             "Measured_unit": "%",
-            "measurement_type": "proportion"
+            "measurement_type": "composition"
         },
         {
             "Measurement_substance": "play sand",
@@ -61,7 +61,19 @@
             "measurement_type": "mixing time"
         },
         {
+            "Measurement_substance": "V-blender",
+            "Measured_value": "500",
+            "Measured_unit": "rpm",
+            "measurement_type": "mixing speed"
+        },
+        {
             "Measurement_substance": "photo sand mix",
+            "Measured_value": "5",
+            "Measured_unit": "minutes",
+            "measurement_type": "mixing time"
+        },
+        {
+            "Measurement_substance": "powered binder and curing agent",
             "Measured_value": "15",
             "Measured_unit": "minutes",
             "measurement_type": "mixing time"
@@ -80,15 +92,15 @@
         },
         {
             "Measurement_substance": "patent application Ser. No. 16/811,776",
-            "Measured_value": "",
-            "Measured_unit": "",
-            "measurement_type": "patent application number"
+            "Measured_value": "Mar. 6, 2020",
+            "Measured_unit": "date",
+            "measurement_type": "filing date"
         },
         {
             "Measurement_substance": "patent application Ser. No. 16/782,112",
-            "Measured_value": "",
-            "Measured_unit": "",
-            "measurement_type": "patent application number"
+            "Measured_value": "Feb. 5, 2020",
+            "Measured_unit": "date",
+            "measurement_type": "filing date"
         }
     ],
     "Patent Identifier": "US20230002279A1"

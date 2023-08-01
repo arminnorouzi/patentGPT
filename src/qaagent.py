@@ -30,6 +30,7 @@ if openai.api_key is None:
 embeddings = OpenAIEmbeddings()
 
 
+import gc
 
 
 def split_docs(documents, chunk_size=1000, chunk_overlap=0):
@@ -56,7 +57,6 @@ def call_QA_to_json(
 
     Returns:
         tuple: A tuple containing two elements:
-            - A list of strings representing the raw documents loaded from the specified XML file.
             - A JSON string representing the output from the retrieval chain.
 
     This function loads the specified txt file, generates embeddings from its content,
@@ -65,7 +65,7 @@ def call_QA_to_json(
     The output is also written to a file in the 'output' directory with the name '{count}.json'.
     """
 
-    llm = ChatOpenAI(model_name=model_name)
+    llm = ChatOpenAI(model_name=model_name, cache=False)
     file_path = os.path.join(
         os.getcwd(),
         "data",
@@ -83,7 +83,7 @@ def call_QA_to_json(
 
     if logging:
         print("Generating embeddings and persisting...")
-
+    
     vectordb = Chroma.from_documents(
         documents=documents, embedding=embeddings,
     )
@@ -153,7 +153,8 @@ def call_QA_to_json(
     if logging:
         print("Call to 'call_QA_to_json' completed.")
 
-    return documents_raw, output
+    vectordb.delete()
+    return output
 
 
 def call_TA_to_json(
@@ -241,7 +242,6 @@ def call_TA_to_json(
 
     return documents_raw, output
 
-import gc
 
 
 def call_QA_faiss_to_json(

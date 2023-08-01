@@ -1,136 +1,58 @@
 {
     "Content": [
         {
-            "Measurement_substance": "CPN (cyclopentanone)",
-            "Measured_value": "60",
-            "Measured_unit": "seconds",
-            "measurement_type": "solvent exposure time"
+            "Measurement_substance": "P-22",
+            "Measured_value": "3.2",
+            "Measured_unit": "polydispersity Mw/Mn",
+            "measurement_type": "polydispersity"
         },
         {
-            "Measurement_substance": "substrate",
-            "Measured_value": "1,000",
-            "Measured_unit": "rpm",
-            "measurement_type": "rotation speed"
+            "Measurement_substance": "P-23 solution",
+            "Measured_value": "30%",
+            "Measured_unit": "by mass",
+            "measurement_type": "concentration"
         },
         {
-            "Measurement_substance": "hot plate",
-            "Measured_value": "80",
-            "Measured_unit": "\u00b0C",
-            "measurement_type": "temperature"
+            "Measurement_substance": "P-21 solution",
+            "Measured_value": "4.42",
+            "Measured_unit": "g",
+            "measurement_type": "mass"
         },
         {
-            "Measurement_substance": "refractive index",
-            "Measured_value": "N/A",
-            "Measured_unit": "N/A",
-            "measurement_type": "measurement"
+            "Measurement_substance": "crosslinking agent ATM-35E",
+            "Measured_value": "0.088",
+            "Measured_unit": "g",
+            "measurement_type": "mass"
         },
         {
-            "Measurement_substance": "film thickness",
-            "Measured_value": "N/A",
-            "Measured_unit": "N/A",
-            "measurement_type": "measurement"
-        },
-        {
-            "Measurement_substance": "residual film ratio",
-            "Measured_value": "N/A",
-            "Measured_unit": "%",
-            "measurement_type": "measurement"
-        },
-        {
-            "Measurement_substance": "transmittance",
-            "Measured_value": "N/A",
-            "Measured_unit": "N/A",
-            "measurement_type": "measurement"
+            "Measurement_substance": "crosslinking agent DN-0075",
+            "Measured_value": "0.088",
+            "Measured_unit": "g",
+            "measurement_type": "mass"
         },
         {
             "Measurement_substance": "refractive index",
-            "Measured_value": "N/A",
-            "Measured_unit": "N/A",
-            "measurement_type": "measurement"
+            "Measured_value": "Table 3",
+            "Measured_unit": null,
+            "measurement_type": "measurement result"
         },
         {
             "Measurement_substance": "film thickness",
-            "Measured_value": "N/A",
-            "Measured_unit": "N/A",
-            "measurement_type": "measurement"
+            "Measured_value": "Table 3",
+            "Measured_unit": null,
+            "measurement_type": "measurement result"
         },
         {
             "Measurement_substance": "residual film ratio",
-            "Measured_value": "N/A",
+            "Measured_value": "Table 3",
             "Measured_unit": "%",
-            "measurement_type": "measurement"
+            "measurement_type": "measurement result"
         },
         {
             "Measurement_substance": "average transmittance",
-            "Measured_value": "N/A",
-            "Measured_unit": "N/A",
-            "measurement_type": "measurement"
-        },
-        {
-            "Measurement_substance": "refractive index",
-            "Measured_value": "N/A",
-            "Measured_unit": "N/A",
-            "measurement_type": "measurement"
-        },
-        {
-            "Measurement_substance": "film thickness",
-            "Measured_value": "N/A",
-            "Measured_unit": "N/A",
-            "measurement_type": "measurement"
-        },
-        {
-            "Measurement_substance": "residual film ratio",
-            "Measured_value": "N/A",
-            "Measured_unit": "%",
-            "measurement_type": "measurement"
-        },
-        {
-            "Measurement_substance": "average transmittance",
-            "Measured_value": "N/A",
-            "Measured_unit": "N/A",
-            "measurement_type": "measurement"
-        },
-        {
-            "Measurement_substance": "refractive index",
-            "Measured_value": "N/A",
-            "Measured_unit": "N/A",
-            "measurement_type": "measurement"
-        },
-        {
-            "Measurement_substance": "film thickness",
-            "Measured_value": "N/A",
-            "Measured_unit": "N/A",
-            "measurement_type": "measurement"
-        },
-        {
-            "Measurement_substance": "residual film ratio",
-            "Measured_value": "N/A",
-            "Measured_unit": "%",
-            "measurement_type": "measurement"
-        },
-        {
-            "Measurement_substance": "average transmittance",
-            "Measured_value": "N/A",
-            "Measured_unit": "N/A",
-            "measurement_type": "measurement"
-        },
-        {
-            "Measurement_substance": "compound P-22",
-            "Measured_value": "N/A",
-            "Measured_unit": "N/A",
-            "measurement_type": "measurement"
-        },
-        {
-            "Measurement_substance": "compound P-1",
-            "Measured_value": "6,070",
-            "Measured_unit": "polystyrene",
-            "measurement_type": "weight average molecular weight (Mw)"
-        },
-        {
-            "Measurement_substance": "compound P-1",
-            "Measured_value": "2.6",
-            "Measured_unit": "N/A",
-            "measurement_type": "polydispersity (Mw/Mn)"
+            "Measured_value": "Table 3",
+            "Measured_unit": null,
+            "measurement_type": "measurement result"
         }
     ],
     "Patent Identifier": "US20230002555A1"

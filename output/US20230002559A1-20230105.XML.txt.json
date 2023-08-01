@@ -4,7 +4,7 @@
             "Measurement_substance": "DMF",
             "Measured_value": "1",
             "Measured_unit": "mL",
-            "measurement_type": "Volume"
+            "measurement_type": "volume"
         },
         {
             "Measurement_substance": "temperature",
@@ -22,115 +22,73 @@
             "Measurement_substance": "chloroform",
             "Measured_value": "2",
             "Measured_unit": "mL",
-            "measurement_type": "Volume"
+            "measurement_type": "volume"
         },
         {
             "Measurement_substance": "methanol",
             "Measured_value": "800",
             "Measured_unit": "rpm",
-            "measurement_type": "speed"
+            "measurement_type": "stirring speed"
         },
         {
-            "Measurement_substance": "yield",
+            "Measurement_substance": "yield of the product thiocarbonyl-based poly(O-thiocarbamate) compound",
             "Measured_value": "90",
             "Measured_unit": "%",
-            "measurement_type": "percentage"
+            "measurement_type": "yield"
         },
         {
-            "Measurement_substance": "Mw",
+            "Measurement_substance": "Mw (molecular weight)",
             "Measured_value": "26,400",
-            "Measured_unit": "",
+            "Measured_unit": null,
             "measurement_type": "molecular weight"
         },
         {
             "Measurement_substance": "molecular weight distribution",
             "Measured_value": "1.57",
-            "Measured_unit": "",
+            "Measured_unit": null,
             "measurement_type": "molecular weight distribution"
         },
         {
-            "Measurement_substance": "Mw",
-            "Measured_value": "24,600",
-            "Measured_unit": "",
-            "measurement_type": "molecular weight"
-        },
-        {
-            "Measurement_substance": "molecular weight distribution",
-            "Measured_value": "1.73",
-            "Measured_unit": "",
-            "measurement_type": "molecular weight distribution"
-        },
-        {
-            "Measurement_substance": "infrared absorption spectrum",
-            "Measured_value": "",
-            "Measured_unit": "",
+            "Measurement_substance": "H-NMR spectrum",
+            "Measured_value": null,
+            "Measured_unit": null,
             "measurement_type": "spectrum"
         },
         {
-            "Measurement_substance": "stretching vibration peaks",
-            "Measured_value": "2110",
-            "Measured_unit": "cm^-1",
-            "measurement_type": "vibration peaks"
+            "Measurement_substance": "infrared absorption spectrum",
+            "Measured_value": null,
+            "Measured_unit": null,
+            "measurement_type": "spectrum"
         },
         {
-            "Measurement_substance": "stretching vibration peaks",
-            "Measured_value": "3326",
-            "Measured_unit": "cm^-1",
-            "measurement_type": "vibration peaks"
-        },
-        {
-            "Measurement_substance": "peak",
-            "Measured_value": "1494",
-            "Measured_unit": "cm^-1",
-            "measurement_type": "vibration peak"
-        },
-        {
-            "Measurement_substance": "chemical shift",
-            "Measured_value": "10.5",
-            "Measured_unit": "ppm",
-            "measurement_type": "chemical shift"
-        },
-        {
-            "Measurement_substance": "chemical shifts",
-            "Measured_value": "188.2",
-            "Measured_unit": "ppm",
-            "measurement_type": "chemical shifts"
-        },
-        {
-            "Measurement_substance": "chemical shifts",
-            "Measured_value": "189.7",
-            "Measured_unit": "ppm",
-            "measurement_type": "chemical shifts"
-        },
-        {
-            "Measurement_substance": "temperature",
+            "Measurement_substance": "temperature for 5% thermal weight loss",
             "Measured_value": "248",
             "Measured_unit": "\u00b0C",
             "measurement_type": "temperature"
         },
         {
-            "Measurement_substance": "thermal weight loss",
-            "Measured_value": "5",
-            "Measured_unit": "%",
-            "measurement_type": "percentage"
-        },
-        {
-            "Measurement_substance": "yield",
+            "Measurement_substance": "yield of the product thiocarbonyl-based poly(O-thiocarbamate) compound",
             "Measured_value": "91",
             "Measured_unit": "%",
-            "measurement_type": "percentage"
+            "measurement_type": "yield"
         },
         {
-            "Measurement_substance": "Mw",
+            "Measurement_substance": "Mw (molecular weight)",
             "Measured_value": "27,600",
-            "Measured_unit": "",
+            "Measured_unit": null,
             "measurement_type": "molecular weight"
         },
         {
             "Measurement_substance": "molecular weight distribution",
             "Measured_value": "1.65",
-            "Measured_unit": "",
+            "Measured_unit": null,
             "measurement_type": "molecular weight distribution"
+        },
+        {
+            "Measurement_substance": "H-NMR spectrum",
+            "Measured_value": null,
+            "Measured_unit": null,
+            "measurement_type": "spectrum"
         }
     ],
     "Patent Identifier": "US20230002559A1"

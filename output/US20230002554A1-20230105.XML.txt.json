@@ -1,94 +1,88 @@
 {
     "Content": [
         {
-            "Measurement_substance": "hydrogel",
-            "Measured_value": "6.6",
-            "Measured_unit": "kPa",
-            "measurement_type": "elastic modulus"
-        },
-        {
-            "Measurement_substance": "hydrogel",
-            "Measured_value": "0.2",
-            "Measured_unit": "Pa",
-            "measurement_type": "elastic modulus"
-        },
-        {
-            "Measurement_substance": "hydrogel",
-            "Measured_value": "10.6",
-            "Measured_unit": "kPa",
-            "measurement_type": "elastic modulus"
-        },
-        {
-            "Measurement_substance": "hydrogel",
-            "Measured_value": "13.0",
-            "Measured_unit": "kPa",
-            "measurement_type": "elastic modulus"
-        },
-        {
-            "Measurement_substance": "hydrogel",
-            "Measured_value": "1.3",
-            "Measured_unit": "kPa",
-            "measurement_type": "elastic modulus"
-        },
-        {
-            "Measurement_substance": "hydrogel",
-            "Measured_value": "11.1",
-            "Measured_unit": "kPa",
-            "measurement_type": "elastic modulus"
-        },
-        {
-            "Measurement_substance": "solution",
-            "Measured_value": "150",
-            "Measured_unit": "\u03bcL",
-            "measurement_type": "volume"
-        },
-        {
-            "Measurement_substance": "solution",
-            "Measured_value": "160",
-            "Measured_unit": "s",
-            "measurement_type": "time"
-        },
-        {
-            "Measurement_substance": "solution",
-            "Measured_value": "290",
-            "Measured_unit": "minutes",
-            "measurement_type": "time"
-        },
-        {
-            "Measurement_substance": "solution",
-            "Measured_value": "100",
-            "Measured_unit": "\u03bcL",
-            "measurement_type": "volume"
-        },
-        {
-            "Measurement_substance": "solution",
-            "Measured_value": "80",
-            "Measured_unit": "minutes",
-            "measurement_type": "time"
-        },
-        {
-            "Measurement_substance": "polyethylene glycol",
-            "Measured_value": "10000",
-            "Measured_unit": "number-average molecular weight",
-            "measurement_type": "molecular weight"
-        },
-        {
-            "Measurement_substance": "polyethylene glycol",
-            "Measured_value": "60",
+            "Measurement_substance": "four-arm polyethylene glycol with benzaldehyde as terminal group",
+            "Measured_value": "number-average molecular weight: 10000, 60 mg",
             "Measured_unit": "mg",
-            "measurement_type": "weight"
+            "measurement_type": "mass/weight"
         },
         {
             "Measurement_substance": "PBS",
-            "Measured_value": "1",
+            "Measured_value": "1 mL",
             "Measured_unit": "mL",
             "measurement_type": "volume"
         },
         {
-            "Measurement_substance": "water bath",
-            "Measured_value": "37",
-            "Measured_unit": "\u00b0C",
-            "measurement_type": "temperature"
+            "Measurement_substance": "hydrogel",
+            "Measured_value": "6.6 kPa",
+            "Measured_unit": "kPa",
+            "measurement_type": "elastic modulus"
+        },
+        {
+            "Measurement_substance": "hydrogel prepared in Example 11",
+            "Measured_value": "10.6 kPa",
+            "Measured_unit": "kPa",
+            "measurement_type": "elastic modulus"
+        },
+        {
+            "Measurement_substance": "four-arm polyethylene glycol with carbazate as terminal group",
+            "Measured_value": "number-average molecular weight: 10000, 60 mg",
+            "Measured_unit": "mg",
+            "measurement_type": "mass/weight"
+        },
+        {
+            "Measurement_substance": "hydrogel",
+            "Measured_value": "0.2 Pa",
+            "Measured_unit": "Pa",
+            "measurement_type": "elastic modulus"
+        },
+        {
+            "Measurement_substance": "hydrogel prepared in Example 11",
+            "Measured_value": "13.0 kPa",
+            "Measured_unit": "kPa",
+            "measurement_type": "elastic modulus"
+        },
+        {
+            "Measurement_substance": "four-arm polyethylene glycol with benzaldehyde as terminal group",
+            "Measured_value": "number-average molecular weight: 10000, 60 mg",
+            "Measured_unit": "mg",
+            "measurement_type": "mass/weight"
+        },
+        {
+            "Measurement_substance": "four-arm polyethylene glycol with aminooxy as terminal group",
+            "Measured_value": "number-average molecular weight: 10000, 60 mg",
+            "Measured_unit": "mg",
+            "measurement_type": "mass/weight"
+        },
+        {
+            "Measurement_substance": "hydrogel",
+            "Measured_value": "1.3 kPa",
+            "Measured_unit": "kPa",
+            "measurement_type": "elastic modulus"
+        },
+        {
+            "Measurement_substance": "hydrogel prepared in Example 12",
+            "Measured_value": "11.1 kPa",
+            "Measured_unit": "kPa",
+            "measurement_type": "elastic modulus"
+        },
+        {
+            "Measurement_substance": "four-arm polyethylene glycol derivative prepared in Example 7",
+            "Measured_value": "number-average molecular weight: 10000, 60 mg",
+            "Measured_unit": "mg",
+            "measurement_type": "mass/weight"
+        },
+        {
+            "Measurement_substance": "four-arm polyethylene glycol with carbazate as terminal group",
+            "Measured_value": "number-average molecular weight: 10000, 60 mg",
+            "Measured_unit": "mg",
+            "measurement_type": "mass/weight"
+        },
+        {
+            "Measurement_substance": "hydrogel",
+            "Measured_value": "11.1 kPa",
+            "Measured_unit": "kPa",
+            "measurement_type": "elastic modulus"
         }
     ],
     "Patent Identifier": "US20230002554A1"

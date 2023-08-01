@@ -1,9 +1,9 @@
 {
     "Content": [
         {
-            "Measurement_substance": "resin material",
-            "Measured_value": "about 1 \u03bcm",
-            "Measured_unit": "\u03bcm",
+            "Measurement_substance": "ultrafine thread 121",
+            "Measured_value": "equal to or greater than about 1 \u03bcm and equal to or less than about 1 mm",
+            "Measured_unit": "\u03bcm, mm",
             "measurement_type": "thickness"
         },
         {
@@ -15,37 +15,25 @@
         {
             "Measurement_substance": "inner-filament cover layer 112",
             "Measured_value": "0.1%",
-            "Measured_unit": "%",
+            "Measured_unit": "weight",
             "measurement_type": "weight"
         },
         {
             "Measurement_substance": "outer-filament cover layer 122",
             "Measured_value": "0.1%",
-            "Measured_unit": "%",
+            "Measured_unit": "weight",
             "measurement_type": "weight"
         },
         {
             "Measurement_substance": "inner-filament cover layer 112",
-            "Measured_value": "0.05%",
-            "Measured_unit": "%",
+            "Measured_value": "0.05% and less than 0.3%",
+            "Measured_unit": "weight",
             "measurement_type": "weight"
         },
         {
             "Measurement_substance": "outer-filament cover layer 122",
-            "Measured_value": "0.05%",
-            "Measured_unit": "%",
-            "measurement_type": "weight"
-        },
-        {
-            "Measurement_substance": "inner-filament cover layer 112",
-            "Measured_value": "0.3%",
-            "Measured_unit": "%",
-            "measurement_type": "weight"
-        },
-        {
-            "Measurement_substance": "outer-filament cover layer 122",
-            "Measured_value": "0.3%",
-            "Measured_unit": "%",
+            "Measured_value": "0.05% and less than 0.3%",
+            "Measured_unit": "weight",
             "measurement_type": "weight"
         },
         {
