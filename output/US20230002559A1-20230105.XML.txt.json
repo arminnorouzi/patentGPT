@@ -1,11 +1,47 @@
 {
-    "uid": "0",
-    "source_uid": "0",
-    "data": {
-        "physical_measurements": []
-    },
-    "raw": "No structured information about physical measurements is provided in the user's input.",
-    "validated_data": {},
-    "errors": [],
+    "Content": [
+        {
+            "Measurement_substance": "Tetramethylsilane (TMS)",
+            "Measured_value": "\u03b40.0",
+            "Measured_unit": "ppm",
+            "measurement_type": "reference material"
+        },
+        {
+            "Measurement_substance": "Polystyrene",
+            "Measured_value": "6,070",
+            "Measured_unit": "Mw",
+            "measurement_type": "weight"
+        },
+        {
+            "Measurement_substance": "Polystyrene",
+            "Measured_value": "2.6",
+            "Measured_unit": "Mw/Mn",
+            "measurement_type": "polydispersity"
+        },
+        {
+            "Measurement_substance": "Film thickness",
+            "Measured_value": "after solvent exposure/film thickness before solvent exposure",
+            "Measured_unit": "%",
+            "measurement_type": "residual film ratio"
+        },
+        {
+            "Measurement_substance": "Refractive index",
+            "Measured_value": "not specified",
+            "Measured_unit": "not specified",
+            "measurement_type": "not specified"
+        },
+        {
+            "Measurement_substance": "Film thickness",
+            "Measured_value": "not specified",
+            "Measured_unit": "not specified",
+            "measurement_type": "not specified"
+        },
+        {
+            "Measurement_substance": "Cured film surface",
+            "Measured_value": "not specified",
+            "Measured_unit": "not specified",
+            "measurement_type": "observation"
+        }
+    ],
     "Patent Identifier": "US20230002559A1"
 }

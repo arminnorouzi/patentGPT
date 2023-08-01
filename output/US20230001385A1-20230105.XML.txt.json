@@ -1,17 +1,107 @@
 {
-    "uid": "0",
-    "source_uid": "0",
-    "data": {
-        "physical_measurements": [
-            {
-                "substance": "",
-                "value": "",
-                "unit": ""
-            }
-        ]
-    },
-    "raw": "substance|value|unit\n||",
-    "validated_data": {},
-    "errors": [],
+    "Content": [
+        {
+            "Measurement_substance": "samples",
+            "Measured_value": "450\u00b0 C.",
+            "Measured_unit": "\u00b0 C",
+            "measurement_type": "calcination temperature"
+        },
+        {
+            "Measurement_substance": "convergence semiangle",
+            "Measured_value": "22",
+            "Measured_unit": "mrad",
+            "measurement_type": "semiangle"
+        },
+        {
+            "Measurement_substance": "inner-collection angle",
+            "Measured_value": "83",
+            "Measured_unit": "mrad",
+            "measurement_type": "angle"
+        },
+        {
+            "Measurement_substance": "outer-collection angle",
+            "Measured_value": "165",
+            "Measured_unit": "mrad",
+            "measurement_type": "angle"
+        },
+        {
+            "Measurement_substance": "beam current",
+            "Measured_value": "11",
+            "Measured_unit": "pA",
+            "measurement_type": "current"
+        },
+        {
+            "Measurement_substance": "pixel time",
+            "Measured_value": "4",
+            "Measured_unit": "\u03bcs",
+            "measurement_type": "time"
+        },
+        {
+            "Measurement_substance": "Re L3 edge",
+            "Measured_value": "10535",
+            "Measured_unit": "eV",
+            "measurement_type": "energy"
+        },
+        {
+            "Measurement_substance": "pressure",
+            "Measured_value": "1\u00d710 \u22129",
+            "Measured_unit": "Torr",
+            "measurement_type": "pressure"
+        },
+        {
+            "Measurement_substance": "CO partial pressure",
+            "Measured_value": "30",
+            "Measured_unit": "mbar",
+            "measurement_type": "pressure"
+        },
+        {
+            "Measurement_substance": "methanol partial pressures",
+            "Measured_value": "42, 105, and 150",
+            "Measured_unit": "mbar",
+            "measurement_type": "pressure"
+        },
+        {
+            "Measurement_substance": "number of scans",
+            "Measured_value": "32",
+            "Measured_unit": "scans",
+            "measurement_type": "count"
+        },
+        {
+            "Measurement_substance": "resolution",
+            "Measured_value": "4",
+            "Measured_unit": "cm \u22121",
+            "measurement_type": "resolution"
+        },
+        {
+            "Measurement_substance": "absorption length",
+            "Measured_value": "2.0",
+            "Measured_unit": "unitless",
+            "measurement_type": "length"
+        },
+        {
+            "Measurement_substance": "fractional absorbance of Re",
+            "Measured_value": "about 0.2",
+            "Measured_unit": "unitless",
+            "measurement_type": "absorbance"
+        },
+        {
+            "Measurement_substance": "temperature",
+            "Measured_value": "50\u00b0 C.",
+            "Measured_unit": "\u00b0 C",
+            "measurement_type": "temperature"
+        },
+        {
+            "Measurement_substance": "R range",
+            "Measured_value": "1-2.2",
+            "Measured_unit": "\u212b",
+            "measurement_type": "range"
+        },
+        {
+            "Measurement_substance": "k range",
+            "Measured_value": "3.9-14",
+            "Measured_unit": "unitless",
+            "measurement_type": "range"
+        }
+    ],
     "Patent Identifier": "US20230001385A1"
 }

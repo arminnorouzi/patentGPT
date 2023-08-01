@@ -1,11 +1,107 @@
 {
-    "uid": "0",
-    "source_uid": "0",
-    "data": {
-        "physical_measurements": []
-    },
-    "raw": "No structured information was provided in the user's input that matches the given schema.",
-    "validated_data": {},
-    "errors": [],
+    "Content": [
+        {
+            "Measurement_substance": "samples",
+            "Measured_value": "450",
+            "Measured_unit": "\u00b0C",
+            "measurement_type": "calcination temperature"
+        },
+        {
+            "Measurement_substance": "convergence semiangle",
+            "Measured_value": "22",
+            "Measured_unit": "mrad",
+            "measurement_type": "semiangle"
+        },
+        {
+            "Measurement_substance": "inner-collection angle",
+            "Measured_value": "83",
+            "Measured_unit": "mrad",
+            "measurement_type": "angle"
+        },
+        {
+            "Measurement_substance": "outer-collection angle",
+            "Measured_value": "165",
+            "Measured_unit": "mrad",
+            "measurement_type": "angle"
+        },
+        {
+            "Measurement_substance": "beam current",
+            "Measured_value": "11",
+            "Measured_unit": "pA",
+            "measurement_type": "current"
+        },
+        {
+            "Measurement_substance": "pixel time",
+            "Measured_value": "4",
+            "Measured_unit": "\u03bcs",
+            "measurement_type": "time"
+        },
+        {
+            "Measurement_substance": "temperature",
+            "Measured_value": "170",
+            "Measured_unit": "\u00b0C",
+            "measurement_type": "melting point"
+        },
+        {
+            "Measurement_substance": "temperature",
+            "Measured_value": "-40",
+            "Measured_unit": "\u00b0C",
+            "measurement_type": "temperature"
+        },
+        {
+            "Measurement_substance": "diameter",
+            "Measured_value": "25",
+            "Measured_unit": "mm",
+            "measurement_type": "diameter"
+        },
+        {
+            "Measurement_substance": "gap",
+            "Measured_value": "1.6",
+            "Measured_unit": "millimeter",
+            "measurement_type": "gap"
+        },
+        {
+            "Measurement_substance": "pressure",
+            "Measured_value": "1\u00d710^-9",
+            "Measured_unit": "Torr",
+            "measurement_type": "pressure"
+        },
+        {
+            "Measurement_substance": "frequency",
+            "Measured_value": "10",
+            "Measured_unit": "radians per second",
+            "measurement_type": "frequency"
+        },
+        {
+            "Measurement_substance": "partial pressure",
+            "Measured_value": "30",
+            "Measured_unit": "mbar",
+            "measurement_type": "pressure"
+        },
+        {
+            "Measurement_substance": "partial pressures",
+            "Measured_value": "42, 105, and 150",
+            "Measured_unit": "mbar",
+            "measurement_type": "pressure"
+        },
+        {
+            "Measurement_substance": "resolution",
+            "Measured_value": "4",
+            "Measured_unit": "cm^-1",
+            "measurement_type": "resolution"
+        },
+        {
+            "Measurement_substance": "edge energy",
+            "Measured_value": "LMCT",
+            "Measured_unit": "electronic transition",
+            "measurement_type": "energy"
+        },
+        {
+            "Measurement_substance": "domain size",
+            "Measured_value": "ReOx",
+            "Measured_unit": "species",
+            "measurement_type": "size"
+        }
+    ],
     "Patent Identifier": "US20230002549A1"
 }

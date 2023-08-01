@@ -1,8 +1,29 @@
 {
-    "uid": "0",
-    "source_uid": "0",
-    "data": {},
-    "raw": "substance|measurement_type|value|unit\n|||\nmeasurement_type|value|unit\nsuture thread|curled||\nresin materials|improving operability||\nresin materials|slidability||\nresin materials|slide-down performance||\nMPC|enhance easiness||\nMPC|retainability||\nsuture thread|coated with|MPC||\npackaging|||",
-    "validated_data": {},
-    "errors": [
-        
+    "Content": [
+        {
+            "Measurement_substance": "filament 111a",
+            "Measured_value": "0.05% and less than 0.3%",
+            "Measured_unit": "weight",
+            "measurement_type": "inner-filament cover layer thickness"
+        },
+        {
+            "Measurement_substance": "filament 111a",
+            "Measured_value": "0.05% and less than 0.3%",
+            "Measured_unit": "weight",
+            "measurement_type": "outer-filament cover layer thickness"
+        },
+        {
+            "Measurement_substance": "filament 111a",
+            "Measured_value": "0.1% and less than 0.3%",
+            "Measured_unit": "weight",
+            "measurement_type": "inner-filament cover layer thickness"
+        },
+        {
+            "Measurement_substance": "filament 111a",
+            "Measured_value": "0.1% and less than 0.3%",
+            "Measured_unit": "weight",
+            "measurement_type": "outer-filament cover layer thickness"
+        }
+    ],
+    "Patent Identifier": "US20230001042A1"
+}

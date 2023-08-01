@@ -12,7 +12,7 @@ from langchain.document_loaders import TextLoader
 from langchain.prompts import PromptTemplate
 from langchain.chains import AnalyzeDocumentChain
 from langchain.chains.question_answering import load_qa_chain
-
+from langchain.callbacks import get_openai_callback
 
 # Move variables and functions that don't need to be in the main function outside
 nltk.download("punkt", quiet=True)
@@ -26,9 +26,7 @@ if openai.api_key is None:
 
 embeddings = OpenAIEmbeddings()
 
-model_name = "gpt-3.5-turbo"
-# model_name = "gpt-4"
-llm = ChatOpenAI(model_name=model_name)
+
 
 
 def split_docs(documents, chunk_size=1000, chunk_overlap=20):
@@ -39,7 +37,7 @@ def split_docs(documents, chunk_size=1000, chunk_overlap=20):
 
 
 def call_QA_to_json(
-    prompt, year, month, day, saved_patent_names, count=8, logging=True
+    prompt, year, month, day, saved_patent_names, count=8, logging=True, model_name="gpt-3.5-turbo"
 ):
     """
     Generate embeddings from txt documents, retrieve data based on the provided prompt, and return the result as a JSON object.
@@ -63,6 +61,8 @@ def call_QA_to_json(
     The retrieved data is returned as a JSON object, and the raw documents are returned as a list of strings.
     The output is also written to a file in the 'output' directory with the name '{count}.json'.
     """
+
+    llm = ChatOpenAI(model_name=model_name)
     file_path = os.path.join(
         os.getcwd(),
         "data",
@@ -112,7 +112,15 @@ def call_QA_to_json(
 
     if logging:
         print("Running retrieval chain...")
-    output = retrieval_chain.run(prompt)
+
+    with get_openai_callback() as cb:
+        output = retrieval_chain.run(prompt)
+        print(f"Total Tokens: {cb.total_tokens}")
+        print(f"Prompt Tokens: {cb.prompt_tokens}")
+        print(f"Completion Tokens: {cb.completion_tokens}")
+        print(f"Successful Requests: {cb.successful_requests}")
+        print(f"Total Cost (USD): ${cb.total_cost}")       
+    
 
     # Convert output to dictionary
     output_dict = json.loads(output)
