@@ -1,0 +1,101 @@
+{
+    "Content": [
+        {
+            "Measurement_substance": "hydrophobic membrane",
+            "Measured_value": "large degree of blocked pores",
+            "Measured_unit": "N/A",
+            "measurement_type": "pore blockage"
+        },
+        {
+            "Measurement_substance": "hydrophobic membrane",
+            "Measured_value": "damaged",
+            "Measured_unit": "N/A",
+            "measurement_type": "damage"
+        },
+        {
+            "Measurement_substance": "pressure",
+            "Measured_value": "decrease with time",
+            "Measured_unit": "N/A",
+            "measurement_type": "pressure change"
+        },
+        {
+            "Measurement_substance": "pressure",
+            "Measured_value": "increase",
+            "Measured_unit": "N/A",
+            "measurement_type": "pressure change"
+        },
+        {
+            "Measurement_substance": "surface",
+            "Measured_value": "less than 30",
+            "Measured_unit": "μm",
+            "measurement_type": "roughness"
+        },
+        {
+            "Measurement_substance": "surface",
+            "Measured_value": "less than 10",
+            "Measured_unit": "μm",
+            "measurement_type": "roughness"
+        },
+        {
+            "Measurement_substance": "surface",
+            "Measured_value": "less than 5",
+            "Measured_unit": "μm",
+            "measurement_type": "roughness"
+        },
+        {
+            "Measurement_substance": "cooling medium",
+            "Measured_value": "N/A",
+            "Measured_unit": "N/A",
+            "measurement_type": "supply"
+        },
+        {
+            "Measurement_substance": "cooling medium",
+            "Measured_value": "N/A",
+            "Measured_unit": "N/A",
+            "measurement_type": "discharge"
+        },
+        {
+            "Measurement_substance": "water",
+            "Measured_value": "significantly smaller volume",
+            "Measured_unit": "N/A",
+            "measurement_type": "volume"
+        },
+        {
+            "Measurement_substance": "water",
+            "Measured_value": "N/A",
+            "Measured_unit": "N/A",
+            "measurement_type": "water source"
+        },
+        {
+            "Measurement_substance": "water",
+            "Measured_value": "N/A",
+            "Measured_unit": "N/A",
+            "measurement_type": "water source"
+        },
+        {
+            "Measurement_substance": "pressure",
+            "Measured_value": "N/A",
+            "Measured_unit": "N/A",
+            "measurement_type": "pressure difference"
+        },
+        {
+            "Measurement_substance": "gas",
+            "Measured_value": "certain pressure",
+            "Measured_unit": "N/A",
+            "measurement_type": "pressure"
+        },
+        {
+            "Measurement_substance": "gas",
+            "Measured_value": "back-streaming gas flow",
+            "Measured_unit": "N/A",
+            "measurement_type": "gas flow"
+        },
+        {
+            "Measurement_substance": "pressure",
+            "Measured_value": "N/A",
+            "Measured_unit": "N/A",
+            "measurement_type": "pressure difference"
+        }
+    ],
+    "Patent Identifier": "US20230009754A1"
+}

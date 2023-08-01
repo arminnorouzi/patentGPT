@@ -1,0 +1,251 @@
+{
+    "Content": [
+        {
+            "Measurement_substance": "title compound",
+            "Measured_value": "9.18",
+            "Measured_unit": "g",
+            "measurement_type": "yield"
+        },
+        {
+            "Measurement_substance": "title compound",
+            "Measured_value": "85",
+            "Measured_unit": "%",
+            "measurement_type": "yield"
+        },
+        {
+            "Measurement_substance": "title compound",
+            "Measured_value": "109",
+            "Measured_unit": "M+1",
+            "measurement_type": "MS-ESI"
+        },
+        {
+            "Measurement_substance": "2-aminocyclopent-1-ene-1-carbonitrile",
+            "Measured_value": "5.0",
+            "Measured_unit": "g",
+            "measurement_type": "amount"
+        },
+        {
+            "Measurement_substance": "xylene",
+            "Measured_value": "125",
+            "Measured_unit": "mL",
+            "measurement_type": "volume"
+        },
+        {
+            "Measurement_substance": "cyclopentanone",
+            "Measured_value": "7.8",
+            "Measured_unit": "g",
+            "measurement_type": "amount"
+        },
+        {
+            "Measurement_substance": "ZnCl2",
+            "Measured_value": "6.9",
+            "Measured_unit": "g",
+            "measurement_type": "amount"
+        },
+        {
+            "Measurement_substance": "MeOH",
+            "Measured_value": "150",
+            "Measured_unit": "mL",
+            "measurement_type": "volume"
+        },
+        {
+            "Measurement_substance": "KOH",
+            "Measured_value": "25",
+            "Measured_unit": "mL",
+            "measurement_type": "volume"
+        },
+        {
+            "Measurement_substance": "water/ice",
+            "Measured_value": "100",
+            "Measured_unit": "mL",
+            "measurement_type": "volume"
+        },
+        {
+            "Measurement_substance": "water",
+            "Measured_value": "100",
+            "Measured_unit": "mL",
+            "measurement_type": "volume"
+        },
+        {
+            "Measurement_substance": "hexane",
+            "Measured_value": "200",
+            "Measured_unit": "mL",
+            "measurement_type": "volume"
+        },
+        {
+            "Measurement_substance": "title compound",
+            "Measured_value": "9.18",
+            "Measured_unit": "g",
+            "measurement_type": "yield"
+        },
+        {
+            "Measurement_substance": "title compound",
+            "Measured_value": "85",
+            "Measured_unit": "%",
+            "measurement_type": "yield"
+        },
+        {
+            "Measurement_substance": "title compound",
+            "Measured_value": "109",
+            "Measured_unit": "M+1",
+            "measurement_type": "MS-ESI"
+        },
+        {
+            "Measurement_substance": "title compound",
+            "Measured_value": "7.0",
+            "Measured_unit": "g",
+            "measurement_type": "yield"
+        },
+        {
+            "Measurement_substance": "title compound",
+            "Measured_value": "80",
+            "Measured_unit": "%",
+            "measurement_type": "yield"
+        },
+        {
+            "Measurement_substance": "title compound",
+            "Measured_value": "175",
+            "Measured_unit": "M+1",
+            "measurement_type": "MS-ESI"
+        },
+        {
+            "Measurement_substance": "solid",
+            "Measured_value": "96",
+            "Measured_unit": "% ee",
+            "measurement_type": "ee value"
+        },
+        {
+            "Measurement_substance": "title compound",
+            "Measured_value": "35",
+            "Measured_unit": "g",
+            "measurement_type": "yield"
+        },
+        {
+            "Measurement_substance": "title compound",
+            "Measured_value": "40.5",
+            "Measured_unit": "%",
+            "measurement_type": "yield"
+        },
+        {
+            "Measurement_substance": "title compound",
+            "Measured_value": "98",
+            "Measured_unit": "% ee",
+            "measurement_type": "ee value"
+        },
+        {
+            "Measurement_substance": "isopropyl alcohol",
+            "Measured_value": "13.8",
+            "Measured_unit": "%",
+            "measurement_type": "content"
+        },
+        {
+            "Measurement_substance": "water",
+            "Measured_value": "420",
+            "Measured_unit": "mL",
+            "measurement_type": "volume"
+        },
+        {
+            "Measurement_substance": "white solid",
+            "Measured_value": "29.2",
+            "Measured_unit": "g",
+            "measurement_type": "yield"
+        },
+        {
+            "Measurement_substance": "KF",
+            "Measured_value": "5.1",
+            "Measured_unit": "%",
+            "measurement_type": "content"
+        },
+        {
+            "Measurement_substance": "S-isomer",
+            "Measured_value": "75",
+            "Measured_unit": "% ee",
+            "measurement_type": "ee value"
+        },
+        {
+            "Measurement_substance": "aq. Na2CO3",
+            "Measured_value": "4",
+            "Measured_unit": "M",
+            "measurement_type": "concentration"
+        },
+        {
+            "Measurement_substance": "EA",
+            "Measured_value": "300",
+            "Measured_unit": "mL",
+            "measurement_type": "volume"
+        },
+        {
+            "Measurement_substance": "organic phase",
+            "Measured_value": "500",
+            "Measured_unit": "mL",
+            "measurement_type": "volume"
+        },
+        {
+            "Measurement_substance": "brine",
+            "Measured_value": "500",
+            "Measured_unit": "mL",
+            "measurement_type": "volume"
+        },
+        {
+            "Measurement_substance": "anhydrous Na2SO4",
+            "Measured_value": "10.8",
+            "Measured_unit": "g",
+            "measurement_type": "amount"
+        },
+        {
+            "Measurement_substance": "MeOH",
+            "Measured_value": "100",
+            "Measured_unit": "mL",
+            "measurement_type": "volume"
+        },
+        {
+            "Measurement_substance": "Pd/C",
+            "Measured_value": "10",
+            "Measured_unit": "% wt.",
+            "measurement_type": "amount"
+        },
+        {
+            "Measurement_substance": "title compound",
+            "Measured_value": "7.27",
+            "Measured_unit": "g",
+            "measurement_type": "yield"
+        },
+        {
+            "Measurement_substance": "title compound",
+            "Measured_value": "83",
+            "Measured_unit": "%",
+            "measurement_type": "yield"
+        },
+        {
+            "Measurement_substance": "1-isopropyl-1H-pyrazol-3-amine",
+            "Measured_value": "2.5",
+            "Measured_unit": "g",
+            "measurement_type": "amount"
+        },
+        {
+            "Measurement_substance": "HCl",
+            "Measured_value": "6",
+            "Measured_unit": "M",
+            "measurement_type": "concentration"
+        },
+        {
+            "Measurement_substance": "NaNO2",
+            "Measured_value": "1.66",
+            "Measured_unit": "g",
+            "measurement_type": "amount"
+        },
+        {
+            "Measurement_substance": "CuCl2",
+            "Measured_value": "1.34",
+            "Measured_unit": "g",
+            "measurement_type": "amount"
+        },
+        {
+            "Measurement_substance": "AcOH",
+            "Measured_value": "40",
+            "Measured_unit": "mL",
+            "measurement_type": "volume"
+        }
+    ],
+    "Patent Identifier": "US20230011652A1"
+}

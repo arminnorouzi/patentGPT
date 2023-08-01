@@ -1,0 +1,197 @@
+{
+    "Content": [
+        {
+            "Measurement_substance": "Ts-L-Ala",
+            "Measured_value": "24.45",
+            "Measured_unit": "g",
+            "measurement_type": "mass"
+        },
+        {
+            "Measurement_substance": "Ts-L-Ala",
+            "Measured_value": "38.38",
+            "Measured_unit": "g",
+            "measurement_type": "mass"
+        },
+        {
+            "Measurement_substance": "Ts-L-Ala",
+            "Measured_value": "101",
+            "Measured_unit": "mmol",
+            "measurement_type": "amount"
+        },
+        {
+            "Measurement_substance": "Ts-L-Ala",
+            "Measured_value": "158",
+            "Measured_unit": "mmol",
+            "measurement_type": "amount"
+        },
+        {
+            "Measurement_substance": "Ts-L-Ala",
+            "Measured_value": "88",
+            "Measured_unit": "%",
+            "measurement_type": "yield"
+        },
+        {
+            "Measurement_substance": "acid addition salt",
+            "Measured_value": "1000",
+            "Measured_unit": "mg",
+            "measurement_type": "amount"
+        },
+        {
+            "Measurement_substance": "water",
+            "Measured_value": "6.0",
+            "Measured_unit": "g",
+            "measurement_type": "volume"
+        },
+        {
+            "Measurement_substance": "yield",
+            "Measured_value": "504",
+            "Measured_unit": "mg",
+            "measurement_type": "mass"
+        },
+        {
+            "Measurement_substance": "S/R",
+            "Measured_value": "99.93:0.07",
+            "Measured_unit": "",
+            "measurement_type": "enantiomeric ratio"
+        },
+        {
+            "Measurement_substance": "melting point",
+            "Measured_value": "135.2",
+            "Measured_unit": "° C",
+            "measurement_type": "temperature"
+        },
+        {
+            "Measurement_substance": "[α] D 20",
+            "Measured_value": "+3.4",
+            "Measured_unit": "",
+            "measurement_type": "specific rotation"
+        },
+        {
+            "Measurement_substance": "rac-APIP",
+            "Measured_value": "100",
+            "Measured_unit": "mg",
+            "measurement_type": "amount"
+        },
+        {
+            "Measurement_substance": "rac-APIP",
+            "Measured_value": "246",
+            "Measured_unit": "mg",
+            "measurement_type": "amount"
+        },
+        {
+            "Measurement_substance": "ethanol",
+            "Measured_value": "1000",
+            "Measured_unit": "mg",
+            "measurement_type": "volume"
+        },
+        {
+            "Measurement_substance": "(S)-APTP2 Cl-PC-L-Ala.2 H 2 O",
+            "Measured_value": "209",
+            "Measured_unit": "mg",
+            "measurement_type": "mass"
+        },
+        {
+            "Measurement_substance": "S/R",
+            "Measured_value": "96.74:3.26",
+            "Measured_unit": "",
+            "measurement_type": "enantiomeric ratio"
+        },
+        {
+            "Measurement_substance": "rac-APIP",
+            "Measured_value": "350",
+            "Measured_unit": "mg",
+            "measurement_type": "amount"
+        },
+        {
+            "Measurement_substance": "rac-APIP",
+            "Measured_value": "1723",
+            "Measured_unit": "mg",
+            "measurement_type": "amount"
+        },
+        {
+            "Measurement_substance": "(S)-2-phenylsulfonylamino-propionic acid",
+            "Measured_value": "865",
+            "Measured_unit": "mg",
+            "measurement_type": "amount"
+        },
+        {
+            "Measurement_substance": "Ps-L-Ala",
+            "Measured_value": "2293",
+            "Measured_unit": "mg",
+            "measurement_type": "amount"
+        },
+        {
+            "Measurement_substance": "(R)-APIP",
+            "Measured_value": "273",
+            "Measured_unit": "mg",
+            "measurement_type": "mass"
+        },
+        {
+            "Measurement_substance": "S/R",
+            "Measured_value": "4.41:95.59",
+            "Measured_unit": "",
+            "measurement_type": "enantiomeric ratio"
+        },
+        {
+            "Measurement_substance": "S-factor",
+            "Measured_value": "0.77",
+            "Measured_unit": "",
+            "measurement_type": "efficiency of optical resolution"
+        },
+        {
+            "Measurement_substance": "(R)-APIP.2 HCl",
+            "Measured_value": "5",
+            "Measured_unit": "mmol",
+            "measurement_type": "amount"
+        },
+        {
+            "Measurement_substance": "NaOH",
+            "Measured_value": "10",
+            "Measured_unit": "mmol",
+            "measurement_type": "amount"
+        },
+        {
+            "Measurement_substance": "pCl-Ps-L-Ala",
+            "Measured_value": "10",
+            "Measured_unit": "mmol",
+            "measurement_type": "amount"
+        },
+        {
+            "Measurement_substance": "water",
+            "Measured_value": "10",
+            "Measured_unit": "g",
+            "measurement_type": "volume"
+        },
+        {
+            "Measurement_substance": "S/R",
+            "Measured_value": "0.0:100.0",
+            "Measured_unit": "",
+            "measurement_type": "enantiomeric ratio"
+        },
+        {
+            "Measurement_substance": "melting point",
+            "Measured_value": "139",
+            "Measured_unit": "° C",
+            "measurement_type": "temperature"
+        },
+        {
+            "Measurement_substance": "[α] D 20",
+            "Measured_value": "−0.3",
+            "Measured_unit": "",
+            "measurement_type": "specific rotation"
+        },
+        {
+            "Measurement_substance": "sodium hydroxide",
+            "Measured_value": "400",
+            "Measured_unit": "mg",
+            "measurement_type": "amount"
+        },
+        {
+            "Measurement_substance": "water",
+            "Measured_value": "5.0",
+            "Measured_unit": "g",
+            "measurement_type": "volume"
+        }
+    ],
+    "Patent Identifier": "US20230008387A1"
+}

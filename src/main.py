@@ -89,14 +89,6 @@ def main():
     logging_choice = input("Do you want to log the results? (yes/no): ").strip().lower()
     logging_enabled = logging_choice == 'yes'
 
-
-    print("Processing patents...")
-    # Step 5: Parse and save patents
-    saved_patent_names = preprocess_data.parse_and_save_patents(year, month, day, False)
-
-    # Step 6: Select random patents and analyze
-    random_patents = random.sample(saved_patent_names, num_patents_to_analyze)
-
     model_choice = input("Select a model for analysis: 1. gpt-3.5-turbo 2. gpt-4").strip()
 
     if model_choice == '1':
@@ -106,6 +98,14 @@ def main():
     else:
         print("Invalid choice, defaulting to gpt-3.5-turbo.")
         model_name = "gpt-3.5-turbo"
+
+    print("Processing patents...")
+    # Step 5: Parse and save patents
+    saved_patent_names = preprocess_data.parse_and_save_patents(year, month, day, False)
+
+    # Step 6: Select random patents and analyze
+    random_patents = random.sample(saved_patent_names, num_patents_to_analyze)
+
 
     gpt_3_results = {}
     total_cost_gpt3 = 0

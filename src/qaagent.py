@@ -128,29 +128,30 @@ def call_QA_to_json(
         cost = cb.total_cost
     
 
-    # Convert output to dictionary
-    output_dict = json.loads(output)
+    try:
+        # Convert output to dictionary
+        output_dict = json.loads(output)
 
-    # Manually assign the Patent Identifier
-    output_dict["Patent Identifier"] = saved_patent_names[index].split("-")[0]
+        # Manually assign the Patent Identifier
+        output_dict["Patent Identifier"] = saved_patent_names[index].split("-")[0]
 
 
-    # Check if the directory 'output' exists, if not create it
-    if not os.path.exists("output"):
-        os.makedirs("output")
+        # Check if the directory 'output' exists, if not create it
+        if not os.path.exists("output"):
+            os.makedirs("output")
 
-    if logging:
-        print("Writing the output to a file...")
+        if logging:
+            print("Writing the output to a file...")
 
-    with open(f"output/{saved_patent_names[index]}_{model_name}.json", "w", encoding="utf-8") as json_file:
-        json.dump(output_dict, json_file, indent=4, ensure_ascii=False)
+        with open(f"output/{saved_patent_names[index]}_{model_name}.json", "w", encoding="utf-8") as json_file:
+            json.dump(output_dict, json_file, indent=4, ensure_ascii=False)
 
-    # # Write the output to a file in the 'output' directory
-    # with open(f"output/{saved_patent_names[index]}_{model_name}.json", "w") as json_file:
-    #     json.dump(output_dict, json_file, indent=4)
+        if logging:
+            print("Call to 'call_QA_to_json' completed.")
 
-    if logging:
-        print("Call to 'call_QA_to_json' completed.")
+    except Exception as e:
+        print("An error occurred while processing the output.")
+        print("Error message:", str(e))
 
     vectordb.delete()
     return cost, output
@@ -218,30 +219,31 @@ def call_TA_to_json(
 
     output = qa_document_chain.run(input_document=documents_raw, question=prompt)
 
-    print(output)
+    
+    try:
+        # Convert output to dictionary
+        output_dict = json.loads(output)
+
+        # Manually assign the Patent Identifier
+        output_dict["Patent Identifier"] = saved_patent_names[index].split("-")[0]
 
 
-    # Convert output to dictionary
-    output_dict = json.loads(output)
+        # Check if the directory 'output' exists, if not create it
+        if not os.path.exists("output"):
+            os.makedirs("output")
 
-    # Manually assign the Patent Identifier
-    output_dict["Patent Identifier"] = saved_patent_names[index].split("-")[0]
+        if logging:
+            print("Writing the output to a file...")
 
+        # Write the output to a file in the 'output' directory
+        with open(f"output/{saved_patent_names[index]}.json", "w", encoding="utf-8") as json_file:
+            json.dump(output_dict, json_file, indent=4, ensure_ascii=False)
 
-    # Check if the directory 'output' exists, if not create it
-    if not os.path.exists("output"):
-        os.makedirs("output")
-
-    if logging:
-        print("Writing the output to a file...")
-
-    # Write the output to a file in the 'output' directory
-    with open(f"output/{saved_patent_names[index]}.json", "w", encoding="utf-8") as json_file:
-        json.dump(output_dict, json_file, indent=4, ensure_ascii=False)
-
-    if logging:
-        print("Call to 'call_QA_to_json' completed.")
-
+        if logging:
+            print("Call to 'call_QA_to_json' completed.")
+    except Exception as e:
+        print("An error occurred while processing the output.")
+        print("Error message:", str(e))
     return documents_raw, output
 
 

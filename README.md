@@ -56,4 +56,4 @@ For further questions or if you encounter any problems, please do not hesitate t
 
 - [My Website](https://arminnorouzi.github.io/) - More details about me and my projects.
 - [LinkedIn](https://www.linkedin.com/in/arminnorouzi/) - See the post related to machine learning and software development on LinkedIn.
-- [Medium](https://arminnorouzi.medium.com/) - See my post related to ML/AI, algorithms, and system design.
+- [Medium](https://arminnorouzi.medium.com/) - See my posts related to ML/AI, algorithms, and system design.

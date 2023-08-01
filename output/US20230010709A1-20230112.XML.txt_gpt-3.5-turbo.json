@@ -1,0 +1,149 @@
+{
+    "Content": [
+        {
+            "Measurement_substance": "grating",
+            "Measured_value": "600",
+            "Measured_unit": "lines/mm",
+            "measurement_type": "dispersion"
+        },
+        {
+            "Measurement_substance": "integration time",
+            "Measured_value": "5",
+            "Measured_unit": "s",
+            "measurement_type": "time"
+        },
+        {
+            "Measurement_substance": "charge coupled device (CCD) detector",
+            "Measured_value": "10",
+            "Measured_unit": "scans",
+            "measurement_type": "averaging"
+        },
+        {
+            "Measurement_substance": "constant noise",
+            "Measured_value": "581",
+            "Measured_unit": "cts",
+            "measurement_type": "background removal"
+        },
+        {
+            "Measurement_substance": "standard deviation (SD)",
+            "Measured_value": "2",
+            "Measured_unit": "N/A",
+            "measurement_type": "Gaussian smoothing"
+        },
+        {
+            "Measurement_substance": "spectra",
+            "Measured_value": "4",
+            "Measured_unit": "clusters",
+            "measurement_type": "clustering"
+        },
+        {
+            "Measurement_substance": "hyperspectral image",
+            "Measured_value": "4",
+            "Measured_unit": "colors",
+            "measurement_type": "overlay"
+        },
+        {
+            "Measurement_substance": "XPS spectra",
+            "Measured_value": "0.05",
+            "Measured_unit": "eV",
+            "measurement_type": "energy step"
+        },
+        {
+            "Measurement_substance": "dwell time",
+            "Measured_value": "50",
+            "Measured_unit": "ms",
+            "measurement_type": "time"
+        },
+        {
+            "Measurement_substance": "gold sample",
+            "Measured_value": "84 and 87.67",
+            "Measured_unit": "eV",
+            "measurement_type": "calibration"
+        },
+        {
+            "Measurement_substance": "h-BN flakes",
+            "Measured_value": "∼3.5 µm to ∼0.5 µm",
+            "Measured_unit": "µm",
+            "measurement_type": "lateral dimensions"
+        },
+        {
+            "Measurement_substance": "Bragg angle",
+            "Measured_value": "N/A",
+            "Measured_unit": "radians",
+            "measurement_type": "angle"
+        },
+        {
+            "Measurement_substance": "Raman bands",
+            "Measured_value": "N/A",
+            "Measured_unit": "N/A",
+            "measurement_type": "bands"
+        },
+        {
+            "Measurement_substance": "temperature",
+            "Measured_value": "24° C. to 80° C.",
+            "Measured_unit": "° C.",
+            "measurement_type": "range"
+        },
+        {
+            "Measurement_substance": "laser power",
+            "Measured_value": "5.7",
+            "Measured_unit": "mW",
+            "measurement_type": "power"
+        },
+        {
+            "Measurement_substance": "dh-BN powders",
+            "Measured_value": "2×2 mm 2",
+            "Measured_unit": "mm",
+            "measurement_type": "size"
+        },
+        {
+            "Measurement_substance": "pressure",
+            "Measured_value": "276",
+            "Measured_unit": "kPa",
+            "measurement_type": "pressure"
+        },
+        {
+            "Measurement_substance": "temperature",
+            "Measured_value": "N/A",
+            "Measured_unit": "N/A",
+            "measurement_type": "temperature"
+        },
+        {
+            "Measurement_substance": "laser power",
+            "Measured_value": "5.7",
+            "Measured_unit": "mW",
+            "measurement_type": "power"
+        },
+        {
+            "Measurement_substance": "spectra",
+            "Measured_value": "4",
+            "Measured_unit": "clusters",
+            "measurement_type": "clustering"
+        },
+        {
+            "Measurement_substance": "morphology",
+            "Measured_value": "N/A",
+            "Measured_unit": "N/A",
+            "measurement_type": "morphology"
+        },
+        {
+            "Measurement_substance": "carbon material",
+            "Measured_value": "N/A",
+            "Measured_unit": "N/A",
+            "measurement_type": "material analysis"
+        },
+        {
+            "Measurement_substance": "infrared spectrosocopy",
+            "Measured_value": "N/A",
+            "Measured_unit": "N/A",
+            "measurement_type": "spectroscopy"
+        },
+        {
+            "Measurement_substance": "Raman spectra",
+            "Measured_value": "N/A",
+            "Measured_unit": "N/A",
+            "measurement_type": "spectra"
+        }
+    ],
+    "Patent Identifier": "US20230010709A1"
+}

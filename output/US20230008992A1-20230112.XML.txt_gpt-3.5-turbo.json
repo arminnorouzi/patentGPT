@@ -1,0 +1,59 @@
+{
+    "Content": [
+        {
+            "Measurement_substance": "monodisperse droplets",
+            "Measured_value": "desired size or range of sizes",
+            "Measured_unit": "not provided",
+            "measurement_type": "size"
+        },
+        {
+            "Measurement_substance": "shearing forces",
+            "Measured_value": "duration and/or intensity",
+            "Measured_unit": "not provided",
+            "measurement_type": "duration and/or intensity"
+        },
+        {
+            "Measurement_substance": "light",
+            "Measured_value": "not provided",
+            "Measured_unit": "not provided",
+            "measurement_type": "transmitted light signal"
+        },
+        {
+            "Measurement_substance": "sample",
+            "Measured_value": "not provided",
+            "Measured_unit": "not provided",
+            "measurement_type": "transmitted light from a sample"
+        },
+        {
+            "Measurement_substance": "sample",
+            "Measured_value": "not provided",
+            "Measured_unit": "not provided",
+            "measurement_type": "monodisperse droplets"
+        },
+        {
+            "Measurement_substance": "emulsion",
+            "Measured_value": "not provided",
+            "Measured_unit": "not provided",
+            "measurement_type": "droplets that are heterogeneous in size"
+        },
+        {
+            "Measurement_substance": "temperature",
+            "Measured_value": "<80 degrees Celsius",
+            "Measured_unit": "degrees Celsius",
+            "measurement_type": "temperature"
+        },
+        {
+            "Measurement_substance": "temperature",
+            "Measured_value": "not provided",
+            "Measured_unit": "not provided",
+            "measurement_type": "temperature changes"
+        },
+        {
+            "Measurement_substance": "time",
+            "Measured_value": "not provided",
+            "Measured_unit": "not provided",
+            "measurement_type": "time"
+        }
+    ],
+    "Patent Identifier": "US20230008992A1"
+}
