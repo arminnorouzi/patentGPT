@@ -4,61 +4,181 @@
             "Measurement_substance": "CPN",
             "Measured_value": "300 mL",
             "Measured_unit": "mL",
-            "measurement_type": "Volume"
+            "measurement_type": "volume"
         },
         {
-            "Measurement_substance": "rotation",
+            "Measurement_substance": "solvent",
+            "Measured_value": "60 seconds",
+            "Measured_unit": "seconds",
+            "measurement_type": "time"
+        },
+        {
+            "Measurement_substance": "substrate",
             "Measured_value": "50 rpm",
             "Measured_unit": "rpm",
-            "measurement_type": "Rotation speed"
+            "measurement_type": "speed"
         },
         {
-            "Measurement_substance": "rotation",
+            "Measurement_substance": "substrate",
             "Measured_value": "1,000 rpm",
             "Measured_unit": "rpm",
-            "measurement_type": "Rotation speed"
+            "measurement_type": "speed"
         },
         {
-            "Measurement_substance": "temperature",
-            "Measured_value": "80\u00b0 C.",
-            "Measured_unit": "\u00b0 C.",
-            "measurement_type": "Temperature"
+            "Measurement_substance": "hot plate",
+            "Measured_value": "80° C.",
+            "Measured_unit": "° C.",
+            "measurement_type": "temperature"
         },
         {
             "Measurement_substance": "refractive index",
-            "Measured_value": "not specified",
-            "Measured_unit": "not specified",
-            "measurement_type": "Refractive index"
+            "Measured_value": "Table 3",
+            "Measured_unit": "N/A",
+            "measurement_type": "measurement result"
         },
         {
             "Measurement_substance": "film thickness",
-            "Measured_value": "not specified",
-            "Measured_unit": "not specified",
-            "measurement_type": "Film thickness"
+            "Measured_value": "Table 3",
+            "Measured_unit": "N/A",
+            "measurement_type": "measurement result"
         },
         {
             "Measurement_substance": "residual film ratio",
-            "Measured_value": "not specified",
+            "Measured_value": "Table 3",
             "Measured_unit": "%",
-            "measurement_type": "Residual film ratio"
+            "measurement_type": "measurement result"
         },
         {
             "Measurement_substance": "transmittance",
-            "Measured_value": "not specified",
-            "Measured_unit": "not specified",
-            "measurement_type": "Transmittance"
+            "Measured_value": "300 to 800 nm",
+            "Measured_unit": "nm",
+            "measurement_type": "wavelength"
         },
         {
-            "Measurement_substance": "P-22",
+            "Measurement_substance": "polydispersity",
             "Measured_value": "3.2",
-            "Measured_unit": "not specified",
-            "measurement_type": "Polydispersity"
+            "Measured_unit": "N/A",
+            "measurement_type": "polydispersity"
+        },
+        {
+            "Measurement_substance": "compound P-22",
+            "Measured_value": "FIG. 17",
+            "Measured_unit": "N/A",
+            "measurement_type": "measurement result"
         },
         {
             "Measurement_substance": "P-22",
+            "Measured_value": "30.00 g",
+            "Measured_unit": "g",
+            "measurement_type": "mass"
+        },
+        {
+            "Measurement_substance": "cyclopentanone (CPN)",
+            "Measured_value": "93.60 g",
+            "Measured_unit": "g",
+            "measurement_type": "mass"
+        },
+        {
+            "Measurement_substance": "internal temperature",
+            "Measured_value": "60° C.",
+            "Measured_unit": "° C.",
+            "measurement_type": "temperature"
+        },
+        {
+            "Measurement_substance": "2-isocyanatoethyl acrylate (AOI-VM)",
+            "Measured_value": "10.11 g",
+            "Measured_unit": "g",
+            "measurement_type": "mass"
+        },
+        {
+            "Measurement_substance": "P-23 solution",
+            "Measured_value": "30% by mass",
+            "Measured_unit": "% by mass",
+            "measurement_type": "concentration"
+        },
+        {
+            "Measurement_substance": "P-21 solution",
+            "Measured_value": "4.42 g",
+            "Measured_unit": "g",
+            "measurement_type": "mass"
+        },
+        {
+            "Measurement_substance": "crosslinking agent ATM-35E",
+            "Measured_value": "0.088 g",
+            "Measured_unit": "g",
+            "measurement_type": "mass"
+        },
+        {
+            "Measurement_substance": "crosslinking agent DN-0075",
+            "Measured_value": "0.088 g",
+            "Measured_unit": "g",
+            "measurement_type": "mass"
+        },
+        {
+            "Measurement_substance": "hot plate",
+            "Measured_value": "120° C.",
+            "Measured_unit": "° C.",
+            "measurement_type": "temperature"
+        },
+        {
+            "Measurement_substance": "refractive index",
+            "Measured_value": "Table 1",
+            "Measured_unit": "N/A",
+            "measurement_type": "measurement result"
+        },
+        {
+            "Measurement_substance": "film thickness",
+            "Measured_value": "Table 1",
+            "Measured_unit": "N/A",
+            "measurement_type": "measurement result"
+        },
+        {
+            "Measurement_substance": "residual film ratio",
+            "Measured_value": "Table 1",
+            "Measured_unit": "%",
+            "measurement_type": "measurement result"
+        },
+        {
+            "Measurement_substance": "average transmittance",
+            "Measured_value": "300 to 800 nm",
+            "Measured_unit": "nm",
+            "measurement_type": "wavelength"
+        },
+        {
+            "Measurement_substance": "compound P-1",
+            "Measured_value": "FIG. 1",
+            "Measured_unit": "N/A",
+            "measurement_type": "measurement result"
+        },
+        {
+            "Measurement_substance": "compound P-1",
             "Measured_value": "6,070",
-            "Measured_unit": "not specified",
-            "measurement_type": "Weight average molecular weight"
+            "Measured_unit": "N/A",
+            "measurement_type": "weight average molecular weight"
+        },
+        {
+            "Measurement_substance": "polydispersity",
+            "Measured_value": "2.6",
+            "Measured_unit": "N/A",
+            "measurement_type": "polydispersity"
+        },
+        {
+            "Measurement_substance": "compound P-1",
+            "Measured_value": "25.0 g",
+            "Measured_unit": "g",
+            "measurement_type": "mass"
+        },
+        {
+            "Measurement_substance": "THF",
+            "Measured_value": "100.0 g",
+            "Measured_unit": "g",
+            "measurement_type": "mass"
+        },
+        {
+            "Measurement_substance": "pure water",
+            "Measured_value": "11.66 g",
+            "Measured_unit": "g",
+            "measurement_type": "mass"
         }
     ],
     "Patent Identifier": "US20230002555A1"

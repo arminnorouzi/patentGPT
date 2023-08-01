@@ -16,7 +16,7 @@
             "Measurement_substance": "methanol",
             "Measured_value": "800",
             "Measured_unit": "rpm",
-            "measurement_type": "speed"
+            "measurement_type": "stirring speed"
         },
         {
             "Measurement_substance": "thiocarbonyl-based poly(O-thiocarbamate) compound",
@@ -49,49 +49,31 @@
             "measurement_type": "molecular weight distribution"
         },
         {
-            "Measurement_substance": "carbon-nitrogen triple bonds",
-            "Measured_value": "2110",
-            "Measured_unit": "cm-1",
-            "measurement_type": "stretching vibration peak"
-        },
-        {
-            "Measurement_substance": "alcoholic hydroxyl groups",
-            "Measured_value": "3326",
-            "Measured_unit": "cm-1",
-            "measurement_type": "stretching vibration peak"
-        },
-        {
-            "Measurement_substance": "carbon-sulfur double bonds",
-            "Measured_value": "1494",
-            "Measured_unit": "cm-1",
-            "measurement_type": "vibration peak"
-        },
-        {
-            "Measurement_substance": "amine",
+            "Measurement_substance": "thiocarbonyl-based poly(O-thiocarbamate) compound",
             "Measured_value": "10.5",
             "Measured_unit": "ppm",
             "measurement_type": "chemical shift"
         },
         {
-            "Measurement_substance": "thiocarbonyl",
+            "Measurement_substance": "thiocarbonyl-based poly(O-thiocarbamate) compound",
             "Measured_value": "188.2",
             "Measured_unit": "ppm",
             "measurement_type": "chemical shift"
         },
         {
-            "Measurement_substance": "thiocarbonyl",
+            "Measurement_substance": "thiocarbonyl-based poly(O-thiocarbamate) compound",
             "Measured_value": "189.7",
             "Measured_unit": "ppm",
             "measurement_type": "chemical shift"
         },
         {
-            "Measurement_substance": "hydroxyl hydrogen",
+            "Measurement_substance": "thiocarbonyl-based poly(O-thiocarbamate) compound",
             "Measured_value": "5.1",
             "Measured_unit": "ppm",
             "measurement_type": "chemical shift"
         },
         {
-            "Measurement_substance": "carbon on the carbon-nitrogen triple bonds",
+            "Measurement_substance": "thiocarbonyl-based poly(O-thiocarbamate) compound",
             "Measured_value": "168.0",
             "Measured_unit": "ppm",
             "measurement_type": "chemical shift"
@@ -99,26 +81,8 @@
         {
             "Measurement_substance": "thiocarbonyl-based poly(O-thiocarbamate) compound",
             "Measured_value": "248",
-            "Measured_unit": "\u00b0C",
+            "Measured_unit": "°C",
             "measurement_type": "temperature"
-        },
-        {
-            "Measurement_substance": "thiocarbonyl-based poly(O-thiocarbamate) compound",
-            "Measured_value": "91",
-            "Measured_unit": "%",
-            "measurement_type": "yield"
-        },
-        {
-            "Measurement_substance": "thiocarbonyl-based poly(O-thiocarbamate) compound",
-            "Measured_value": "27,600",
-            "Measured_unit": "Mw",
-            "measurement_type": "molecular weight"
-        },
-        {
-            "Measurement_substance": "thiocarbonyl-based poly(O-thiocarbamate) compound",
-            "Measured_value": "1.65",
-            "Measured_unit": "molecular weight distribution",
-            "measurement_type": "molecular weight distribution"
         }
     ],
     "Patent Identifier": "US20230002559A1"

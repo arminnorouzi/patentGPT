@@ -38,63 +38,117 @@
         },
         {
             "Measurement_substance": "solution",
-            "Measured_value": "150",
-            "Measured_unit": "\u03bcL",
-            "measurement_type": "volume"
+            "Measured_value": "160",
+            "Measured_unit": "s",
+            "measurement_type": "preparation time"
         },
         {
             "Measurement_substance": "solution",
             "Measured_value": "150",
-            "Measured_unit": "\u03bcL",
+            "Measured_unit": "μL",
             "measurement_type": "volume"
         },
         {
             "Measurement_substance": "solution",
-            "Measured_value": "100",
-            "Measured_unit": "\u03bcL",
-            "measurement_type": "volume"
-        },
-        {
-            "Measurement_substance": "solution",
-            "Measured_value": "100",
-            "Measured_unit": "\u03bcL",
-            "measurement_type": "volume"
-        },
-        {
-            "Measurement_substance": "solution",
-            "Measured_value": "150",
-            "Measured_unit": "\u03bcL",
-            "measurement_type": "volume"
-        },
-        {
-            "Measurement_substance": "solution",
-            "Measured_value": "150",
-            "Measured_unit": "\u03bcL",
-            "measurement_type": "volume"
-        },
-        {
-            "Measurement_substance": "gel-forming time",
             "Measured_value": "290",
             "Measured_unit": "minutes",
-            "measurement_type": "time"
+            "measurement_type": "gel-forming time"
         },
         {
-            "Measurement_substance": "gel-forming time",
+            "Measurement_substance": "solution",
             "Measured_value": "290",
             "Measured_unit": "s",
-            "measurement_type": "time"
+            "measurement_type": "gel-forming time"
         },
         {
-            "Measurement_substance": "gel-forming time",
+            "Measurement_substance": "solution",
             "Measured_value": "80",
             "Measured_unit": "minutes",
-            "measurement_type": "time"
+            "measurement_type": "gel-forming time"
         },
         {
-            "Measurement_substance": "temperature",
+            "Measurement_substance": "solution",
+            "Measured_value": "100",
+            "Measured_unit": "μL",
+            "measurement_type": "volume"
+        },
+        {
+            "Measurement_substance": "solution",
+            "Measured_value": "150",
+            "Measured_unit": "μL",
+            "measurement_type": "volume"
+        },
+        {
+            "Measurement_substance": "solution",
+            "Measured_value": "100",
+            "Measured_unit": "μL",
+            "measurement_type": "volume"
+        },
+        {
+            "Measurement_substance": "solution",
+            "Measured_value": "150",
+            "Measured_unit": "μL",
+            "measurement_type": "volume"
+        },
+        {
+            "Measurement_substance": "solution",
             "Measured_value": "37",
-            "Measured_unit": "\u00b0C",
+            "Measured_unit": "°C",
             "measurement_type": "temperature"
+        },
+        {
+            "Measurement_substance": "solution",
+            "Measured_value": "37",
+            "Measured_unit": "°C",
+            "measurement_type": "temperature"
+        },
+        {
+            "Measurement_substance": "polyethylene glycol",
+            "Measured_value": "10000",
+            "Measured_unit": "number-average molecular weight",
+            "measurement_type": "molecular weight"
+        },
+        {
+            "Measurement_substance": "polyethylene glycol",
+            "Measured_value": "60",
+            "Measured_unit": "mg",
+            "measurement_type": "weight"
+        },
+        {
+            "Measurement_substance": "polyethylene glycol",
+            "Measured_value": "10000",
+            "Measured_unit": "number-average molecular weight",
+            "measurement_type": "molecular weight"
+        },
+        {
+            "Measurement_substance": "polyethylene glycol",
+            "Measured_value": "60",
+            "Measured_unit": "mg",
+            "measurement_type": "weight"
+        },
+        {
+            "Measurement_substance": "polyethylene glycol",
+            "Measured_value": "10000",
+            "Measured_unit": "number-average molecular weight",
+            "measurement_type": "molecular weight"
+        },
+        {
+            "Measurement_substance": "polyethylene glycol",
+            "Measured_value": "60",
+            "Measured_unit": "mg",
+            "measurement_type": "weight"
+        },
+        {
+            "Measurement_substance": "polyethylene glycol",
+            "Measured_value": "10000",
+            "Measured_unit": "number-average molecular weight",
+            "measurement_type": "molecular weight"
+        },
+        {
+            "Measurement_substance": "polyethylene glycol",
+            "Measured_value": "60",
+            "Measured_unit": "mg",
+            "measurement_type": "weight"
         }
     ],
     "Patent Identifier": "US20230002554A1"

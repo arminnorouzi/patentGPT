@@ -14,14 +14,14 @@
         },
         {
             "Measurement_substance": "He",
-            "Measured_value": "200",
-            "Measured_unit": "mbar",
+            "Measured_value": "mbar",
+            "Measured_unit": "carrier gas",
             "measurement_type": "reaction condition"
         },
         {
             "Measurement_substance": "temperature",
             "Measured_value": "250",
-            "Measured_unit": "\u00b0C",
+            "Measured_unit": "°C",
             "measurement_type": "reaction condition"
         },
         {
@@ -33,20 +33,20 @@
         {
             "Measurement_substance": "k",
             "Measured_value": "3.9-14",
-            "Measured_unit": null,
+            "Measured_unit": "k-space",
             "measurement_type": "EXAFS function"
         },
         {
             "Measurement_substance": "R",
             "Measured_value": "1-2.2",
-            "Measured_unit": "\u212b",
-            "measurement_type": "EXAFS fitting range"
+            "Measured_unit": "Å",
+            "measurement_type": "EXAFS fitting"
         },
         {
             "Measurement_substance": "S",
-            "Measured_value": "0.73\u00b10.04",
-            "Measured_unit": null,
-            "measurement_type": "determination"
+            "Measured_value": "0.73±0.04",
+            "Measured_unit": "unknown",
+            "measurement_type": "determined value"
         },
         {
             "Measurement_substance": "Re",
@@ -55,76 +55,112 @@
             "measurement_type": "multiple data set fit"
         },
         {
-            "Measurement_substance": "temperature",
-            "Measured_value": "350",
-            "Measured_unit": "\u00b0C",
-            "measurement_type": "pretreatment"
+            "Measurement_substance": "Re—O scattering paths",
+            "Measured_value": "unknown",
+            "Measured_unit": "unknown",
+            "measurement_type": "spectra fit"
         },
         {
-            "Measurement_substance": "pressure",
+            "Measurement_substance": "CO",
             "Measured_value": "30",
             "Measured_unit": "mbar",
-            "measurement_type": "CO partial pressure"
+            "measurement_type": "partial pressure"
         },
         {
-            "Measurement_substance": "pressure",
+            "Measurement_substance": "methanol",
             "Measured_value": "42, 105, and 150",
             "Measured_unit": "mbar",
-            "measurement_type": "methanol partial pressures"
+            "measurement_type": "partial pressure"
+        },
+        {
+            "Measurement_substance": "helium",
+            "Measured_value": "unknown",
+            "Measured_unit": "unknown",
+            "measurement_type": "carrier gas"
+        },
+        {
+            "Measurement_substance": "32",
+            "Measured_value": "32",
+            "Measured_unit": "scans",
+            "measurement_type": "averaging"
         },
         {
             "Measurement_substance": "resolution",
             "Measured_value": "4",
-            "Measured_unit": "cm \u22121",
+            "Measured_unit": "cm −1",
             "measurement_type": "spectra collection"
         },
         {
-            "Measurement_substance": "NH3",
+            "Measurement_substance": "temperature",
+            "Measured_value": "350",
+            "Measured_unit": "°C",
+            "measurement_type": "pretreatment"
+        },
+        {
+            "Measurement_substance": "O2",
+            "Measured_value": "1",
+            "Measured_unit": "h",
+            "measurement_type": "pretreatment"
+        },
+        {
+            "Measurement_substance": "CO",
+            "Measured_value": "30",
+            "Measured_unit": "cm 3 /min",
+            "measurement_type": "gas flow"
+        },
+        {
+            "Measurement_substance": "TPD",
             "Measured_value": "100-350",
-            "Measured_unit": "\u00b0C",
-            "measurement_type": "TPD measurement range"
+            "Measured_unit": "°C",
+            "measurement_type": "temperature range"
+        },
+        {
+            "Measurement_substance": "heating rate",
+            "Measured_value": "10",
+            "Measured_unit": "°C/min",
+            "measurement_type": "heating rate"
         },
         {
             "Measurement_substance": "NH3",
-            "Measured_value": null,
-            "Measured_unit": null,
-            "measurement_type": "amount determination"
+            "Measured_value": "unknown",
+            "Measured_unit": "unknown",
+            "measurement_type": "concentration"
         },
         {
-            "Measurement_substance": "pressure",
-            "Measured_value": "1\u00d710^\u22129",
+            "Measurement_substance": "XPS",
+            "Measured_value": "unknown",
+            "Measured_unit": "unknown",
+            "measurement_type": "pressure"
+        },
+        {
+            "Measurement_substance": "XPS",
+            "Measured_value": "1×10 −9",
             "Measured_unit": "Torr",
-            "measurement_type": "pressure in the XPS chamber"
+            "measurement_type": "pressure"
+        },
+        {
+            "Measurement_substance": "FTIR",
+            "Measured_value": "unknown",
+            "Measured_unit": "unknown",
+            "measurement_type": "spectroscopy"
+        },
+        {
+            "Measurement_substance": "ZnSe windows",
+            "Measured_value": "unknown",
+            "Measured_unit": "unknown",
+            "measurement_type": "spectroscopy"
+        },
+        {
+            "Measurement_substance": "carbon sheet",
+            "Measured_value": "900, 800, 700, 600, 500, 400, 300, 200, or 100",
+            "Measured_unit": "μm",
+            "measurement_type": "dimension"
         },
         {
             "Measurement_substance": "surface area",
-            "Measured_value": "at least 50",
-            "Measured_unit": "m^2/g",
-            "measurement_type": "support surface area"
-        },
-        {
-            "Measurement_substance": "surface area",
-            "Measured_value": "up to 1000",
-            "Measured_unit": "m^2/g",
-            "measurement_type": "support surface area"
-        },
-        {
-            "Measurement_substance": "surface area",
-            "Measured_value": "between 100 and 1000",
-            "Measured_unit": "m^2/g",
-            "measurement_type": "support surface area"
-        },
-        {
-            "Measurement_substance": "surface area",
-            "Measured_value": "between 200 and 1000",
-            "Measured_unit": "m^2/g",
-            "measurement_type": "support surface area"
-        },
-        {
-            "Measurement_substance": "surface area",
-            "Measured_value": "between 300 and 1000",
-            "Measured_unit": "m^2/g",
-            "measurement_type": "support surface area"
+            "Measured_value": "at least 50, at least 100, at least 200, at least 300, at least 400, at least 500, up to 1000, up to 900, up to 800, between 100 and 1000, between 200 and 1000, between 300",
+            "Measured_unit": "m 2 /g",
+            "measurement_type": "surface area"
         }
     ],
     "Patent Identifier": "US20230001385A1"

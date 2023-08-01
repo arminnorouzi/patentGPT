@@ -4,79 +4,67 @@
             "Measurement_substance": "Play sand in Formula I",
             "Measured_value": "91.5",
             "Measured_unit": "% by weight",
-            "measurement_type": "Concentration"
+            "measurement_type": "composition"
         },
         {
             "Measurement_substance": "Photoluminescent pigment in Formula I",
             "Measured_value": "5",
             "Measured_unit": "% by weight",
-            "measurement_type": "Concentration"
+            "measurement_type": "composition"
         },
         {
             "Measurement_substance": "Powdered binder in Formula I",
             "Measured_value": "3",
             "Measured_unit": "% by weight",
-            "measurement_type": "Concentration"
+            "measurement_type": "composition"
         },
         {
             "Measurement_substance": "Curing agent in Formula I",
             "Measured_value": "0.5",
             "Measured_unit": "% by weight",
-            "measurement_type": "Concentration"
-        },
-        {
-            "Measurement_substance": "Formula I",
-            "Measured_value": "7",
-            "Measured_unit": "days",
-            "measurement_type": "Curing time"
+            "measurement_type": "composition"
         },
         {
             "Measurement_substance": "Play sand in Formula II",
             "Measured_value": "89",
             "Measured_unit": "% by weight",
-            "measurement_type": "Concentration"
+            "measurement_type": "composition"
         },
         {
             "Measurement_substance": "Photoluminescent pigment in Formula II",
             "Measured_value": "5",
             "Measured_unit": "% by weight",
-            "measurement_type": "Concentration"
+            "measurement_type": "composition"
         },
         {
             "Measurement_substance": "Powdered binder in Formula II",
             "Measured_value": "5",
             "Measured_unit": "% by weight",
-            "measurement_type": "Concentration"
+            "measurement_type": "composition"
         },
         {
             "Measurement_substance": "Curing agent in Formula II",
             "Measured_value": "1",
             "Measured_unit": "% by weight",
-            "measurement_type": "Concentration"
+            "measurement_type": "composition"
         },
         {
-            "Measurement_substance": "Formula II",
-            "Measured_value": "3",
-            "Measured_unit": "days",
-            "measurement_type": "Curing time"
-        },
-        {
-            "Measurement_substance": "Mixing process",
+            "Measurement_substance": "Mixing speed",
             "Measured_value": "500",
             "Measured_unit": "rpm",
-            "measurement_type": "Mixing speed"
+            "measurement_type": "speed"
         },
         {
-            "Measurement_substance": "Mixing process",
-            "Measured_value": "5",
-            "Measured_unit": "minutes",
-            "measurement_type": "Mixing time"
+            "Measurement_substance": "Curing time for Formula I",
+            "Measured_value": "7",
+            "Measured_unit": "days",
+            "measurement_type": "time"
         },
         {
-            "Measurement_substance": "Final mixing process",
-            "Measured_value": "15",
-            "Measured_unit": "minutes",
-            "measurement_type": "Mixing time"
+            "Measurement_substance": "Curing time for Formula II",
+            "Measured_value": "3",
+            "Measured_unit": "days",
+            "measurement_type": "time"
         }
     ],
     "Patent Identifier": "US20230002279A1"
