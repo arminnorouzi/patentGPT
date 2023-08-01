@@ -1,0 +1,101 @@
+{
+    "Content": [
+        {
+            "Measurement_substance": "hydrogel",
+            "Measured_value": "6.6",
+            "Measured_unit": "kPa",
+            "measurement_type": "elastic modulus"
+        },
+        {
+            "Measurement_substance": "hydrogel",
+            "Measured_value": "10.6",
+            "Measured_unit": "kPa",
+            "measurement_type": "elastic modulus"
+        },
+        {
+            "Measurement_substance": "hydrogel",
+            "Measured_value": "0.2",
+            "Measured_unit": "Pa",
+            "measurement_type": "elastic modulus"
+        },
+        {
+            "Measurement_substance": "hydrogel",
+            "Measured_value": "13.0",
+            "Measured_unit": "kPa",
+            "measurement_type": "elastic modulus"
+        },
+        {
+            "Measurement_substance": "hydrogel",
+            "Measured_value": "1.3",
+            "Measured_unit": "kPa",
+            "measurement_type": "elastic modulus"
+        },
+        {
+            "Measurement_substance": "hydrogel",
+            "Measured_value": "11.1",
+            "Measured_unit": "kPa",
+            "measurement_type": "elastic modulus"
+        },
+        {
+            "Measurement_substance": "solution",
+            "Measured_value": "150",
+            "Measured_unit": "\u03bcL",
+            "measurement_type": "volume"
+        },
+        {
+            "Measurement_substance": "solution",
+            "Measured_value": "150",
+            "Measured_unit": "\u03bcL",
+            "measurement_type": "volume"
+        },
+        {
+            "Measurement_substance": "solution",
+            "Measured_value": "100",
+            "Measured_unit": "\u03bcL",
+            "measurement_type": "volume"
+        },
+        {
+            "Measurement_substance": "solution",
+            "Measured_value": "100",
+            "Measured_unit": "\u03bcL",
+            "measurement_type": "volume"
+        },
+        {
+            "Measurement_substance": "solution",
+            "Measured_value": "150",
+            "Measured_unit": "\u03bcL",
+            "measurement_type": "volume"
+        },
+        {
+            "Measurement_substance": "solution",
+            "Measured_value": "150",
+            "Measured_unit": "\u03bcL",
+            "measurement_type": "volume"
+        },
+        {
+            "Measurement_substance": "gel-forming time",
+            "Measured_value": "290",
+            "Measured_unit": "minutes",
+            "measurement_type": "time"
+        },
+        {
+            "Measurement_substance": "gel-forming time",
+            "Measured_value": "290",
+            "Measured_unit": "s",
+            "measurement_type": "time"
+        },
+        {
+            "Measurement_substance": "gel-forming time",
+            "Measured_value": "80",
+            "Measured_unit": "minutes",
+            "measurement_type": "time"
+        },
+        {
+            "Measurement_substance": "temperature",
+            "Measured_value": "37",
+            "Measured_unit": "\u00b0C",
+            "measurement_type": "temperature"
+        }
+    ],
+    "Patent Identifier": "US20230002554A1"
+}

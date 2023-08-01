@@ -1,0 +1,65 @@
+{
+    "Content": [
+        {
+            "Measurement_substance": "CPN",
+            "Measured_value": "300 mL",
+            "Measured_unit": "mL",
+            "measurement_type": "Volume"
+        },
+        {
+            "Measurement_substance": "rotation",
+            "Measured_value": "50 rpm",
+            "Measured_unit": "rpm",
+            "measurement_type": "Rotation speed"
+        },
+        {
+            "Measurement_substance": "rotation",
+            "Measured_value": "1,000 rpm",
+            "Measured_unit": "rpm",
+            "measurement_type": "Rotation speed"
+        },
+        {
+            "Measurement_substance": "temperature",
+            "Measured_value": "80\u00b0 C.",
+            "Measured_unit": "\u00b0 C.",
+            "measurement_type": "Temperature"
+        },
+        {
+            "Measurement_substance": "refractive index",
+            "Measured_value": "not specified",
+            "Measured_unit": "not specified",
+            "measurement_type": "Refractive index"
+        },
+        {
+            "Measurement_substance": "film thickness",
+            "Measured_value": "not specified",
+            "Measured_unit": "not specified",
+            "measurement_type": "Film thickness"
+        },
+        {
+            "Measurement_substance": "residual film ratio",
+            "Measured_value": "not specified",
+            "Measured_unit": "%",
+            "measurement_type": "Residual film ratio"
+        },
+        {
+            "Measurement_substance": "transmittance",
+            "Measured_value": "not specified",
+            "Measured_unit": "not specified",
+            "measurement_type": "Transmittance"
+        },
+        {
+            "Measurement_substance": "P-22",
+            "Measured_value": "3.2",
+            "Measured_unit": "not specified",
+            "measurement_type": "Polydispersity"
+        },
+        {
+            "Measurement_substance": "P-22",
+            "Measured_value": "6,070",
+            "Measured_unit": "not specified",
+            "measurement_type": "Weight average molecular weight"
+        }
+    ],
+    "Patent Identifier": "US20230002555A1"
+}

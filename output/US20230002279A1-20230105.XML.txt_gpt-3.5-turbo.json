@@ -4,103 +4,79 @@
             "Measurement_substance": "play sand",
             "Measured_value": "91.5",
             "Measured_unit": "%",
-            "measurement_type": "composition"
+            "measurement_type": "percentage (by weight)"
         },
         {
             "Measurement_substance": "photoluminescent pigment",
             "Measured_value": "5",
             "Measured_unit": "%",
-            "measurement_type": "composition"
+            "measurement_type": "percentage (by weight)"
         },
         {
             "Measurement_substance": "powdered binder",
             "Measured_value": "3",
             "Measured_unit": "%",
-            "measurement_type": "composition"
+            "measurement_type": "percentage (by weight)"
         },
         {
             "Measurement_substance": "curing agent",
             "Measured_value": "0.5",
             "Measured_unit": "%",
-            "measurement_type": "composition"
+            "measurement_type": "percentage (by weight)"
         },
         {
             "Measurement_substance": "play sand",
             "Measured_value": "89",
             "Measured_unit": "%",
-            "measurement_type": "composition"
+            "measurement_type": "percentage (by weight)"
         },
         {
             "Measurement_substance": "photoluminescent pigment",
             "Measured_value": "5",
             "Measured_unit": "%",
-            "measurement_type": "composition"
+            "measurement_type": "percentage (by weight)"
         },
         {
             "Measurement_substance": "powdered binder",
             "Measured_value": "5",
             "Measured_unit": "%",
-            "measurement_type": "composition"
+            "measurement_type": "percentage (by weight)"
         },
         {
             "Measurement_substance": "curing agent",
             "Measured_value": "1",
             "Measured_unit": "%",
-            "measurement_type": "composition"
+            "measurement_type": "percentage (by weight)"
         },
         {
             "Measurement_substance": "play sand",
-            "Measured_value": "5",
-            "Measured_unit": "minutes",
-            "measurement_type": "mixing time"
+            "Measured_value": "five minutes",
+            "Measured_unit": "time",
+            "measurement_type": "mixing duration"
         },
         {
             "Measurement_substance": "photoluminescent pigment",
-            "Measured_value": "5",
-            "Measured_unit": "minutes",
-            "measurement_type": "mixing time"
-        },
-        {
-            "Measurement_substance": "V-blender",
-            "Measured_value": "500",
-            "Measured_unit": "rpm",
-            "measurement_type": "mixing speed"
+            "Measured_value": "five minutes",
+            "Measured_unit": "time",
+            "measurement_type": "mixing duration"
         },
         {
             "Measurement_substance": "photo sand mix",
-            "Measured_value": "5",
-            "Measured_unit": "minutes",
-            "measurement_type": "mixing time"
-        },
-        {
-            "Measurement_substance": "powered binder and curing agent",
-            "Measured_value": "15",
-            "Measured_unit": "minutes",
-            "measurement_type": "mixing time"
+            "Measured_value": "fifteen minutes",
+            "Measured_unit": "time",
+            "measurement_type": "mixing duration"
         },
         {
             "Measurement_substance": "Formula I",
             "Measured_value": "7",
             "Measured_unit": "days",
-            "measurement_type": "curing time"
+            "measurement_type": "curing duration"
         },
         {
             "Measurement_substance": "Formula II",
             "Measured_value": "3",
             "Measured_unit": "days",
-            "measurement_type": "curing time"
-        },
-        {
-            "Measurement_substance": "patent application Ser. No. 16/811,776",
-            "Measured_value": "Mar. 6, 2020",
-            "Measured_unit": "date",
-            "measurement_type": "filing date"
-        },
-        {
-            "Measurement_substance": "patent application Ser. No. 16/782,112",
-            "Measured_value": "Feb. 5, 2020",
-            "Measured_unit": "date",
-            "measurement_type": "filing date"
+            "measurement_type": "curing duration"
         }
     ],
     "Patent Identifier": "US20230002279A1"

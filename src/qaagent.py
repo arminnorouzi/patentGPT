@@ -57,6 +57,7 @@ def call_QA_to_json(
 
     Returns:
         tuple: A tuple containing two elements:
+            - Cost of OpenAI API
             - A JSON string representing the output from the retrieval chain.
 
     This function loads the specified txt file, generates embeddings from its content,
@@ -118,19 +119,14 @@ def call_QA_to_json(
 
     with get_openai_callback() as cb:
         output = retrieval_chain.run(prompt)
-        print(f"Total Tokens: {cb.total_tokens}")
-        print(f"Prompt Tokens: {cb.prompt_tokens}")
-        print(f"Completion Tokens: {cb.completion_tokens}")
-        print(f"Successful Requests: {cb.successful_requests}")
-        print(f"Total Cost (USD): ${cb.total_cost}")       
+        if logging:
+            print(f"Total Tokens: {cb.total_tokens}")
+            print(f"Prompt Tokens: {cb.prompt_tokens}")
+            print(f"Completion Tokens: {cb.completion_tokens}")
+            print(f"Successful Requests: {cb.successful_requests}")
+            print(f"Total Cost (USD): ${cb.total_cost}")
+        cost = cb.total_cost
     
-
-    # Convert output to dictionary
-    output_dict = json.loads(output)
-
-    # result  = retrieval_chain({"query": prompt})
-    # print(result["result"])
-    # print(result["source_documents"])
 
     # Convert output to dictionary
     output_dict = json.loads(output)
@@ -147,14 +143,14 @@ def call_QA_to_json(
         print("Writing the output to a file...")
 
     # Write the output to a file in the 'output' directory
-    with open(f"output/{saved_patent_names[count]}.json", "w") as json_file:
+    with open(f"output/{saved_patent_names[count]}_{model_name}.json", "w") as json_file:
         json.dump(output_dict, json_file, indent=4)
 
     if logging:
         print("Call to 'call_QA_to_json' completed.")
 
     vectordb.delete()
-    return output
+    return cost, output
 
 
 def call_TA_to_json(
@@ -270,7 +266,7 @@ def call_QA_faiss_to_json(
     The output is also written to a file in the 'output' directory with the name '{count}.json'.
     """
 
-    llm = ChatOpenAI(model_name=model_name)
+    llm = ChatOpenAI(model_name=model_name, cache=False)
     chain = load_qa_chain(llm, chain_type="stuff")
 
     file_path = os.path.join(
@@ -337,5 +333,5 @@ def call_QA_faiss_to_json(
     if logging:
         print("Call to 'call_QA_to_json' completed.")
 
-
-    return documents_raw, output
+    docsearch.delete
+    return output
