@@ -1,0 +1,113 @@
+{
+    "Content": [
+        {
+            "Measurement_substance": "ml of CPN",
+            "Measured_value": "50",
+            "Measured_unit": "rpm",
+            "measurement_type": "rotation speed"
+        },
+        {
+            "Measurement_substance": "substrate",
+            "Measured_value": "1,000",
+            "Measured_unit": "rpm",
+            "measurement_type": "rotation speed"
+        },
+        {
+            "Measurement_substance": "hot plate",
+            "Measured_value": "80",
+            "Measured_unit": "\u00b0 C.",
+            "measurement_type": "temperature"
+        },
+        {
+            "Measurement_substance": "hot plate",
+            "Measured_value": "10",
+            "Measured_unit": "seconds",
+            "measurement_type": "time"
+        },
+        {
+            "Measurement_substance": "residual film ratio",
+            "Measured_value": "[(Film thickness after solvent exposure)/(Film thickness before solvent exposure)]\u00d7100",
+            "Measured_unit": "%",
+            "measurement_type": "calculation"
+        },
+        {
+            "Measurement_substance": "Film thickness",
+            "Measured_value": "After solvent exposure",
+            "Measured_unit": "Not specified",
+            "measurement_type": "thickness"
+        },
+        {
+            "Measurement_substance": "Film thickness",
+            "Measured_value": "Before solvent exposure",
+            "Measured_unit": "Not specified",
+            "measurement_type": "thickness"
+        },
+        {
+            "Measurement_substance": "P-22 (polymer compound [104])",
+            "Measured_value": "30.00",
+            "Measured_unit": "g",
+            "measurement_type": "weight"
+        },
+        {
+            "Measurement_substance": "cyclopentanone (CPN, from Zeon Corporation)",
+            "Measured_value": "93.60",
+            "Measured_unit": "g",
+            "measurement_type": "weight"
+        },
+        {
+            "Measurement_substance": "2-isocyanatoethyl acrylate (AOI-VM, from Showa Denko K.K.)",
+            "Measured_value": "10.11",
+            "Measured_unit": "g",
+            "measurement_type": "weight"
+        },
+        {
+            "Measurement_substance": "hot plate",
+            "Measured_value": "120",
+            "Measured_unit": "\u00b0 C.",
+            "measurement_type": "temperature"
+        },
+        {
+            "Measurement_substance": "hot plate",
+            "Measured_value": "10",
+            "Measured_unit": "seconds",
+            "measurement_type": "time"
+        },
+        {
+            "Measurement_substance": "residual film ratio",
+            "Measured_value": "[(Film thickness after solvent exposure)/(Film thickness before solvent exposure)]\u00d7100",
+            "Measured_unit": "%",
+            "measurement_type": "calculation"
+        },
+        {
+            "Measurement_substance": "Film thickness",
+            "Measured_value": "After solvent exposure",
+            "Measured_unit": "Not specified",
+            "measurement_type": "thickness"
+        },
+        {
+            "Measurement_substance": "Film thickness",
+            "Measured_value": "Before solvent exposure",
+            "Measured_unit": "Not specified",
+            "measurement_type": "thickness"
+        },
+        {
+            "Measurement_substance": "polymer compound [4] (referred to as P-1, hereinafter)",
+            "Measured_value": "78.5",
+            "Measured_unit": "g",
+            "measurement_type": "weight"
+        },
+        {
+            "Measurement_substance": "vacuum dryer",
+            "Measured_value": "120",
+            "Measured_unit": "\u00b0 C.",
+            "measurement_type": "temperature"
+        },
+        {
+            "Measurement_substance": "vacuum dryer",
+            "Measured_value": "8",
+            "Measured_unit": "hours",
+            "measurement_type": "time"
+        }
+    ],
+    "Patent Identifier": "US20230002555A1"
+}

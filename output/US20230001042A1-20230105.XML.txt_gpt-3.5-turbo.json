@@ -1,0 +1,77 @@
+{
+    "Content": [
+        {
+            "Measurement_substance": "play sand",
+            "Measured_value": "91.5%",
+            "Measured_unit": "by weight",
+            "measurement_type": "composition"
+        },
+        {
+            "Measurement_substance": "photoluminescent pigment",
+            "Measured_value": "5%",
+            "Measured_unit": "by weight",
+            "measurement_type": "composition"
+        },
+        {
+            "Measurement_substance": "powdered binder",
+            "Measured_value": "3%",
+            "Measured_unit": "by weight",
+            "measurement_type": "composition"
+        },
+        {
+            "Measurement_substance": "curing agent",
+            "Measured_value": "0.5%",
+            "Measured_unit": "by weight",
+            "measurement_type": "composition"
+        },
+        {
+            "Measurement_substance": "play sand",
+            "Measured_value": "89%",
+            "Measured_unit": "by weight",
+            "measurement_type": "composition"
+        },
+        {
+            "Measurement_substance": "powdered binder",
+            "Measured_value": "5%",
+            "Measured_unit": "by weight",
+            "measurement_type": "composition"
+        },
+        {
+            "Measurement_substance": "curing agent",
+            "Measured_value": "1%",
+            "Measured_unit": "by weight",
+            "measurement_type": "composition"
+        },
+        {
+            "Measurement_substance": "play sand",
+            "Measured_value": "five minutes",
+            "Measured_unit": null,
+            "measurement_type": "mixing time"
+        },
+        {
+            "Measurement_substance": "photoluminescent pigment",
+            "Measured_value": "five minutes",
+            "Measured_unit": null,
+            "measurement_type": "mixing time"
+        },
+        {
+            "Measurement_substance": "photo sand mix",
+            "Measured_value": "fifteen minutes",
+            "Measured_unit": null,
+            "measurement_type": "mixing time"
+        },
+        {
+            "Measurement_substance": "Formula I",
+            "Measured_value": "7 days",
+            "Measured_unit": null,
+            "measurement_type": "curing time"
+        },
+        {
+            "Measurement_substance": "Formula II",
+            "Measured_value": "3 days",
+            "Measured_unit": null,
+            "measurement_type": "curing time"
+        }
+    ],
+    "Patent Identifier": "US20230001042A1"
+}

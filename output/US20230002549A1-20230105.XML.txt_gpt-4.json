@@ -1,0 +1,107 @@
+{
+    "Content": [
+        {
+            "Measurement_substance": "triblock polymer",
+            "Measured_value": "-60",
+            "Measured_unit": "\u00b0C",
+            "measurement_type": "Glass transition temperature (Tg)"
+        },
+        {
+            "Measurement_substance": "triblock polymer",
+            "Measured_value": "20-35",
+            "Measured_unit": "\u00b0C",
+            "measurement_type": "Melt point (Tm)"
+        },
+        {
+            "Measurement_substance": "Adhesive Materials",
+            "Measured_value": "20, 40, 60, and 80",
+            "Measured_unit": "%",
+            "measurement_type": "Tackifier loading"
+        },
+        {
+            "Measurement_substance": "Adhesive Materials",
+            "Measured_value": "1",
+            "Measured_unit": "mil",
+            "measurement_type": "Film thickness"
+        },
+        {
+            "Measurement_substance": "Adhesive Materials",
+            "Measured_value": "2 to 10",
+            "Measured_unit": "Ncm \u22121",
+            "measurement_type": "Peel force"
+        },
+        {
+            "Measurement_substance": "Additives",
+            "Measured_value": "up to 60",
+            "Measured_unit": "% by weight",
+            "measurement_type": "Concentration"
+        },
+        {
+            "Measurement_substance": "Hot melt adhesive",
+            "Measured_value": "<10 6",
+            "Measured_unit": "Pa",
+            "measurement_type": "Storage modulus (G\u2032)"
+        },
+        {
+            "Measurement_substance": "Hot melt adhesive",
+            "Measured_value": "100-3,000",
+            "Measured_unit": "%",
+            "measurement_type": "Elongation at break values"
+        },
+        {
+            "Measurement_substance": "Hot melt adhesive",
+            "Measured_value": "<60",
+            "Measured_unit": "\u00b0C",
+            "measurement_type": "Melting point (Tm)"
+        },
+        {
+            "Measurement_substance": "poly(\u03b2-lactone-co-\u03b5-caprolactone) (VI)",
+            "Measured_value": "80-90",
+            "Measured_unit": "%",
+            "measurement_type": "Yield"
+        },
+        {
+            "Measurement_substance": "PLA-poly(\u03b2-lactone-co-\u03b5-caprolactone)-PLA triblock polymer (VII)",
+            "Measured_value": "80-90",
+            "Measured_unit": "%",
+            "measurement_type": "Yield"
+        },
+        {
+            "Measurement_substance": "polymer sample",
+            "Measured_value": "10",
+            "Measured_unit": "radians per second",
+            "measurement_type": "Frequency"
+        },
+        {
+            "Measurement_substance": "polymer sample",
+            "Measured_value": "170",
+            "Measured_unit": "\u00b0C",
+            "measurement_type": "Initial melt temperature"
+        },
+        {
+            "Measurement_substance": "polymer sample",
+            "Measured_value": "-40",
+            "Measured_unit": "\u00b0C",
+            "measurement_type": "Final temperature"
+        },
+        {
+            "Measurement_substance": "polymer sample",
+            "Measured_value": "10",
+            "Measured_unit": "\u00b0C per minute",
+            "measurement_type": "Temperature reduction rate"
+        },
+        {
+            "Measurement_substance": "polymer sample",
+            "Measured_value": "25",
+            "Measured_unit": "mm",
+            "measurement_type": "Diameter of the parallel plates"
+        },
+        {
+            "Measurement_substance": "polymer sample",
+            "Measured_value": "1.6",
+            "Measured_unit": "millimeter",
+            "measurement_type": "Gap between the parallel plates"
+        }
+    ],
+    "Patent Identifier": "US20230002549A1"
+}

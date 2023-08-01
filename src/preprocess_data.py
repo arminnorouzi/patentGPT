@@ -4,7 +4,7 @@ import zipfile
 import xml.etree.ElementTree as ET
 
 
-def download_weekly_patents(year, month, day):
+def download_weekly_patents(year, month, day, logging):
     """
     Download weekly patent files from the USPTO website based on a specific date.
 
@@ -12,25 +12,17 @@ def download_weekly_patents(year, month, day):
     year (int): The year of the patent.
     month (int): The month of the patent.
     day (int): The day of the patent.
+    logging (bool): The boolean to print logs
 
     Returns:
     bool: True if the download is successful, False otherwise.
     """
 
-    # file_path_check = os.path.join(
-    #     os.getcwd(),
-    #     "data",
-    #     "ipa" + str(year)[2:] + f"{month:02d}" + f"{day:02d}" + ".xml",
-    # )
-
-    # if os.path.exists(file_path_check):
-    #     print(f"File {file_path_check} already exists. Skipping download.")
-    #     return True
-
     # Check if the "data" folder exists and create one if it doesn't
     data_folder = os.path.join(os.getcwd(), "data")
     if not os.path.exists(data_folder):
-        print("Data folder not found. Creating a new 'data' folder.")
+        if logging:
+            print("Data folder not found. Creating a new 'data' folder.")
         os.makedirs(data_folder)
 
     directory = os.path.join(
@@ -41,7 +33,8 @@ def download_weekly_patents(year, month, day):
         print(f"File {directory} already exists. Skipping download.")
         return True
 
-    print("Building the URL...")
+    if logging:
+        print("Building the URL...")
     base_url = "https://bulkdata.uspto.gov/data/patent/application/redbook/fulltext"
     file_url = (
         base_url
@@ -54,26 +47,32 @@ def download_weekly_patents(year, month, day):
         + ".zip"
     )
 
-    print(f"URL constructed: {file_url}")
+    if logging:
+        print(f"URL constructed: {file_url}")
     r = requests.get(file_url, stream=True)
 
-    print("Requesting the file...")
+    if logging:
+        print("Requesting the file...")
     if r.status_code == 200:
-        print("File retrieved successfully. Starting download...")
+        if logging:
+            print("File retrieved successfully. Starting download...")
         local_path = os.path.join(os.getcwd(), "data", "patents.zip")
 
         with open(local_path, "wb") as f:
             for chunk in r.iter_content(chunk_size=1024):
                 if chunk:
                     f.write(chunk)
-        print("File downloaded successfully. Starting extraction...")
+        if logging:
+            print("File downloaded successfully. Starting extraction...")
         with zipfile.ZipFile(local_path, "r") as zip_ref:
             zip_ref.extractall(os.path.join(os.getcwd(), "data"))
 
-        print("File extracted successfully.")
+        if logging:
+            print("File extracted successfully.")
         # Deleting the ZIP file after extraction
         os.remove(local_path)
-        print(f"ZIP file {local_path} deleted after extraction.")
+        if logging:
+            print(f"ZIP file {local_path} deleted after extraction.")
 
         return True
     else:
@@ -83,15 +82,16 @@ def download_weekly_patents(year, month, day):
         return False
 
 
-def extract_patents(year, month, day):
+def extract_patents(year, month, day, logging):
     """
-    This function reads a patent file in XML format, splits it into individual patents and
-    saves each patent as a separate XML file in a directory named 'data'.
+    This function reads a patent file in XML format, splits it into individual patents, parse each
+    XML file and saves each patent as a separate txt file in a directory named 'data'.
 
     Parameters:
     year (int): The year of the patent file to process.
     month (int): The month of the patent file to process.
     day (int): The day of the patent file to process.
+    logging (bool): The boolean to print logs
 
     Returns:
     None
@@ -110,45 +110,85 @@ def extract_patents(year, month, day):
     if os.path.exists(directory):
         print(f"File {directory} already exists. Skipping extract.")
         return True
+    else:
+        os.mkdir(directory)
 
-    print("Locating the patent file...")
+    if logging:
+        print("Locating the patent file...")
     file_path = os.path.join(
         os.getcwd(),
         "data",
         "ipa" + str(year)[2:] + f"{month:02d}" + f"{day:02d}" + ".xml",
     )
 
-    print("Reading the patent file...")
+    if logging:
+        print("Reading the patent file...")
     with open(file_path, "r") as f:
         contents = f.read()
 
-    print("Splitting the patent file into individual patents...")
-    temp = contents.split("</us-patent-application>")
-    patents = [s.replace("\n", "") + "</us-patent-application>" for s in temp]
-    print(f"Total patents found: {len(patents)}")
+    if logging:
+        print("Splitting the XMl file into individual XMLs...")
+    temp = contents.split('<?xml version="1.0" encoding="UTF-8"?>')
+    allXmls = [
+        '<?xml version="1.0" encoding="UTF-8"?>' + s.replace("\n", "") for s in temp
+    ]
 
-    print("Creating directory to store individual patents...")
-    directory = os.path.join(
-        os.getcwd(), "data", "ipa" + str(year)[2:] + f"{month:02d}" + f"{day:02d}"
-    )
-    if not os.path.exists(directory):
-        os.mkdir(directory)
-    print("Writing individual patents to separate XML files...")
-    for i, xml_str in enumerate(patents):
-        # Create a filename based on the index of the string
-        filename = os.path.join(directory, f"{i}.xml")
+    # saving only the XMLs that contain a patent
+    patents = []
+    for xml_string in allXmls:
+        start_index = xml_string.find("<!DOCTYPE")
+        end_index = xml_string.find(">", start_index)
 
-        # Write the string to a new file
-        with open(filename, "w") as f:
-            f.write(xml_str)
+        if start_index != -1 and end_index != -1:
+            doctype_declaration = xml_string[start_index : end_index + 1]
+            # Extract only the name of the DOCTYPE
+            doctype_name = doctype_declaration.split()[1]
+            if doctype_name == "us-patent-application":
+                patents.append(xml_string)
 
-    print("Patent extraction complete.")
+    if logging:
+        print(f"Total patents found: {len(patents)}")
+        print("Writing individual patents to separate txt files...")
+    
+    saved_patent_names = []
+    for patent in patents:
+        try:
+            root = ET.fromstring(patent)
+
+            patent_id = root.find(
+                ".//publication-reference/document-id/doc-number"
+            ).text
+            file_id = root.attrib["file"]
+
+            ipcr_classifications = root.findall(".//classification-ipcr")
+
+            if any(ipcr.find("./section").text == "C" for ipcr in ipcr_classifications):
+                description_element = root.find(".//description")
+                description_text = get_full_text(description_element)
+                description_string = " ".join(description_text)
+
+                output_file_path = os.path.join(directory, f"{file_id}.txt")
+                with open(output_file_path, "w") as f:
+                    f.write(description_string)
+                saved_patent_names.append(f"{file_id}.txt")
+
+            elif logging:
+                print(
+                    f"Patent {patent_id} does not belong to section 'C'. Skipping this patent."
+                )
+        except ET.ParseError as e:
+            print(f"Error while parsing patent: {patent_id}. Skipping this patent.")
+            print(f"Error message: {e}")
+
+    if logging:
+        print("Patent extraction complete.")
 
     # Deleting the main XML file after extraction
     os.remove(file_path)
-    print(f"Main XML file {file_path} deleted after extraction.")
 
-    return True
+    if logging:
+        print(f"Main XML file {file_path} deleted after extraction.")
+    return saved_patent_names
 
 
 def get_full_text(element):
@@ -172,41 +212,7 @@ def get_full_text(element):
     return text
 
 
-def compare_txt_vs_xml_files(year, month, day):
-    """
-    Compare the number of TXT files vs XML files in the specified directory for a given date.
-
-    Parameters:
-        year (int): The year of the patents to compare.
-        month (int): The month of the patents to compare.
-        day (int): The day of the patents to compare.
-
-    Returns:
-        None
-
-    This function calculates the number of XML and TXT files in the specified directory
-    corresponding to the given date. It then computes the percentage of success by
-    comparing the difference between the number of TXT files and XML files against the total
-    number of files. The result is printed to the console.
-    """
-
-    data_directory = os.path.join(
-        os.getcwd(), "data", "ipa" + str(year)[2:] + f"{month:02d}" + f"{day:02d}"
-    )
-    xml_files = [file for file in os.listdir(data_directory) if file.endswith(".xml")]
-    txt_files = [file for file in os.listdir(data_directory) if file.endswith(".txt")]
-
-    num_xml_files = len(xml_files)
-    num_txt_files = len(txt_files)
-
-    percentage_success = ((num_txt_files) / (num_txt_files + num_xml_files)) * 100
-
-    print(f"Number of XML files: {num_xml_files}")
-    print(f"Number of TXT files: {num_txt_files}")
-    print(f"Percentage of success: {percentage_success:.2f}%")
-
-
-def parse_and_save_patents(year, month, day):
+def parse_and_save_patents(year, month, day, logging=False):
     """
     Download weekly patent files from the USPTO website for a specific date, extract individual
     patents from the downloaded file, parse each patent's content, and save the information
@@ -216,6 +222,7 @@ def parse_and_save_patents(year, month, day):
         year (int): The year of the weekly patents to download and process.
         month (int): The month of the weekly patents to download and process.
         day (int): The day of the weekly patents to download and process.
+        logging (bool): The boolean to print logs
 
     Returns:
         list: A list of strings containing the names of saved patent text files.
@@ -227,68 +234,15 @@ def parse_and_save_patents(year, month, day):
     The function returns a list of strings containing the names of all the saved patent text files.
     """
 
-    print("### Downloading weekly patent files...")
-    download_success = download_weekly_patents(year, month, day)
+    if logging:
+        print("### Downloading weekly patent files...")
+    download_success = download_weekly_patents(year, month, day, logging)
     if not download_success:
         print("Failed to download the weekly patents.")
         return
 
-    print("### Extracting individual patents...")
-    extraction_success = extract_patents(year, month, day)
-    if not extraction_success:
-        print("Failed to extract the individual patents.")
-        return
-
-    data_directory = os.path.join(
-        os.getcwd(), "data", "ipa" + str(year)[2:] + f"{month:02d}" + f"{day:02d}"
-    )
-    xml_files = [file for file in os.listdir(data_directory) if file.endswith(".xml")]
-
-    saved_patent_names = []
-
-    for xml_file in xml_files:
-        file_path = os.path.join(data_directory, xml_file)
-
-        try:
-            tree = ET.parse(file_path)
-            root = tree.getroot()
-
-            patent_id = root.find(
-                ".//publication-reference/document-id/doc-number"
-            ).text
-            file_id = root.attrib["file"]
-
-            ipcr_classifications = root.findall(".//classification-ipcr")
-
-            if any(ipcr.find("./section").text == "C" for ipcr in ipcr_classifications):
-                description_element = root.find(".//description")
-                description_text = get_full_text(description_element)
-                description_string = " ".join(description_text)
-
-                output_file_path = os.path.join(data_directory, f"{file_id}.txt")
-                with open(output_file_path, "w") as f:
-                    f.write(
-                        f"-patent_id: {patent_id} -file_id: {file_id} -full text: {description_string}"
-                    )
-
-                print(
-                    f"Information extracted from {xml_file} and saved in {output_file_path}"
-                )
-                saved_patent_names.append(f"{file_id}.txt")
-
-            else:
-                print(
-                    f"XML file {file_path} does not belong to section 'C'. Removing this file."
-                )
-
-            os.remove(file_path)
-
-        except ET.ParseError as e:
-            print(f"Error while parsing XML file: {file_path}. Skipping this file.")
-            print(f"Error message: {e}")
-
-    print("Patent parsing and saving complete.")
-
-    compare_txt_vs_xml_files(year, month, day)
+    if logging:
+        print("### Extracting individual patents...")
+    saved_patent_names = extract_patents(year, month, day, logging)
 
     return saved_patent_names

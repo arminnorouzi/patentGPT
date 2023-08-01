@@ -1,0 +1,95 @@
+{
+    "Content": [
+        {
+            "Measurement_substance": "DMF",
+            "Measured_value": "1",
+            "Measured_unit": "mL",
+            "measurement_type": "volume"
+        },
+        {
+            "Measurement_substance": "Reaction",
+            "Measured_value": "55",
+            "Measured_unit": "\u00b0C",
+            "measurement_type": "temperature"
+        },
+        {
+            "Measurement_substance": "Reaction",
+            "Measured_value": "1",
+            "Measured_unit": "h",
+            "measurement_type": "time"
+        },
+        {
+            "Measurement_substance": "Chloroform",
+            "Measured_value": "2",
+            "Measured_unit": "mL",
+            "measurement_type": "volume"
+        },
+        {
+            "Measurement_substance": "thiocarbonyl-based poly(O-thiocarbamate) compound",
+            "Measured_value": "90",
+            "Measured_unit": "%",
+            "measurement_type": "yield"
+        },
+        {
+            "Measurement_substance": "thiocarbonyl-based poly(O-thiocarbamate) compound",
+            "Measured_value": "26,400",
+            "Measured_unit": "",
+            "measurement_type": "Molecular weight"
+        },
+        {
+            "Measurement_substance": "thiocarbonyl-based poly(O-thiocarbamate) compound",
+            "Measured_value": "1.57",
+            "Measured_unit": "",
+            "measurement_type": "Molecular weight distribution"
+        },
+        {
+            "Measurement_substance": "thiocarbonyl-based poly(O-thiocarbamate) compound",
+            "Measured_value": "248",
+            "Measured_unit": "\u00b0C",
+            "measurement_type": "temperature for 5% thermal weight loss"
+        },
+        {
+            "Measurement_substance": "DMF",
+            "Measured_value": "1",
+            "Measured_unit": "mL",
+            "measurement_type": "volume"
+        },
+        {
+            "Measurement_substance": "Reaction",
+            "Measured_value": "55",
+            "Measured_unit": "\u00b0C",
+            "measurement_type": "temperature"
+        },
+        {
+            "Measurement_substance": "Reaction",
+            "Measured_value": "1",
+            "Measured_unit": "h",
+            "measurement_type": "time"
+        },
+        {
+            "Measurement_substance": "Chloroform",
+            "Measured_value": "2",
+            "Measured_unit": "mL",
+            "measurement_type": "volume"
+        },
+        {
+            "Measurement_substance": "thiocarbonyl-based poly(O-thiocarbamate) compound",
+            "Measured_value": "91",
+            "Measured_unit": "%",
+            "measurement_type": "yield"
+        },
+        {
+            "Measurement_substance": "thiocarbonyl-based poly(O-thiocarbamate) compound",
+            "Measured_value": "27,600",
+            "Measured_unit": "",
+            "measurement_type": "Molecular weight"
+        },
+        {
+            "Measurement_substance": "thiocarbonyl-based poly(O-thiocarbamate) compound",
+            "Measured_value": "1.65",
+            "Measured_unit": "",
+            "measurement_type": "Molecular weight distribution"
+        }
+    ],
+    "Patent Identifier": "US20230002559A1"
+}

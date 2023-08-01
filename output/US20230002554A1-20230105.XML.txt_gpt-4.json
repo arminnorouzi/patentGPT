@@ -1,0 +1,83 @@
+{
+    "Content": [
+        {
+            "Measurement_substance": "Solution 1 and Solution 2",
+            "Measured_value": "150",
+            "Measured_unit": "\u03bcL",
+            "measurement_type": "volume"
+        },
+        {
+            "Measurement_substance": "Hydrogel",
+            "Measured_value": "6.6",
+            "Measured_unit": "kPa",
+            "measurement_type": "elastic modulus"
+        },
+        {
+            "Measurement_substance": "Hydrogel",
+            "Measured_value": "0.2",
+            "Measured_unit": "Pa",
+            "measurement_type": "elastic modulus"
+        },
+        {
+            "Measurement_substance": "Solution 1 and Solution 2",
+            "Measured_value": "100",
+            "Measured_unit": "\u03bcL",
+            "measurement_type": "volume"
+        },
+        {
+            "Measurement_substance": "Hydrogel",
+            "Measured_value": "290",
+            "Measured_unit": "minutes",
+            "measurement_type": "gel-forming time"
+        },
+        {
+            "Measurement_substance": "Hydrogel",
+            "Measured_value": "1.3",
+            "Measured_unit": "kPa",
+            "measurement_type": "elastic modulus"
+        },
+        {
+            "Measurement_substance": "Solution 1 and Solution 2",
+            "Measured_value": "80",
+            "Measured_unit": "minutes",
+            "measurement_type": "gel-forming time"
+        },
+        {
+            "Measurement_substance": "Hydrogel",
+            "Measured_value": "13.0",
+            "Measured_unit": "kPa",
+            "measurement_type": "elastic modulus"
+        },
+        {
+            "Measurement_substance": "Solution 1 and Solution 2",
+            "Measured_value": "290",
+            "Measured_unit": "seconds",
+            "measurement_type": "gel-forming time"
+        },
+        {
+            "Measurement_substance": "Hydrogel",
+            "Measured_value": "11.1",
+            "Measured_unit": "kPa",
+            "measurement_type": "elastic modulus"
+        },
+        {
+            "Measurement_substance": "Polyethylene glycol",
+            "Measured_value": "10000",
+            "Measured_unit": "number-average molecular weight",
+            "measurement_type": "weight"
+        },
+        {
+            "Measurement_substance": "Polyethylene glycol with benzaldehyde as terminal group",
+            "Measured_value": "60",
+            "Measured_unit": "mg",
+            "measurement_type": "weight"
+        },
+        {
+            "Measurement_substance": "PBS",
+            "Measured_value": "1",
+            "Measured_unit": "mL",
+            "measurement_type": "volume"
+        }
+    ],
+    "Patent Identifier": "US20230002554A1"
+}

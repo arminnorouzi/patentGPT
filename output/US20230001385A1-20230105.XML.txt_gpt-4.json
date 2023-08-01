@@ -1,0 +1,71 @@
+{
+    "Content": [
+        {
+            "Measurement_substance": "methanol",
+            "Measured_value": "150",
+            "Measured_unit": "mbar",
+            "measurement_type": "pressure"
+        },
+        {
+            "Measurement_substance": "CO",
+            "Measured_value": "200",
+            "Measured_unit": "mbar",
+            "measurement_type": "pressure"
+        },
+        {
+            "Measurement_substance": "He",
+            "Measured_value": "250",
+            "Measured_unit": "\u00b0 C.",
+            "measurement_type": "temperature"
+        },
+        {
+            "Measurement_substance": "Re metal standard",
+            "Measured_value": "0.73\u00b10.04",
+            "Measured_unit": "Not Provided",
+            "measurement_type": "S o 2"
+        },
+        {
+            "Measurement_substance": "Re loading samples",
+            "Measured_value": "5, 10, and 20",
+            "Measured_unit": "wt %",
+            "measurement_type": "weight"
+        },
+        {
+            "Measurement_substance": "CO",
+            "Measured_value": "30",
+            "Measured_unit": "mbar",
+            "measurement_type": "partial pressure"
+        },
+        {
+            "Measurement_substance": "methanol",
+            "Measured_value": "42, 105, and 150",
+            "Measured_unit": "mbar",
+            "measurement_type": "partial pressure"
+        },
+        {
+            "Measurement_substance": "helium",
+            "Measured_value": "30",
+            "Measured_unit": "cm 3 /min",
+            "measurement_type": "flow rate"
+        },
+        {
+            "Measurement_substance": "TPD",
+            "Measured_value": "100-350",
+            "Measured_unit": "\u00b0 C.",
+            "measurement_type": "temperature range"
+        },
+        {
+            "Measurement_substance": "XPS chamber",
+            "Measured_value": "1\u00d710 \u22129",
+            "Measured_unit": "Torr",
+            "measurement_type": "pressure"
+        },
+        {
+            "Measurement_substance": "support",
+            "Measured_value": "at least 50 m 2 /g, at least 100 m 2 /g, at least 200 m 2 /g, at least 300 m 2 /g, at least 400 m 2 /g, at least 500 m 2 /g, up to 1000 m 2 /g, up to 900 m 2 /g, up to 800 m 2 /g, between 100 m 2 /g and 1000 m 2 /g, between 200 m 2 /g and 1000 m 2 /g, between 300 m",
+            "Measured_unit": "m 2 /g",
+            "measurement_type": "surface area"
+        }
+    ],
+    "Patent Identifier": "US20230001385A1"
+}
