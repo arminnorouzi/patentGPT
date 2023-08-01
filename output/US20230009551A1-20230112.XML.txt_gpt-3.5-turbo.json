@@ -1,0 +1,71 @@
+{
+    "Content": [
+        {
+            "Measurement_substance": "CH3(CH2)17SH",
+            "Measured_value": "1%",
+            "Measured_unit": "volume",
+            "measurement_type": "concentration"
+        },
+        {
+            "Measurement_substance": "toluene",
+            "Measured_value": "99%",
+            "Measured_unit": "volume",
+            "measurement_type": "concentration"
+        },
+        {
+            "Measurement_substance": "CH3(CH2)17SH",
+            "Measured_value": "1%",
+            "Measured_unit": "volume",
+            "measurement_type": "concentration"
+        },
+        {
+            "Measurement_substance": "CH3(CH2)5SH",
+            "Measured_value": "100%",
+            "Measured_unit": "volume",
+            "measurement_type": "concentration"
+        },
+        {
+            "Measurement_substance": "substrate 10",
+            "Measured_value": "27",
+            "Measured_unit": "degrees C",
+            "measurement_type": "temperature"
+        },
+        {
+            "Measurement_substance": "substrate 10",
+            "Measured_value": "50",
+            "Measured_unit": "rpm",
+            "measurement_type": "rotation speed"
+        },
+        {
+            "Measurement_substance": "substrate 10",
+            "Measured_value": "85",
+            "Measured_unit": "degrees C",
+            "measurement_type": "heating temperature"
+        },
+        {
+            "Measurement_substance": "heating time",
+            "Measured_value": "5",
+            "Measured_unit": "minutes",
+            "measurement_type": "time"
+        },
+        {
+            "Measurement_substance": "first region A 1",
+            "Measured_value": "observed",
+            "Measured_unit": "",
+            "measurement_type": "observation"
+        },
+        {
+            "Measurement_substance": "second region A 2",
+            "Measured_value": "observed",
+            "Measured_unit": "",
+            "measurement_type": "observation"
+        },
+        {
+            "Measurement_substance": "substrate 10",
+            "Measured_value": "65",
+            "Measured_unit": "degrees C",
+            "measurement_type": "cleaning temperature"
+        }
+    ],
+    "Patent Identifier": "US20230009551A1"
+}

@@ -1,0 +1,89 @@
+{
+    "Content": [
+        {
+            "Measurement_substance": "metal nitride electrodes",
+            "Measured_value": "more than 10",
+            "Measured_unit": "mF/cm 2",
+            "measurement_type": "specific capacitance"
+        },
+        {
+            "Measurement_substance": "metal nitride electrodes",
+            "Measured_value": "less than 4",
+            "Measured_unit": "mF/cm 2",
+            "measurement_type": "specific capacitance"
+        },
+        {
+            "Measurement_substance": "voltage sweep speed",
+            "Measured_value": "greater than 0.1",
+            "Measured_unit": "V/s",
+            "measurement_type": "sweep speed"
+        },
+        {
+            "Measurement_substance": "substrate",
+            "Measured_value": "220",
+            "Measured_unit": "nm",
+            "measurement_type": "thickness"
+        },
+        {
+            "Measurement_substance": "substrate",
+            "Measured_value": "3,200",
+            "Measured_unit": "μΩ·cm",
+            "measurement_type": "resistivity"
+        },
+        {
+            "Measurement_substance": "target-substrate distance",
+            "Measured_value": "50",
+            "Measured_unit": "mm",
+            "measurement_type": "distance"
+        },
+        {
+            "Measurement_substance": "AR:N 2",
+            "Measured_value": "15:1.5",
+            "Measured_unit": "sccm",
+            "measurement_type": "ratio"
+        },
+        {
+            "Measurement_substance": "sputtering power",
+            "Measured_value": "250",
+            "Measured_unit": "W",
+            "measurement_type": "power"
+        },
+        {
+            "Measurement_substance": "substrate temperature",
+            "Measured_value": "300",
+            "Measured_unit": "°C",
+            "measurement_type": "temperature"
+        },
+        {
+            "Measurement_substance": "working pressure",
+            "Measured_value": "0.6",
+            "Measured_unit": "Pa",
+            "measurement_type": "pressure"
+        },
+        {
+            "Measurement_substance": "sputtering time",
+            "Measured_value": "20",
+            "Measured_unit": "min",
+            "measurement_type": "time"
+        },
+        {
+            "Measurement_substance": "working electrode",
+            "Measured_value": "20",
+            "Measured_unit": "KΩ",
+            "measurement_type": "resistance"
+        },
+        {
+            "Measurement_substance": "discharge voltage dropping rate",
+            "Measured_value": "60",
+            "Measured_unit": "ms",
+            "measurement_type": "time"
+        },
+        {
+            "Measurement_substance": "discharge voltage dropping rate",
+            "Measured_value": "8",
+            "Measured_unit": "ms",
+            "measurement_type": "time"
+        }
+    ],
+    "Patent Identifier": "US20230010894A1"
+}

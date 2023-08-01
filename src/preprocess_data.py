@@ -2,6 +2,7 @@ import os
 import requests
 import zipfile
 import xml.etree.ElementTree as ET
+import pickle
 
 
 def download_weekly_patents(year, month, day, logging):
@@ -106,10 +107,17 @@ def extract_patents(year, month, day, logging):
     directory = os.path.join(
         os.getcwd(), "data", "ipa" + str(year)[2:] + f"{month:02d}" + f"{day:02d}"
     )
+    saved_patent_names_path = os.path.join(directory, 'saved_patent_names.pkl')
+
 
     if os.path.exists(directory):
         print(f"File {directory} already exists. Skipping extract.")
-        return True
+        
+        # Load saved_patent_names from file
+        with open(saved_patent_names_path, 'rb') as f:
+            saved_patent_names = pickle.load(f)
+            
+        return saved_patent_names
     else:
         os.mkdir(directory)
 
@@ -179,6 +187,10 @@ def extract_patents(year, month, day, logging):
         except ET.ParseError as e:
             print(f"Error while parsing patent: {patent_id}. Skipping this patent.")
             print(f"Error message: {e}")
+
+    # Save saved_patent_names to file
+    with open(saved_patent_names_path, 'wb') as f:
+        pickle.dump(saved_patent_names, f)
 
     if logging:
         print("Patent extraction complete.")

@@ -1,0 +1,47 @@
+{
+    "Content": [
+        {
+            "Measurement_substance": "interlayers",
+            "Measured_value": "1 to n",
+            "Measured_unit": "number",
+            "measurement_type": "number of interlayers"
+        },
+        {
+            "Measurement_substance": "seed layer",
+            "Measured_value": "60% to 90%",
+            "Measured_unit": "percentage",
+            "measurement_type": "seed duty cycle"
+        },
+        {
+            "Measurement_substance": "power level",
+            "Measured_value": "varies",
+            "Measured_unit": "not specified",
+            "measurement_type": "power level"
+        },
+        {
+            "Measurement_substance": "voltage level",
+            "Measured_value": "varies",
+            "Measured_unit": "not specified",
+            "measurement_type": "voltage level"
+        },
+        {
+            "Measurement_substance": "frequencies",
+            "Measured_value": "varies",
+            "Measured_unit": "not specified",
+            "measurement_type": "frequencies"
+        },
+        {
+            "Measurement_substance": "distance",
+            "Measured_value": "about 30 mm to about 70 mm",
+            "Measured_unit": "mm",
+            "measurement_type": "distance between target and substrate"
+        },
+        {
+            "Measurement_substance": "duty cycle",
+            "Measured_value": "88.5% (on time), 12.5% (off time)",
+            "Measured_unit": "percentage",
+            "measurement_type": "duty cycle of the signal"
+        }
+    ],
+    "Patent Identifier": "US20230009085A1"
+}

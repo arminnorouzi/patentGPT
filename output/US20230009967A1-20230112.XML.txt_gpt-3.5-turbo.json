@@ -1,0 +1,83 @@
+{
+    "Content": [
+        {
+            "Measurement_substance": "glass",
+            "Measured_value": "at least one",
+            "Measured_unit": "N/A",
+            "measurement_type": "number of layers"
+        },
+        {
+            "Measurement_substance": "glass",
+            "Measured_value": "at least one",
+            "Measured_unit": "N/A",
+            "measurement_type": "number of rim layers"
+        },
+        {
+            "Measurement_substance": "glass",
+            "Measured_value": "N/A",
+            "Measured_unit": "N/A",
+            "measurement_type": "thickness"
+        },
+        {
+            "Measurement_substance": "glass",
+            "Measured_value": "N/A",
+            "Measured_unit": "N/A",
+            "measurement_type": "strength"
+        },
+        {
+            "Measurement_substance": "glass",
+            "Measured_value": "N/A",
+            "Measured_unit": "N/A",
+            "measurement_type": "residual stress"
+        },
+        {
+            "Measurement_substance": "glass",
+            "Measured_value": "N/A",
+            "Measured_unit": "N/A",
+            "measurement_type": "brittleness"
+        },
+        {
+            "Measurement_substance": "glass",
+            "Measured_value": "N/A",
+            "Measured_unit": "N/A",
+            "measurement_type": "durability"
+        },
+        {
+            "Measurement_substance": "glass",
+            "Measured_value": "N/A",
+            "Measured_unit": "N/A",
+            "measurement_type": "transparency"
+        },
+        {
+            "Measurement_substance": "glass",
+            "Measured_value": "N/A",
+            "Measured_unit": "N/A",
+            "measurement_type": "translucency"
+        },
+        {
+            "Measurement_substance": "glass",
+            "Measured_value": "N/A",
+            "Measured_unit": "N/A",
+            "measurement_type": "color"
+        },
+        {
+            "Measurement_substance": "glass",
+            "Measured_value": "N/A",
+            "Measured_unit": "N/A",
+            "measurement_type": "chemical strengthening"
+        },
+        {
+            "Measurement_substance": "glass",
+            "Measured_value": "N/A",
+            "Measured_unit": "N/A",
+            "measurement_type": "bonding"
+        },
+        {
+            "Measurement_substance": "glass",
+            "Measured_value": "N/A",
+            "Measured_unit": "N/A",
+            "measurement_type": "peripheral edge length"
+        }
+    ],
+    "Patent Identifier": "US20230009967A1"
+}
