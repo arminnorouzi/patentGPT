@@ -21,7 +21,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.document_loaders import TextLoader
 
 
-
+from langchain.callbacks import get_openai_callback
 
 
 
@@ -94,7 +94,13 @@ async def call_extraction_to_json(schema, year, month, day, saved_patent_names, 
     if logging:
         print("Running extraction chain...")
 
-    output = await extract_from_documents(chain, documents, max_concurrency=5, use_uid=False, return_exceptions=True)
+    with get_openai_callback() as cb:
+        output = await extract_from_documents(chain, documents, max_concurrency=5, use_uid=False, return_exceptions=True)
+        print(f"Total Tokens: {cb.total_tokens}")
+        print(f"Prompt Tokens: {cb.prompt_tokens}")
+        print(f"Completion Tokens: {cb.completion_tokens}")
+        print(f"Successful Requests: {cb.successful_requests}")
+        print(f"Total Cost (USD): ${cb.total_cost}")
 
     if logging:
         print(output[0])
