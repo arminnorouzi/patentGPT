@@ -1,4 +1,4 @@
-# USPTO patent analysis
+# PatentGPT
 
 This repository hosts a prototype for patent analysis with a particular focus on extracting specific technical measurements and their associated values
 
