@@ -26,7 +26,6 @@ The project involves the following steps:
 2. Reading the contained patents from XML files and extracting individual XML file, parsing it to text file and saving it in data.
 3. Implementing an approach based on a large language model (LLM) to extract measurements from the patents using vector store Chroma. The measurements are returned in a structured format (such as JSON).
 4. Analyzing the model's results, and discussing the results/output of the models, including typical errors and points for improvement.
-5. Evaluating output based on human annotator and logging and monitoring the accuracy of the system over time.
 
 ## Directory Structure
 
@@ -37,9 +36,7 @@ The project involves the following steps:
   - requirements.txt
   - LICENSE
   - README.md
-  - patent_analysis.ipynb
   - images
-  - presentation
 
 ## Requirements
 
