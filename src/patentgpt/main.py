@@ -1,14 +1,12 @@
 import nltk
-nltk.download('all', quiet=True)
+
+nltk.download("all", quiet=True)
 from datetime import datetime
 import random
 import json
-import preprocess_data
-import qaagent
+from . import preprocess_data
+from . import qaagent
 
-import importlib
-importlib.reload(preprocess_data)
-importlib.reload(qaagent)
 
 PROMPT = """
 Task: Carefully review the given patent text and extract as much physical measurements information such as length/distance, mass/weight, time, temperature, Volume, area, speed, pressure, energy, power, electric current 
@@ -71,9 +69,11 @@ def main():
     try:
         input_date = datetime.strptime(user_date_input, "%Y-%m-%d")
     except ValueError:
-        print("Invalid date format. Please enter a valid date in the format 'YYYY-MM-DD'.")
+        print(
+            "Invalid date format. Please enter a valid date in the format 'YYYY-MM-DD'."
+        )
         return
-          
+
     # Step 3: Extract date components
     year = input_date.year
     month = input_date.month
@@ -84,16 +84,20 @@ def main():
     print("Day:", day)
 
     # Step 4: Get random patents number from user
-    num_patents_to_analyze = int(input("Enter the number of patents you want to analyze: "))
+    num_patents_to_analyze = int(
+        input("Enter the number of patents you want to analyze: ")
+    )
 
     logging_choice = input("Do you want to log the results? (yes/no): ").strip().lower()
-    logging_enabled = logging_choice == 'yes'
+    logging_enabled = logging_choice == "yes"
 
-    model_choice = input("Select a model for analysis: 1. gpt-3.5-turbo 2. gpt-4").strip()
+    model_choice = input(
+        "Select a model for analysis: 1. gpt-3.5-turbo 2. gpt-4"
+    ).strip()
 
-    if model_choice == '1':
+    if model_choice == "1":
         model_name = "gpt-3.5-turbo"
-    elif model_choice == '2':
+    elif model_choice == "2":
         model_name = "gpt-4"
     else:
         print("Invalid choice, defaulting to gpt-3.5-turbo.")
@@ -106,15 +110,15 @@ def main():
     # Step 6: Select random patents and analyze
     random_patents = random.sample(saved_patent_names, num_patents_to_analyze)
 
-
     gpt_3_results = {}
     total_cost_gpt3 = 0
 
-
     # Step 7: Process patents with GPT-3.5 Turbo
     for i in range(len(random_patents)):
-        cost, output = qaagent.call_QA_to_json(PROMPT, year, month, day, random_patents, i, logging_enabled, model_name)
-        
+        cost, output = qaagent.call_QA_to_json(
+            PROMPT, year, month, day, random_patents, i, logging_enabled, model_name
+        )
+
         total_cost_gpt3 += cost
 
     average_cost_gpt3 = total_cost_gpt3 / num_patents_to_analyze
@@ -125,6 +129,3 @@ def main():
     print("Number of patents analyzed:", num_patents_to_analyze)
     print("Total cost for analyzing all patents:", total_cost_gpt3)
     print("Average cost per patent:", average_cost_gpt3)
-
-
-

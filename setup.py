@@ -6,9 +6,10 @@ with open("README.md", "r", encoding="utf-8") as fh:
 # python setup.py sdist
 # twine upload dist/*
 
+
 setup(
     name="patentgpt_extract",
-    version="0.1.1",
+    version="0.1.7",
     description="A package for downloading and analysisng us patents.",
     author="Armin Norouzi",
     author_email="arminnorouzi2016@gmail.com",
@@ -21,6 +22,7 @@ setup(
         "Source Code": "https://github.com/arminnorouzi/patentGPT",
     },
     install_requires=[
+        "python_requires>=3.7,<3.11",
         "aiohttp==3.8.5",
         "aiosignal==1.3.1",
         "anyio==3.7.1",
@@ -43,7 +45,7 @@ setup(
         "cryptography==41.0.2",
         "dataclasses-json==0.5.13",
         "debugpy==1.6.7",
-        "decorator==5.1.1",
+        "decorator>=4.0.2,<5.0",
         "et-xmlfile==1.1.0",
         "executing==1.2.0",
         "faiss-cpu==1.7.4",
@@ -57,8 +59,8 @@ setup(
         "humanfriendly==10.0",
         "idna==3.4",
         "importlib-resources==6.0.0",
-        "ipykernel==6.25.0",
-        "ipython==8.14.0",
+        "ipykernel>=5.5.6,<7.0",
+        "ipython>=7.34.0,<9.0",
         "jedi==0.18.2",
         "joblib==1.3.1",
         "jupyter_client==8.3.0",
@@ -78,7 +80,7 @@ setup(
         "nest-asyncio==1.5.6",
         "nltk==3.8.1",
         "numexpr==2.8.4",
-        "numpy==1.25.1",
+        "numpy>=1.18,<1.24",
         "olefile==0.46",
         "onnxruntime==1.15.1",
         "openai==0.27.8",
@@ -112,7 +114,6 @@ setup(
         "python-magic==0.4.27",
         "python-pptx==0.6.21",
         "pytz==2023.3",
-        "pywin32==306",
         "PyYAML==6.0.1",
         "pyzmq==25.1.0",
         "regex==2023.6.3",
@@ -128,7 +129,7 @@ setup(
         "tenacity==8.2.2",
         "tiktoken==0.4.0",
         "tokenizers==0.13.3",
-        "tornado==6.3.2",
+        "tornado>=6.3.1,<7.0",
         "tqdm==4.65.0",
         "traitlets==5.9.0",
         "typing-inspect==0.9.0",
